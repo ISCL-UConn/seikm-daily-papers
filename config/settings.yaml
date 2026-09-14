@@ -19,9 +19,11 @@ harvest:
   #          rate-limits shared cloud IPs; expect HTTP 429 on CI runners.
   #   both - RSS first, then the API on top (union, deduplicated).
   source: rss
-  # If RSS returns nothing at all, try the API before giving up. Harmless when
-  # the feeds are simply empty, useful when the RSS host is having a bad day.
-  api_fallback_when_empty: true
+  # Off on purpose. Empty feeds mean arXiv has not announced yet (weekends and
+  # the hours before 20:00 US Eastern), which is a quiet day, not a failure --
+  # and the API is rate-limited from CI anyway, so falling back to it just
+  # burns runner minutes on HTTP 429. Turn it on only if you run this locally.
+  api_fallback_when_empty: false
 
   # --- RSS settings -------------------------------------------------------
   # Every category we want to see. RSS serves the complete daily listing, so
@@ -57,6 +59,10 @@ harvest:
   # How far back to look. Only the API honours this; RSS carries the current
   # announcement only.
   lookback_days: 3
+  # Stop hitting the API after this many consecutive empty/failed queries,
+  # rather than grinding through all of them. A 429 from arXiv is an IP-level
+  # block, not a transient hiccup.
+  abandon_after_failures: 3
   # Max results per individual arXiv query.
   per_query_max: 120
   # Polite delay between arXiv API calls, in seconds. arXiv asks for >= 3.
