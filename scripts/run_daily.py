@@ -21,7 +21,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from seikm import arxiv_source, render  # noqa: E402
+from seikm import arxiv_source, render, rss_source  # noqa: E402
 from seikm.classify import assess_papers  # noqa: E402
 from seikm.config import load_config  # noqa: E402
 from seikm.enrich import enrich  # noqa: E402
@@ -33,7 +33,9 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--dry-run", action="store_true",
                     help="harvest and classify but write no files")
     ap.add_argument("--lookback", type=int, default=None,
-                    help="override harvest.lookback_days")
+                    help="override harvest.lookback_days (API source only)")
+    ap.add_argument("--source", choices=["rss", "api", "both"], default=None,
+                    help="override harvest.source")
     ap.add_argument("--date", default=None, help="issue date (YYYY-MM-DD)")
     ap.add_argument("--offline", default=None,
                     help="classify papers from a local JSON file instead of arXiv")
@@ -42,6 +44,34 @@ def parse_args() -> argparse.Namespace:
                     help="publish an issue even when nothing new cleared the bar")
     ap.add_argument("-v", "--verbose", action="store_true")
     return ap.parse_args()
+
+
+def _merge(into: list[dict], extra: list[dict]) -> list[dict]:
+    """Union two harvests, preferring the first source's copy of a paper."""
+    seen = {p["id"] for p in into}
+    into.extend(p for p in extra if p["id"] not in seen)
+    return into
+
+
+def _harvest(hcfg: dict, source: str, log) -> list[dict]:
+    """Run the configured source(s).
+
+    RSS is the default because arXiv's search API returns HTTP 429 to shared
+    cloud IP ranges, which includes every GitHub Actions runner.
+    """
+    papers: list[dict] = []
+    if source in ("rss", "both"):
+        log.info("harvesting from arXiv RSS announcement feeds")
+        papers = rss_source.harvest(hcfg)
+
+    want_api = source in ("api", "both")
+    if not want_api and not papers and hcfg.get("api_fallback_when_empty", True):
+        log.info("RSS returned nothing; trying the export API as a fallback")
+        want_api = True
+
+    if want_api:
+        papers = _merge(papers, arxiv_source.harvest(hcfg))
+    return papers
 
 
 def main() -> int:
@@ -65,7 +95,7 @@ def main() -> int:
         hcfg = dict(config.harvest)
         if args.lookback:
             hcfg["lookback_days"] = args.lookback
-        papers = arxiv_source.harvest(hcfg)
+        papers = _harvest(hcfg, args.source or hcfg.get("source", "rss"), log)
     scanned = len(papers)
     log.info("harvested %d unique papers", scanned)
 
