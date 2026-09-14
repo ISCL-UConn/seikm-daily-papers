@@ -1,0 +1,238 @@
+# ---------------------------------------------------------------------------
+# SEIKM Daily Papers — run settings
+# Tune these to make the digest broader, narrower, or longer.
+# ---------------------------------------------------------------------------
+
+site:
+  name: "SEIKM Daily Papers"
+  tagline: "A daily scan of new arXiv work relevant to ASME IDETC-CIE SEIKM"
+  # Set this to your published Pages URL once the repo is live.
+  base_url: "https://iscl-uconn.github.io/seikm-daily-papers"
+  repo_url: "https://github.com/ISCL-UConn/seikm-daily-papers"
+  committee: "ASME IDETC-CIE Systems Engineering, Information and Knowledge Management (SEIKM)"
+  contact_email: "farhad.imani@uconn.edu"
+
+harvest:
+  # How far back to look for newly submitted papers. Keep >= 2 so a missed or
+  # failed run self-heals the next day (the seen-DB prevents duplicates).
+  lookback_days: 3
+  # Max results per individual arXiv query.
+  per_query_max: 120
+  # Polite delay between arXiv API calls, in seconds. arXiv asks for >= 3.
+  request_delay_seconds: 3.5
+  retries: 4
+  timeout_seconds: 60
+  # arXiv categories swept wholesale. These are the ones where nearly every
+  # paper is at least plausibly in scope.
+  sweep_categories:
+    - cs.CE      # Computational Engineering, Finance, and Science
+    - eess.SY    # Systems and Control
+    - cs.RO      # Robotics
+    - cs.MA      # Multiagent Systems
+  # Broader categories are searched only in combination with the phrase
+  # queries below, otherwise the digest drowns in unrelated ML papers.
+  filtered_categories:
+    - cs.AI
+    - cs.LG
+    - cs.CL
+    - cs.HC
+    - cs.SE
+    - cs.DB
+    - cs.IR
+    - cs.CV
+    - cs.CY
+    - stat.ML
+    - math.OC
+    - cond-mat.mtrl-sci
+    - physics.app-ph
+  # Phrase queries run against the filtered categories. One query per line.
+  # These are the high-signal hooks that pull SEIKM work out of the firehose.
+  phrase_queries:
+    - "additive manufacturing"
+    - "digital twin"
+    - "smart manufacturing"
+    - "manufacturing process"
+    - "production scheduling"
+    - "supply chain"
+    - "predictive maintenance"
+    - "systems engineering"
+    - "model-based systems engineering"
+    - "requirements engineering"
+    - "engineering design"
+    - "design optimization"
+    - "topology optimization"
+    - "computer-aided design"
+    - "design for manufacturing"
+    - "knowledge graph engineering"
+    - "engineering knowledge"
+    - "physics-informed"
+    - "scientific machine learning"
+    - "neural operator"
+    - "surrogate model engineering"
+    - "uncertainty quantification engineering"
+    - "human-robot collaboration"
+    - "human-AI teaming"
+    - "robotic assembly"
+    - "process monitoring"
+    - "product lifecycle"
+    - "interoperability engineering"
+    - "cyber-physical system"
+    - "LLM agent engineering"
+
+scoring:
+  tier_weights:
+    strong: 3.0
+    medium: 1.5
+    weak: 0.6
+  # A hit in the title is worth this multiple of the same hit in the abstract.
+  title_boost: 2.0
+  # Diminishing returns: the Nth distinct hit in a topic is worth
+  # weight * (decay ** (N-1)). Stops one repeated phrase from dominating.
+  repeat_decay: 0.8
+  # Minimum score for a topic to be a paper's PRIMARY topic.
+  # 3.0 == one 'strong' phrase, or roughly three 'medium' ones.
+  topic_threshold: 3.0
+  # Papers that only just clear the relevance gate are domain-marginal (a
+  # generic agentic-AI paper, say). Their score is scaled by
+  # min(1, gate_score / gate_reference) for ranking, so core SEIKM work
+  # outranks them without being excluded.
+  gate_reference: 7.0
+  # Minimum score for a topic to appear as a secondary tag.
+  secondary_threshold: 3.0
+  max_secondary_topics: 2
+
+gate:
+  # A paper must reach this weighted score on the terms below to be considered
+  # at all. This is what keeps pure NLP/vision/theory papers out.
+  min_score: 3.0
+  strong:   # weight 3.0 each
+    - manufacturing
+    - additive manufacturing
+    - digital twin
+    - engineering design
+    - mechanical engineering
+    - industrial engineering
+    - aerospace
+    - automotive
+    - supply chain
+    - production
+    - factory
+    - shop floor
+    - computer-aided design
+    - CAD
+    - CAE
+    - finite element
+    - topology optimization
+    - physics-informed
+    - systems engineering
+    - MBSE
+    - product lifecycle
+    - engineering knowledge
+    - knowledge graph
+    - ontology
+    - prognostics
+    - predictive maintenance
+    - process monitoring
+    - machining
+    - welding
+    - materials science
+    - microstructure
+    - robot
+    - robotic
+    - cyber-physical
+    - interoperability
+    - PDE
+    - partial differential equation
+    - computational fluid dynamics
+    - structural analysis
+    - engineering system
+    - scheduling
+    - assembly line
+  medium:   # weight 1.5 each
+    - design
+    - optimization
+    - simulation
+    - control system
+    - sensor
+    - actuator
+    - reliability
+    - durability
+    - fatigue
+    - thermal
+    - fluid
+    - material
+    - geometry
+    - mesh
+    - tolerance
+    - inspection
+    - quality control
+    - lifecycle
+    - digital thread
+    - requirement
+    - architecture
+    - deployment
+    - human-robot
+    - embodied
+    - inventory
+    - logistics
+    - operations research
+    - uncertainty quantification
+    - surrogate
+    - physical system
+    - engineering
+
+veto:
+  # If any of these appear AND the paper's best topic score is below
+  # override_topic_score, drop it. Catches semantically adjacent but
+  # out-of-scope ML work.
+  override_topic_score: 8.0
+  terms:
+    - text-to-image
+    - image editing
+    - image generation
+    - video generation
+    - text-to-video
+    - image captioning
+    - speech recognition
+    - text-to-speech
+    - machine translation
+    - sentiment analysis
+    - misinformation
+    - social media
+    - recommendation system
+    - face recognition
+    - person re-identification
+    - medical imaging
+    - clinical
+    - electronic health record
+    - drug discovery
+    - protein structure
+    - genomics
+    - portfolio optimization
+    - stock price
+    - cryptocurrency
+    - chatbot persona
+    - jailbreak
+    - watermarking
+    - deepfake
+
+output:
+  # Hard caps so a noisy day stays readable.
+  max_per_topic: 14
+  max_total: 60
+  # Papers below this score are never shown even if the day is quiet.
+  min_display_score: 3.0
+  # Abstract snippet length in the rendered digest, in characters.
+  snippet_chars: 420
+  # Keep this many recent issues linked on the homepage.
+  recent_issues_on_home: 14
+
+llm:
+  # Off by default: the digest runs free, with no secrets configured.
+  # Set enabled: true AND add an ANTHROPIC_API_KEY repository secret to turn on
+  # one-line "why this matters to SEIKM" notes and LLM re-ranking.
+  enabled: false
+  model: "claude-sonnet-4-6"
+  max_papers: 40
+  # Fail quietly: if the LLM step errors, the keyword digest still publishes.
+  fail_open: true

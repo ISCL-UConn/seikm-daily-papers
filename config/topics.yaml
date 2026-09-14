@@ -1,0 +1,540 @@
+# ---------------------------------------------------------------------------
+# SEIKM Daily Papers — topic taxonomy
+#
+# This file is the whole brain of the digest. Editing it changes what shows up.
+# No Python required: add a phrase to a tier list and the next run picks it up.
+#
+# Tiers (weights set in config/settings.yaml):
+#   strong  — phrase is near-decisive for the topic
+#   medium  — phrase is supporting evidence
+#   weak    — phrase nudges, never decides on its own
+#
+# Matching is case-insensitive, on whole words, over title + abstract.
+# A hit in the TITLE counts extra (see scoring.title_boost in settings.yaml).
+# Use hyphens/spaces as they normally appear; "physics-informed" also matches
+# "physics informed" automatically.
+# ---------------------------------------------------------------------------
+version: 2
+
+topics:
+
+  - code: SEIKM-01
+    slug: systems-engineering
+    short: Systems Engineering
+    title: Systems Engineering and Complex Systems
+    scope: >-
+      MBSE, system architecture, decomposition, integration and system analysis,
+      including research that does not use AI.
+    strong:
+      - model-based systems engineering
+      - model based systems engineering
+      - MBSE
+      - SysML
+      - systems engineering
+      - system architecture
+      - architecture framework
+      - system-of-systems
+      - system of systems
+      - requirements engineering
+      - requirements traceability
+      - functional decomposition
+      - architectural decomposition
+      - system integration
+      - verification and validation
+      - concept of operations
+      - capability engineering
+      - design structure matrix
+      - object-process methodology
+      - architecture description language
+      - digital engineering
+    medium:
+      - complex engineered system
+      - complex system design
+      - sociotechnical system
+      - socio-technical system
+      - system analysis
+      - systems modeling
+      - system model
+      - interface management
+      - emergent behavior
+      - traceability
+      - Capella
+      - Arcadia
+      - AADL
+      - OPM
+      - modularity
+      - coupling analysis
+      - technical debt in systems
+      - system safety
+      - hazard analysis
+      - STPA
+    weak:
+      - decomposition
+      - integration
+      - requirement
+      - architecture
+      - abstraction level
+      - hierarchy
+
+  - code: SEIKM-02
+    slug: informatics
+    short: Informatics
+    title: Informatics for Design and Manufacturing
+    scope: >-
+      Engineering information and knowledge management, interoperability,
+      LLMs and agent architectures.
+    strong:
+      - engineering knowledge management
+      - engineering informatics
+      - manufacturing informatics
+      - product lifecycle management
+      - digital thread
+      - interoperability
+      - data interoperability
+      - semantic interoperability
+      - knowledge graph
+      - engineering ontology
+      - ontology
+      - ISO 10303
+      - STEP AP242
+      - STEP file
+      - MTConnect
+      - OPC UA
+      - QIF
+      - data standard
+      - information model
+      - LLM agent
+      - agent architecture
+      - agentic
+      - multi-agent system
+      - retrieval-augmented generation
+      - tool-augmented
+      - knowledge base construction
+      - engineering document
+      - technical documentation
+      - computer-aided design
+      - CAD
+      - CAE
+      - CAD/CAM
+      - design automation
+      - feature recognition
+      - B-rep
+      - geometric kernel
+      - engineering data
+    medium:
+      - large language model
+      - foundation model
+      - knowledge representation
+      - semantic web
+      - linked data
+      - metadata
+      - schema
+      - data model
+      - provenance
+      - FAIR data
+      - taxonomy
+      - information retrieval
+      - data integration
+      - data curation
+      - PLM
+      - ERP integration
+      - natural language interface
+      - prompt engineering
+      - fine-tuning
+      - RAG
+      - vector database
+    weak:
+      - database
+      - annotation
+      - extraction
+      - structured data
+      - knowledge
+
+  - code: SEIKM-03
+    slug: advanced-manufacturing
+    short: Advanced Manufacturing
+    title: Design, Simulation and Optimization for Advanced Manufacturing
+    scope: >-
+      Design, simulation and optimization across advanced manufacturing,
+      explicitly retaining additive manufacturing. Joint topic with AMS.
+    strong:
+      - additive manufacturing
+      - 3D printing
+      - laser powder bed fusion
+      - powder bed fusion
+      - directed energy deposition
+      - wire arc additive manufacturing
+      - WAAM
+      - fused deposition modeling
+      - binder jetting
+      - selective laser melting
+      - cold spray
+      - design for additive manufacturing
+      - design for manufacturing
+      - design for manufacturability
+      - topology optimization
+      - generative design
+      - process parameter optimization
+      - toolpath
+      - toolpath planning
+      - slicing strategy
+      - nonplanar slicing
+      - melt pool
+      - process-structure-property
+      - microstructure prediction
+      - in-situ monitoring
+      - in situ process monitoring
+      - defect detection in manufacturing
+      - porosity prediction
+      - residual stress
+      - CNC machining
+      - subtractive manufacturing
+      - hybrid manufacturing
+      - injection molding
+      - composite manufacturing
+      - sheet metal forming
+      - welding process
+      - sintering
+    medium:
+      - advanced manufacturing
+      - manufacturing process
+      - process planning
+      - build orientation
+      - support structure
+      - surrogate model
+      - design optimization
+      - multi-objective optimization
+      - shape optimization
+      - finite element analysis
+      - computational fluid dynamics
+      - simulation-based design
+      - material extrusion
+      - lattice structure
+      - metamaterial
+      - part quality
+      - dimensional accuracy
+      - surface roughness
+      - tolerance
+      - metrology
+      - nondestructive evaluation
+      - machining
+      - welding
+      - casting
+      - forming
+      - reverse engineering
+      - material optimization
+      - design framework
+      - finite element
+      - numerical simulation
+      - surrogate
+      - constrained design
+      - structural optimization
+      - process simulation
+    weak:
+      - fabrication
+      - printing
+      - geometry
+      - mesh
+      - material property
+      - thermal simulation
+      - topology
+      - optimization loop
+      - manufacturability
+
+  - code: SEIKM-04
+    slug: digital-twins
+    short: Digital Twins & Supply Chains
+    title: Digital Twins, Manufacturing Systems, and Supply Chains
+    scope: >-
+      Design-to-operation models, production planning, scheduling and
+      supply-chain decisions. Manufacturing and supply-chain work does not
+      need to use a digital twin.
+    strong:
+      - digital twin
+      - digital shadow
+      - cyber-physical production system
+      - manufacturing system
+      - production system
+      - production planning
+      - production scheduling
+      - job shop scheduling
+      - flow shop scheduling
+      - flexible job shop
+      - shop floor
+      - smart manufacturing
+      - Industry 4.0
+      - Industry 5.0
+      - supply chain
+      - supply chain resilience
+      - inventory management
+      - multi-echelon
+      - demand forecasting
+      - capacity planning
+      - predictive maintenance
+      - prognostics and health management
+      - remaining useful life
+      - condition monitoring
+      - dispatching rule
+      - discrete event simulation
+      - manufacturing execution system
+      - lifecycle performance
+      - design-to-operation
+      - asset management
+      - machine scheduling
+      - parallel machine scheduling
+      - makespan
+      - job-shop
+      - flow shop
+      - inventory network
+      - material flow
+    medium:
+      - scheduling
+      - lot sizing
+      - throughput
+      - bottleneck
+      - cycle time
+      - work-in-process
+      - logistics
+      - warehouse
+      - procurement
+      - supplier
+      - fault diagnosis
+      - anomaly detection in operations
+      - process control
+      - statistical process control
+      - quality control
+      - yield improvement
+      - line balancing
+      - reconfigurable manufacturing
+      - factory
+      - plant operation
+      - operations research
+      - simulation model
+      - tardiness
+      - setup time
+      - parallel machine
+      - flow control
+      - transfer robot
+      - manufacturing line
+      - replenishment
+      - order fulfillment
+    weak:
+      - maintenance
+      - forecasting
+      - inventory
+      - planning
+      - operations
+      - monitoring
+
+  - code: SEIKM-05
+    slug: physics-informed-ai
+    short: Physics-Informed AI/ML
+    title: Engineering Knowledge and Physics-Informed AI/ML
+    scope: >-
+      Joint topic with AI/ML. Physics-informed and knowledge-guided learning
+      for engineering, including scientific machine learning.
+    strong:
+      - physics-informed
+      - physics-informed neural network
+      - PINN
+      - physics-based machine learning
+      - physics-guided
+      - scientific machine learning
+      - SciML
+      - neural operator
+      - DeepONet
+      - Fourier neural operator
+      - operator learning
+      - governing equation
+      - partial differential equation
+      - differentiable simulation
+      - differentiable solver
+      - hybrid modeling
+      - knowledge-guided machine learning
+      - knowledge-informed
+      - constitutive model
+      - conservation law
+      - symbolic regression
+      - reduced order model
+      - multi-fidelity
+      - uncertainty quantification
+      - Bayesian calibration
+      - scientific discovery
+      - inverse problem
+    medium:
+      - surrogate modeling
+      - Gaussian process
+      - physical consistency
+      - physical constraint
+      - inductive bias
+      - domain knowledge
+      - explainable AI
+      - interpretable machine learning
+      - graph neural network
+      - equivariant
+      - data efficiency
+      - extrapolation
+      - generalization to unseen physics
+      - simulation surrogate
+      - emulator
+      - hyperdimensional computing
+      - PDE
+      - numerical solver
+      - physics-based
+      - physics-based optimization
+      - differentiable finite element
+      - finite element solver
+      - surrogate
+      - data-driven modeling
+      - scientific computing
+    weak:
+      - neural network
+      - machine learning
+      - regression
+      - prediction
+      - calibration
+      - physics
+
+  - code: SEIKM-06
+    slug: systems-design
+    short: Systems Design
+    title: Systems Design
+    scope: >-
+      Proposed joint topic with DTM. Design methods and early design decisions
+      connected to requirements, system architectures, MBSE, trade-off analysis
+      and engineering knowledge.
+    strong:
+      - engineering design
+      - design methodology
+      - design method
+      - conceptual design
+      - early-stage design
+      - early stage design
+      - design theory
+      - design cognition
+      - requirements elicitation
+      - design space exploration
+      - trade-off analysis
+      - tradespace exploration
+      - trade study
+      - set-based design
+      - design rationale
+      - function modeling
+      - functional model
+      - concept generation
+      - concept selection
+      - product architecture
+      - platform design
+      - modular product design
+      - value-driven design
+      - decision-based design
+      - design for X
+    medium:
+      - design process
+      - design decision
+      - stakeholder
+      - multi-attribute
+      - preference elicitation
+      - utility function
+      - Pareto front
+      - design representation
+      - sketch
+      - ideation
+      - creativity
+      - human-centered design
+      - co-design
+      - participatory design
+      - design education
+      - designer
+      - design review
+      - product development
+      - design generation
+      - computer-aided design
+      - design framework
+      - design performance
+      - design automation
+    weak:
+      - design
+      - concept
+      - requirement
+      - decision
+      - exploration
+
+  - code: SEIKM-07
+    slug: emerging
+    short: Emerging Topics
+    title: Emerging Topics in SEIKM
+    scope: >-
+      Human-AI teaming, robotics and physical AI. Deployability, reproducibility
+      and reuse; cyber-physical-social systems.
+    strong:
+      - human-AI teaming
+      - human-AI collaboration
+      - human-robot collaboration
+      - human-robot interaction
+      - human-in-the-loop
+      - cyber-physical-social
+      - physical AI
+      - embodied AI
+      - embodied agent
+      - vision-language-action
+      - VLA model
+      - robot learning
+      - robotic assembly
+      - robotic manipulation
+      - manipulation policy
+      - mobile manipulation
+      - sim-to-real
+      - teleoperation
+      - reproducibility
+      - replicability
+      - deployability
+      - real-world deployment
+      - field deployment
+      - trustworthy AI
+      - trust calibration
+      - assurance case
+      - safety assurance
+      - shared autonomy
+      - mixed-initiative
+    medium:
+      - collaborative robot
+      - cobot
+      - multi-robot
+      - robot policy
+      - imitation learning
+      - dexterous
+      - grasping
+      - edge deployment
+      - on-device inference
+      - model reuse
+      - reusability
+      - open-source release
+      - benchmark suite
+      - standardization
+      - certification
+      - regulation
+      - operator trust
+      - situation awareness
+      - augmented reality
+      - digital worker
+      - workforce
+    weak:
+      - robot
+      - autonomy
+      - deployment
+      - human factors
+      - teleoperated
+      - benchmark
+
+# SEIKM-GEN is not scored. It is the home for anything that clears the
+# relevance gate but does not clearly belong to a named topic above --
+# deliberately kept as the catch-all and a source of future topic areas.
+general:
+  code: SEIKM-GEN
+  slug: general
+  short: General
+  title: SEIKM General
+  scope: >-
+    Fundamental and applied SEIKM research outside the named topics, including
+    work that may suggest future topic areas.
