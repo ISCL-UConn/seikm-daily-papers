@@ -13,8 +13,49 @@ site:
   contact_email: "farhad.imani@uconn.edu"
 
 harvest:
-  # How far back to look for newly submitted papers. Keep >= 2 so a missed or
-  # failed run self-heals the next day (the seen-DB prevents duplicates).
+  # Where papers come from.
+  #   rss  - arXiv's daily announcement feeds (rss.arxiv.org). Default.
+  #   api  - the export.arxiv.org search API. Supports a lookback window, but
+  #          rate-limits shared cloud IPs; expect HTTP 429 on CI runners.
+  #   both - RSS first, then the API on top (union, deduplicated).
+  source: rss
+  # If RSS returns nothing at all, try the API before giving up. Harmless when
+  # the feeds are simply empty, useful when the RSS host is having a bad day.
+  api_fallback_when_empty: true
+
+  # --- RSS settings -------------------------------------------------------
+  # Every category we want to see. RSS serves the complete daily listing, so
+  # the relevance gate and the topic classifier do the filtering locally --
+  # no per-phrase search queries needed.
+  rss_categories:
+    - cs.CE              # Computational Engineering, Finance, and Science
+    - eess.SY            # Systems and Control
+    - cs.RO              # Robotics
+    - cs.MA              # Multiagent Systems
+    - cs.AI
+    - cs.LG
+    - cs.CL
+    - cs.HC
+    - cs.SE
+    - cs.DB
+    - cs.IR
+    - cs.CV
+    - cs.CY
+    - stat.ML
+    - math.OC
+    - cond-mat.mtrl-sci
+    - physics.app-ph
+  # Categories per request. arXiv joins them with "+" in one feed URL.
+  rss_batch_size: 6
+  rss_delay_seconds: 2.0
+  # new    = newly submitted
+  # cross  = newly cross-listed into one of our categories (worth seeing)
+  # replace = a revision of an older paper (skipped: not new work)
+  announce_types: [new, cross]
+
+  # --- API settings (fallback and backfill only) --------------------------
+  # How far back to look. Only the API honours this; RSS carries the current
+  # announcement only.
   lookback_days: 3
   # Max results per individual arXiv query.
   per_query_max: 120
