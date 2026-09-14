@@ -16,9 +16,56 @@ It exists to do three things for the committee:
 3. **Surface corresponding authors** who are publishing in scope but haven't submitted to IDETC-CIE.
 
 <!-- SEIKM:LATEST:START -->
-### Latest issue
 
-_The first issue publishes on the next scheduled run._
+### Latest issue — September 14, 2026
+
+**54** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-14.md)
+
+**Informatics for Design and Manufacturing** (9)
+
+- [Repair Before Reinforce: Context-Augmented Knowledge Graph Reasoning for Multi-Hop Question Answering](https://arxiv.org/abs/2609.12230)
+- [When Successful Knowledge Graph Edits Displace Correct Answers: Rank-Level Locality beyond Parameter Support](https://arxiv.org/abs/2609.12116)
+- [GraphProfiler: Source-Linked Sensitive Attribute Inference via Personal Knowledge Graphs](https://arxiv.org/abs/2609.12448)
+- _…6 more_
+
+**Design, Simulation and Optimization for Advanced Manufacturing** (2)
+
+- [Convective Heat Transfer Optimization for Liquid Cooling Plates Driven by Field Synergy and Fractal Geometry](https://arxiv.org/abs/2609.12344)
+- [Controlling the energy jump of multistable structures using shape optimization](https://arxiv.org/abs/2609.12816)
+
+**Digital Twins, Manufacturing Systems, and Supply Chains** (9)
+
+- [NDT Factory: Synthesizing Verified Network Digital Twins from Semantic Models via Multi-Agent LLM](https://arxiv.org/abs/2609.12170)
+- [3D Digital Twin Visualization of Multiclass GRF-Based Gait Disorder Classification](https://arxiv.org/abs/2609.12442)
+- [Towards Sustainable Hydrogen Systems: Supply Chain Optimization with Model Predictive Control and Reinforcement Learning](https://arxiv.org/abs/2609.11933)
+- _…6 more_
+
+**Engineering Knowledge and Physics-Informed AI/ML** (8)
+
+- [Physics-Informed Conformal Prediction: Embedding PDE Consistency into Distribution-Free Uncertainty Quantification for Neural Operators](https://arxiv.org/abs/2609.11935)
+- [PDE-constrained inverse problems at the $\sqrt{n}$ rate via debiased physics-informed neural networks](https://arxiv.org/abs/2609.12301)
+- [Fundamental Dynamical Units for Physics-Informed Structural Inference from Perturbation Time-Series in Networked Systems](https://arxiv.org/abs/2609.11934)
+- _…5 more_
+
+**Systems Design** (2)
+
+- [A Retrieval-Augmented Automated Stakeholder for Requirements Elicitation Education: A Comparative Study](https://arxiv.org/abs/2609.12576)
+- [Computing at Sea: Floating and Offshore Data Centres as a Pathway to Sustainable AI Infrastructure](https://arxiv.org/abs/2609.12511)
+
+**Emerging Topics in SEIKM** (14)
+
+- [Efficient Vision-Language-Action Management and Serving for Robot Factories](https://arxiv.org/abs/2609.12075)
+- [Understanding Whole-Body Robot Teleoperation Strategies Under Diverse Task Objectives and Constraints](https://arxiv.org/abs/2609.12384)
+- [Agent as Policy for Robotic Manipulation](https://arxiv.org/abs/2609.12541)
+- _…11 more_
+
+**SEIKM General** (10)
+
+- [Pneumatic neurons for soft robots enable inflate-and-fire networks for rhythmic motion](https://arxiv.org/abs/2609.12258)
+- [An Automated Thickness Evaluation Procedure Using an Integrated Structured Light 3D Camera in a Robotic Bioprinting Framework](https://arxiv.org/abs/2609.12206)
+- [Inferring Dislocation Microstructures from X-ray Diffraction via Cross-Modal Contrastive Learning](https://arxiv.org/abs/2609.12713)
+- _…7 more_
+
 <!-- SEIKM:LATEST:END -->
 
 ---
