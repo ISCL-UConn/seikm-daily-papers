@@ -1,0 +1,3 @@
+PyYAML>=6.0
+# Optional: only needed if llm.enabled is true in config/settings.yaml.
+# anthropic>=0.40
