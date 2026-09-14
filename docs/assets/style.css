@@ -1,0 +1,344 @@
+/* SEIKM Daily Papers — one stylesheet, light and dark. */
+
+:root {
+  --bg: #fbfbf9;
+  --surface: #ffffff;
+  --surface-2: #f4f4f1;
+  --border: #e3e2dd;
+  --border-strong: #cfcec8;
+  --text: #1c1b19;
+  --text-dim: #5e5c57;
+  --text-faint: #86837c;
+  --link: #1b5e8f;
+  --link-hover: #0f4268;
+  --accent: #8a5a2b;
+  --chip-bg: #f0efeb;
+  --chip-text: #55534e;
+  --radius: 10px;
+  --maxw: 62rem;
+
+  --t-gen: #6b7280;
+  --t-01: #2f6f8f;
+  --t-02: #7a4fa3;
+  --t-03: #b2591f;
+  --t-04: #1f7a5a;
+  --t-05: #a03a5a;
+  --t-06: #2a5fb0;
+  --t-07: #7a6a1f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141413;
+    --surface: #1c1c1a;
+    --surface-2: #232321;
+    --border: #302f2c;
+    --border-strong: #413f3b;
+    --text: #edecea;
+    --text-dim: #adaaa3;
+    --text-faint: #85827b;
+    --link: #79b8e0;
+    --link-hover: #a3d0ef;
+    --accent: #d9a066;
+    --chip-bg: #262624;
+    --chip-text: #b5b2ab;
+
+    --t-gen: #9aa1ab;
+    --t-01: #6fb4d8;
+    --t-02: #b892d9;
+    --t-03: #e09456;
+    --t-04: #5cbd97;
+    --t-05: #dd7f9b;
+    --t-06: #7ba5e8;
+    --t-07: #c7b45c;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding-inline: 20px;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover { color: var(--link-hover); text-decoration: underline; }
+
+/* ---------- masthead ---------- */
+
+.masthead {
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  padding-block: 26px 22px;
+}
+.masthead .eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+.masthead h1 {
+  margin: 0;
+  font-size: 1.85rem;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+.masthead h1 a { color: var(--text); }
+.masthead h1 a:hover { color: var(--text); text-decoration: none; }
+.masthead .tagline {
+  margin: 8px 0 0;
+  color: var(--text-dim);
+  font-size: 0.95rem;
+  max-width: 44rem;
+}
+.masthead nav {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  font-size: 0.88rem;
+}
+
+/* ---------- issue header ---------- */
+
+.issue-head {
+  padding-block: 30px 8px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 26px;
+}
+.issue-head h2 {
+  margin: 0;
+  font-size: 1.45rem;
+  letter-spacing: -0.01em;
+}
+.issue-meta {
+  margin: 8px 0 20px;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+.issue-meta strong { color: var(--text); font-weight: 600; }
+
+.topicnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 22px;
+  padding: 0;
+  list-style: none;
+}
+.topicnav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 12px 5px 9px;
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  white-space: nowrap;
+  max-width: 100%;
+}
+.topicnav a:hover {
+  border-color: var(--border-strong);
+  color: var(--text);
+  text-decoration: none;
+}
+.topicnav .dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--tc, var(--t-gen));
+  flex: none;
+}
+.topicnav .n { color: var(--text-faint); font-variant-numeric: tabular-nums; }
+
+/* ---------- topic sections ---------- */
+
+.topic { margin-bottom: 40px; scroll-margin-top: 16px; }
+.topic-head {
+  border-left: 3px solid var(--tc, var(--t-gen));
+  padding-left: 14px;
+  margin-bottom: 16px;
+}
+.topic-code {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  color: var(--tc, var(--t-gen));
+  margin-bottom: 3px;
+}
+.topic-head h3 {
+  margin: 0;
+  font-size: 1.12rem;
+  letter-spacing: -0.01em;
+}
+.topic-head p {
+  margin: 6px 0 0;
+  color: var(--text-dim);
+  font-size: 0.87rem;
+  max-width: 46rem;
+}
+
+/* ---------- papers ---------- */
+
+.paper {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  margin-bottom: 10px;
+}
+.paper h4 {
+  margin: 0 0 7px;
+  font-size: 1.0rem;
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+.paper .authors {
+  margin: 0 0 8px;
+  font-size: 0.83rem;
+  color: var(--text-dim);
+}
+.paper .snippet {
+  margin: 0 0 10px;
+  font-size: 0.9rem;
+  color: var(--text-dim);
+  line-height: 1.58;
+}
+.paper .why {
+  margin: 0 0 10px;
+  font-size: 0.88rem;
+  color: var(--text);
+  border-left: 2px solid var(--accent);
+  padding-left: 11px;
+}
+.paper .why b { color: var(--accent); font-weight: 600; }
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.74rem;
+}
+.chip {
+  display: inline-block;
+  background: var(--chip-bg);
+  color: var(--chip-text);
+  border-radius: 5px;
+  padding: 2px 7px;
+  white-space: nowrap;
+}
+.chip.cat { font-variant: small-caps; letter-spacing: 0.03em; }
+.chip.also {
+  background: transparent;
+  border: 1px solid var(--border-strong);
+}
+.meta .sep { color: var(--border-strong); }
+.meta .links a { font-size: 0.78rem; }
+
+/* ---------- archive + lists ---------- */
+
+.issue-list { list-style: none; padding: 0; margin: 0; }
+.issue-list li {
+  border-bottom: 1px solid var(--border);
+  padding: 11px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px;
+}
+.issue-list .d { font-weight: 600; min-width: 7.5rem; }
+.issue-list .c { color: var(--text-faint); font-size: 0.85rem; }
+
+.empty {
+  background: var(--surface-2);
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius);
+  padding: 22px;
+  color: var(--text-dim);
+  font-size: 0.92rem;
+}
+
+.callout {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  font-size: 0.88rem;
+  color: var(--text-dim);
+  margin-bottom: 26px;
+}
+.callout b { color: var(--text); }
+
+/* ---------- topic table (initial site) ---------- */
+
+.table-scroll { overflow-x: auto; }
+.topic-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+.topic-table td {
+  border-top: 1px solid var(--border);
+  padding: 13px 0;
+  vertical-align: top;
+}
+.topic-table tr:first-child td { border-top: none; }
+.topic-table td:first-child {
+  width: 1%;
+  white-space: nowrap;
+  padding-right: 18px;
+}
+.topic-table code {
+  background: var(--chip-bg);
+  color: var(--chip-text);
+  border-radius: 5px;
+  padding: 2px 7px;
+  font-size: 0.76rem;
+}
+.topic-table .scope {
+  color: var(--text-dim);
+  font-size: 0.86rem;
+  display: block;
+  margin-top: 3px;
+}
+
+/* ---------- footer ---------- */
+
+footer {
+  margin-top: 50px;
+  border-top: 1px solid var(--border);
+  padding-block: 24px 44px;
+  font-size: 0.83rem;
+  color: var(--text-faint);
+}
+footer p { margin: 0 0 8px; max-width: 46rem; }
+
+@media (max-width: 640px) {
+  body { font-size: 15px; }
+  .wrap { padding-inline: 16px; }
+  .masthead h1 { font-size: 1.45rem; }
+  .paper { padding: 14px 15px; }
+  .issue-list .d { min-width: 100%; }
+  /* Chips must wrap here, or a long topic name scrolls the page sideways. */
+  .topicnav a { white-space: normal; align-items: flex-start; overflow-wrap: anywhere; }
+  .topicnav .dot { margin-top: 7px; }
+  .meta { font-size: 0.72rem; }
+}
