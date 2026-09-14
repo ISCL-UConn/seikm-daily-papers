@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SEIKM Daily Papers</title>
+<meta name="description" content="A daily scan of new arXiv work relevant to ASME IDETC-CIE SEIKM">
+<meta property="og:title" content="SEIKM Daily Papers">
+<meta property="og:description" content="A daily scan of new arXiv work relevant to ASME IDETC-CIE SEIKM">
+<meta property="og:type" content="website">
+<link rel="alternate" type="application/rss+xml" title="SEIKM Daily Papers" href="feed.xml">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <p class="eyebrow">ASME IDETC-CIE Systems Engineering, Information and Knowledge Management (SEIKM)</p>
+    <h1><a href="">SEIKM Daily Papers</a></h1>
+    <p class="tagline">A daily scan of new arXiv work relevant to ASME IDETC-CIE SEIKM</p>
+    <nav>
+      <a href="">Latest issue</a>
+      <a href="archive/">Archive</a>
+      <a href="feed.xml">RSS</a>
+      <a href="https://github.com/ISCL-UConn/seikm-daily-papers">Source &amp; topic config</a>
+      <a href="https://github.com/ISCL-UConn/seikm-daily-papers#how-it-works">How it works</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+<section class="issue-head">
+<h2>The first issue is on its way</h2>
+<p class="issue-meta">Scheduled for 06:30 Eastern, weekday mornings.</p>
+</section>
+
+<div class="callout">
+Every weekday this page is rebuilt with new arXiv preprints relevant to the
+ASME IDETC-CIE Systems Engineering, Information and Knowledge Management (SEIKM) technical committee, sorted into the topic areas below.
+<b>Inclusion is not endorsement</b> — these are unreviewed preprints selected by
+keyword matching, not by a person.
+</div>
+
+<section class="topic"><div class="topic-head"><h3>Topic areas</h3>
+<p>Following the SEIKM 2027 track proposal. The phrase lists behind each one live in
+<a href="https://github.com/ISCL-UConn/seikm-daily-papers/blob/main/config/topics.yaml">config/topics.yaml</a>
+and are a one-line pull request to change.</p></div>
+<div class="table-scroll"><table class="topic-table">
+<tbody><tr><td><code>SEIKM-01</code></td><td><b>Systems Engineering and Complex Systems</b><span class="scope">MBSE, system architecture, decomposition, integration and system analysis, including research that does not use AI.</span></td></tr>
+<tr><td><code>SEIKM-02</code></td><td><b>Informatics for Design and Manufacturing</b><span class="scope">Engineering information and knowledge management, interoperability, LLMs and agent architectures.</span></td></tr>
+<tr><td><code>SEIKM-03</code></td><td><b>Design, Simulation and Optimization for Advanced Manufacturing</b><span class="scope">Design, simulation and optimization across advanced manufacturing, explicitly retaining additive manufacturing. Joint topic with AMS.</span></td></tr>
+<tr><td><code>SEIKM-04</code></td><td><b>Digital Twins, Manufacturing Systems, and Supply Chains</b><span class="scope">Design-to-operation models, production planning, scheduling and supply-chain decisions. Manufacturing and supply-chain work does not need to use a digital twin.</span></td></tr>
+<tr><td><code>SEIKM-05</code></td><td><b>Engineering Knowledge and Physics-Informed AI/ML</b><span class="scope">Joint topic with AI/ML. Physics-informed and knowledge-guided learning for engineering, including scientific machine learning.</span></td></tr>
+<tr><td><code>SEIKM-06</code></td><td><b>Systems Design</b><span class="scope">Proposed joint topic with DTM. Design methods and early design decisions connected to requirements, system architectures, MBSE, trade-off analysis and engineering knowledge.</span></td></tr>
+<tr><td><code>SEIKM-07</code></td><td><b>Emerging Topics in SEIKM</b><span class="scope">Human-AI teaming, robotics and physical AI. Deployability, reproducibility and reuse; cyber-physical-social systems.</span></td></tr>
+<tr><td><code>SEIKM-GEN</code></td><td><b>SEIKM General</b><span class="scope">Fundamental and applied SEIKM research outside the named topics, including work that may suggest future topic areas.</span></td></tr></tbody></table></div>
+</section>
+
+<section class="topic"><div class="topic-head"><h3>Follow along</h3></div>
+<p style="color:var(--text-dim)">
+Subscribe by <a href="feed.xml">RSS</a>, or watch
+<a href="https://github.com/ISCL-UConn/seikm-daily-papers">the repository</a> on GitHub for a notification
+each morning. Past issues collect in the <a href="archive/">archive</a>.</p>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <p><b>How papers get here.</b> Every weekday a job queries arXiv across the
+    categories and phrases listed in <code>config/settings.yaml</code>, drops
+    anything that fails an engineering-relevance gate, and sorts the rest into
+    the SEIKM topic areas using the weighted phrase lists in
+    <code>config/topics.yaml</code>. Nothing is hand-picked, and nothing is
+    peer-reviewed by this site — inclusion is not endorsement.</p>
+    <p>Topic definitions follow the SEIKM 2027 track proposal. To correct a
+    mis-filed paper or widen a topic, edit <code>config/topics.yaml</code> and
+    open a pull request — no code changes needed.</p>
+    <p>Maintained for the ASME IDETC-CIE Systems Engineering, Information and Knowledge Management (SEIKM) technical committee ·
+    <a href="mailto:farhad.imani@uconn.edu">farhad.imani@uconn.edu</a> ·
+    <a href="https://github.com/ISCL-UConn/seikm-daily-papers">GitHub</a></p>
+  </div>
+</footer>
+</body>
+</html>
