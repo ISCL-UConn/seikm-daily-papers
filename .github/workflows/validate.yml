@@ -1,0 +1,39 @@
+name: Validate config
+
+# Runs on any change to the taxonomy or the pipeline, so a pull request that
+# widens a topic gets checked against the labelled paper set before it lands.
+on:
+  pull_request:
+    paths: ["config/**", "scripts/**", "tests/**", "requirements.txt"]
+  push:
+    branches: [main]
+    paths: ["config/**", "scripts/**", "tests/**", "requirements.txt"]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Config parses and every topic is well-formed
+        run: |
+          python - <<'PY'
+          import sys; sys.path.insert(0, "scripts")
+          from seikm.config import load_config
+          c = load_config()
+          assert c.topics, "no topics defined"
+          for t in c.all_topics():
+              assert t.code and t.slug and t.title, f"incomplete topic: {t}"
+          print(f"OK: {len(c.topics)} named topics + {c.general.code}")
+          for t in c.topics:
+              print(f"  {t.code} {t.title}: "
+                    f"{len(t.strong)}/{len(t.medium)}/{len(t.weak)} terms")
+          PY
+
+      - name: Classifier regression set
+        run: python tests/test_classifier.py -v

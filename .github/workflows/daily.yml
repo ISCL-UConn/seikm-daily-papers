@@ -1,0 +1,72 @@
+name: Daily digest
+
+on:
+  schedule:
+    # 10:30 UTC on weekdays = 06:30 America/New_York in summer, 05:30 in winter.
+    # arXiv announces new submissions around 20:00 ET, so this picks up the
+    # overnight batch. Weekdays only: arXiv does not announce on weekends, and
+    # harvest.lookback_days covers the gap on Monday.
+    - cron: "30 10 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      lookback:
+        description: "Days of arXiv history to scan (default: config value)"
+        required: false
+        default: ""
+      dry_run:
+        description: "Harvest and classify, but write nothing"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seikm-daily
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check -r requirements.txt
+
+      # Deliberately blocking: a broken taxonomy would publish a bad digest to
+      # the whole committee. A skipped day self-heals, because harvest.lookback_days
+      # is wider than one day.
+      - name: Verify classifier against the regression set
+        run: python tests/test_classifier.py
+
+      - name: Build issue
+        env:
+          # Only used when llm.enabled is true in config/settings.yaml.
+          # Absent secret is fine: the run falls back to the keyword digest.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.lookback }}" ]; then ARGS="$ARGS --lookback ${{ inputs.lookback }}"; fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          python scripts/run_daily.py $ARGS
+
+      - name: Commit and push
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name  "seikm-daily-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A docs digests data README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit (quiet day, or everything already published)."
+            exit 0
+          fi
+          COUNT=$(python -c "import json;print(json.load(open('docs/latest.json'))['issue']['count'])" 2>/dev/null || echo "?")
+          git commit -m "Digest $(date -u +%Y-%m-%d): ${COUNT} papers"
+          git push
