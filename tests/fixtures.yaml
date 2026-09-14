@@ -1,0 +1,199 @@
+# Real arXiv papers (titles + abstract summaries, pulled from Hugging Face's
+# paper index) used as a regression set for the classifier.
+#
+# `expect` is a SET of acceptable primary topics. Many of these papers
+# legitimately straddle two SEIKM topics, so the test asserts the classifier
+# lands somewhere defensible rather than on one "correct" answer.
+# `DROP` means the paper should not appear in the digest at all.
+papers:
+  # ---- clearly out of scope: the gate must reject these -------------------
+  - id: "2412.17098"
+    title: "DreamOmni: Unified Image Generation and Editing"
+    abstract: "DreamOmni is a unified model that combines text-to-image generation and various image editing tasks, enhancing both aspects through joint training and synthetic dataset creation."
+    expect: [DROP]
+  - id: "2512.02790"
+    title: "UnicEdit-10M: A Dataset and Benchmark Breaking the Scale-Quality Barrier via Unified Verification for Reasoning-Enriched Edits"
+    abstract: "A lightweight data pipeline and benchmark are introduced to improve the quality and scale of image editing datasets and model evaluations, addressing the performance gap between closed-source and open-source models."
+    expect: [DROP]
+  - id: "2406.00985"
+    title: "MultiEdits: Simultaneous Multi-Aspect Editing with Text-to-Image Diffusion Models"
+    abstract: "MultiEdits addresses simultaneous text-driven image edits by using an attention distribution mechanism and multi-branch design, improving multitasking performance."
+    expect: [DROP]
+  - id: "2506.12830"
+    title: "ComplexBench-Edit: Benchmarking Complex Instruction-Driven Image Editing via Compositional Dependencies"
+    abstract: "A new benchmark, ComplexBench-Edit, evaluates and enhances models capabilities in handling complex, multi-step, and interdependent image editing instructions using a Chain-of-Thought approach."
+    expect: [DROP]
+  - id: "2310.12149"
+    title: "Object-aware Inversion and Reassembly for Image Editing"
+    abstract: "Object-aware Inversion and Reassembly enables object-level fine-grained editing by dynamically determining optimal inversion steps and reassembling the edited and non-editing regions."
+    expect: [DROP]
+  - id: "2605.03546"
+    title: "ProgramBench: Can Language Models Rebuild Programs From Scratch?"
+    abstract: "ProgramBench evaluates language models capabilities for holistic software development by requiring agents to architect and implement complete codebases from specifications, revealing significant gaps in current models ability to handle complex software engineering tasks."
+    expect: [DROP, SEIKM-GEN]
+  - id: "2602.18548"
+    title: "1D-Bench: A Benchmark for Iterative UI Code Generation with Visual Feedback in Real-World"
+    abstract: "1D-Bench evaluates design-to-code models on real e-commerce workflows using intermediate representations with errors, requiring iterative React code generation and component-level editing with execution feedback."
+    expect: [DROP, SEIKM-GEN]
+
+  # ---- informatics / LLM agents for design and manufacturing --------------
+  - id: "2601.12641"
+    title: "STEP-LLM: Generating CAD STEP Models from Natural Language with Large Language Models"
+    abstract: "Large language models are adapted for computer-aided design by processing graph-structured STEP files through specialized preprocessing, retrieval-augmented generation, and reinforcement learning to improve geometric fidelity."
+    expect: [SEIKM-02, SEIKM-03]
+  - id: "2412.13810"
+    title: "CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers?"
+    abstract: "CAD-Assistant is an AI-assisted design agent using a Vision and Large Language Model to generate and execute CAD commands iteratively based on multimodal queries."
+    expect: [SEIKM-02, SEIKM-03, SEIKM-06]
+  - id: "2412.14203"
+    title: "BlenderLLM: Training Large Language Models for Computer-Aided Design with Self-improvement"
+    abstract: "BlenderLLM, a novel framework for training Large Language Models in CAD, improves CAD script generation through self-improvement and fine-tuning."
+    expect: [SEIKM-02, SEIKM-03, SEIKM-06]
+  - id: "2605.19717"
+    title: "Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering Design"
+    abstract: "A hybrid agentic-physical architecture integrates knowledge-based engineering tools into AI agents for generating physically verified computer-aided design solutions with improved structural complexity and compilation rates."
+    expect: [SEIKM-02, SEIKM-03, SEIKM-05, SEIKM-06]
+  - id: "2605.19748"
+    title: "Memory-Augmented Reinforcement Learning Agent for CAD Generation"
+    abstract: "A memory-augmented reinforcement learning framework enhances CAD model generation by incorporating geometric kernels, dual-memory modules, and self-correction mechanisms for complex design tasks."
+    expect: [SEIKM-02, SEIKM-03, SEIKM-06]
+  - id: "2604.05547"
+    title: "COSMO-Agent: Tool-Augmented Agent for Closed-loop Optimization, Simulation, and Modeling Orchestration"
+    abstract: "COSMO-Agent uses tool-augmented reinforcement learning to bridge the CAD-CAE semantic gap by enabling large language models to iteratively optimize geometric designs under multiple constraints."
+    expect: [SEIKM-02, SEIKM-03, SEIKM-05, SEIKM-06]
+  - id: "2607.02448"
+    title: "AgentsCAD: Automated Design for Manufacturing of FDM Parts via Multi-Agent LLM Reasoning and Geometric Feature Recognition"
+    abstract: "A multi-agent system automates additive manufacturing design modifications by analyzing 3D geometry and generating corrected designs through language model reasoning and visual verification."
+    expect: [SEIKM-03, SEIKM-02]
+  - id: "2507.11527"
+    title: "DrafterBench: Benchmarking Large Language Models for Tasks Automation in Civil Engineering"
+    abstract: "DrafterBench is an open-source benchmark for evaluating LLM agents in technical drawing revision, assessing their capabilities in structured data comprehension, function execution, instruction following, and critical reasoning."
+    expect: [SEIKM-02, SEIKM-07, SEIKM-GEN]
+  - id: "2311.13148"
+    title: "Towards Responsible Generative AI: A Reference Architecture for Designing Foundation Model based Agents"
+    abstract: "A pattern-oriented reference architecture is proposed to guide the design of foundation model based agents, addressing considerations like security and accountability."
+    expect: [SEIKM-01, SEIKM-02, SEIKM-GEN, DROP]
+  - id: "2408.02920"
+    title: "A Taxonomy of Architecture Options for Foundation Model-based Agents: Analysis and Decision Model"
+    abstract: "A taxonomy for architecture design of foundation-model-based agents is introduced to unify classifications and improve development, focusing on both functional and non-functional aspects."
+    expect: [SEIKM-01, SEIKM-02, SEIKM-06, SEIKM-GEN, DROP]
+
+  # ---- physics-informed / scientific ML -----------------------------------
+  - id: "2001.04536"
+    title: "Understanding and mitigating gradient pathologies in physics-informed neural networks"
+    abstract: "Physics-informed neural networks are reviewed for predicting physical system outcomes and discovering hidden physics, with improvements in training stability through gradient statistics-based learning rate annealing and novel architectures that address numerical stiffness issues."
+    expect: [SEIKM-05]
+  - id: "1711.10561"
+    title: "Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations"
+    abstract: "Physics informed neural networks are developed to solve partial differential equations by encoding physical laws as prior information in data-efficient universal function approximators."
+    expect: [SEIKM-05]
+  - id: "2205.02902"
+    title: "Lagrangian PINNs: A causality-conforming solution to failure modes of physics-informed neural networks"
+    abstract: "Physics-informed neural networks face training challenges in PDE-constrained optimization problems, particularly those involving transport phenomena, which are mitigated by reformulating PINNs in a Lagrangian framework with a parallel architecture."
+    expect: [SEIKM-05]
+  - id: "2602.01176"
+    title: "Multi-Fidelity Physics-Informed Neural Networks with Bayesian Uncertainty Quantification and Adaptive Residual Learning for Efficient Solution of Parametric Partial Differential Equations"
+    abstract: "Multi-fidelity physics-informed neural networks combine low-fidelity simulations with high-fidelity data through hierarchical architecture and Bayesian uncertainty quantification to solve parametric PDEs more efficiently."
+    expect: [SEIKM-05]
+  - id: "2306.02816"
+    title: "MultiAdam: Parameter-wise Scale-invariant Optimizer for Multiscale Training of Physics-informed Neural Networks"
+    abstract: "Theoretical analysis of PINNs for solving PDEs leads to the development of MultiAdam, an optimizer that improves predictive accuracy significantly."
+    expect: [SEIKM-05]
+  - id: "2211.08064"
+    title: "Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications"
+    abstract: "Physics-Informed Machine Learning integrates physical laws and data-driven approaches to create models that produce physically plausible solutions with improved accuracy and efficiency in complex, uncertain environments."
+    expect: [SEIKM-05]
+  - id: "2203.07404"
+    title: "Respecting causality is all you need for training physics-informed neural networks"
+    abstract: "Proposed modifications to PINN loss functions improve accuracy and convergence by explicitly accounting for physical causality, enabling successful simulation of chaotic and turbulent systems."
+    expect: [SEIKM-05]
+  - id: "1810.07550"
+    title: "The Newton Scheme for Deep Learning"
+    abstract: "A physics-informed neural network framework based on Newton laws that recognizes force patterns and predicts trajectories with high accuracy while reducing computational overhead compared to traditional data-driven approaches."
+    expect: [SEIKM-05]
+
+  # ---- design / simulation / optimization for advanced manufacturing ------
+  - id: "2408.03490"
+    title: "Simultaneous and Meshfree Topology Optimization with Physics-informed Gaussian Processes"
+    abstract: "A Gaussian process framework with deep neural network mean functions enables continuous, discretization-invariant topology optimization by jointly solving state equations and performance metrics in a single loop."
+    expect: [SEIKM-03, SEIKM-05]
+  - id: "2510.23667"
+    title: "Optimize Any Topology: A Foundation Model for Shape- and Resolution-Free Structural Topology Optimization"
+    abstract: "A deep-learning framework combining autoencoder, neural-field decoder, and latent-diffusion model achieves fast and general topology optimization with high performance across various conditions and resolutions."
+    expect: [SEIKM-03]
+  - id: "2404.18763"
+    title: "From Density to Geometry: YOLOv8 Instance Segmentation for Reverse Engineering of Optimized Structures"
+    abstract: "YOLOv8-TO utilizes an instance segmentation model to automatically detect and reconstruct structural components from binary density distributions, improving topology optimization post-processing efficiency and accuracy."
+    expect: [SEIKM-03]
+  - id: "2002.01927"
+    title: "Self-Directed Online Machine Learning for Topology Optimization"
+    abstract: "Self-directed Online Learning Optimization integrates Deep Neural Networks with Finite Element Method calculations to efficiently solve large-scale topology optimization problems."
+    expect: [SEIKM-03, SEIKM-05]
+  - id: "2510.07057"
+    title: "TOMATOES: Topology and Material Optimization for Latent Heat Thermal Energy Storage Devices"
+    abstract: "An automated design framework using a variational autoencoder and a differentiable finite-element solver optimizes both material choice and topology for latent heat thermal energy storage systems."
+    expect: [SEIKM-03, SEIKM-05]
+  - id: "2305.18470"
+    title: "Aligning Optimization Trajectories with Diffusion Models for Constrained Design Generation"
+    abstract: "A new framework combining diffusion models with traditional physics-based optimization methods improves design performance and efficiency in engineering applications."
+    expect: [SEIKM-03, SEIKM-05, SEIKM-06]
+  - id: "2505.16048"
+    title: "SPhyR: Spatial-Physical Reasoning Benchmark on Material Distribution"
+    abstract: "A dataset benchmarks spatial and physical reasoning of large language models using topology optimization tasks without simulation tools."
+    expect: [SEIKM-03, SEIKM-05, SEIKM-GEN]
+  - id: "2302.14740"
+    title: "Fusion of ML with numerical simulation for optimized propeller design"
+    abstract: "A hybrid approach combining machine learning surrogates with traditional optimization methods reduces the number of evaluations needed for efficient design optimization in high-dimensional spaces."
+    expect: [SEIKM-03, SEIKM-05, SEIKM-06]
+
+  # ---- digital twins / manufacturing systems / supply chains -------------
+  - id: "2306.05747"
+    title: "An End-to-End Reinforcement Learning Approach for Job-Shop Scheduling Problems Based on Constraint Programming"
+    abstract: "The paper presents an end-to-end method combining Constraint Programming and Reinforcement Learning to solve scheduling problems, achieving high-quality solutions for large instances with less computational time than traditional approaches."
+    expect: [SEIKM-04]
+  - id: "2302.02506"
+    title: "Generating Dispatching Rules for the Interrupting Swap-Allowed Blocking Job Shop Problem Using Graph Neural Network and Reinforcement Learning"
+    abstract: "A method combining graph neural networks and reinforcement learning is proposed to generate dispatching rules for the interrupting swap-allowed blocking job shop problem in dynamic production settings."
+    expect: [SEIKM-04]
+  - id: "2602.08052"
+    title: "Graph-Enhanced Deep Reinforcement Learning for Multi-Objective Unrelated Parallel Machine Scheduling"
+    abstract: "A Deep Reinforcement Learning framework combining Proximal Policy Optimization and Graph Neural Networks addresses multi-objective scheduling challenges by effectively balancing total weighted tardiness and total setup time."
+    expect: [SEIKM-04]
+  - id: "2106.01086"
+    title: "Learning to schedule job-shop problems: Representation and policy learning using graph neural network and reinforcement learning"
+    abstract: "A framework combining graph neural networks and reinforcement learning is proposed for job-shop scheduling, outperforming dispatching rules and other RL-based methods while offering transferability."
+    expect: [SEIKM-04]
+  - id: "2306.11246"
+    title: "Deep Reinforcement Learning for Inventory Networks: Toward Reliable Policy Optimization"
+    abstract: "Deep reinforcement learning, particularly Hindsight Differentiable Policy Optimization and Graph Neural Networks, enhances inventory management by optimizing policies and reducing data requirements."
+    expect: [SEIKM-04]
+  - id: "2401.15872"
+    title: "A Deep Q-Network Based on Radial Basis Functions for Multi-Echelon Inventory Management"
+    abstract: "A deep reinforcement learning model using radial basis functions for Q-networks outperforms traditional methods in multi-echelon inventory management."
+    expect: [SEIKM-04]
+  - id: "2211.10936"
+    title: "Deep Reinforcement Learning Guided Improvement Heuristic for Job Shop Scheduling"
+    abstract: "A novel DRL-guided heuristic using Graph Neural-Network-based representation and simultaneous solution evaluation outperforms existing methods in Job-shop scheduling problems."
+    expect: [SEIKM-04]
+  - id: "2310.07981"
+    title: "Reinforcement Learning of Display Transfer Robots in Glass Flow Control Systems: A Physical Simulation-Based Approach"
+    abstract: "A reinforcement learning-based approach is proposed to design a flow control system for display manufacturing by optimizing glass flow scheduling in a simulated environment."
+    expect: [SEIKM-04, SEIKM-07]
+
+  # ---- agentic / software engineering: borderline, General is fine -------
+  - id: "2512.08769"
+    title: "A Practical Guide for Designing, Developing, and Deploying Production-Grade Agentic AI Workflows"
+    abstract: "Agentic AI systems require structured engineering approaches that integrate multiple specialized agents with large language models, tool augmentation, and orchestration logic to enable reliable, observable, and maintainable autonomous workflows."
+    expect: [SEIKM-02, SEIKM-07, SEIKM-GEN, DROP]
+  - id: "2605.13357"
+    title: "AI Harness Engineering: A Runtime Substrate for Foundation-Model Software Agents"
+    abstract: "Software engineering agents reliability issues stem from the interaction between models, runtime environments, and structured harness systems rather than model capabilities alone."
+    expect: [SEIKM-02, SEIKM-07, SEIKM-GEN, DROP]
+  - id: "2509.06216"
+    title: "Agentic Software Engineering: Foundational Pillars and a Research Roadmap"
+    abstract: "Agentic Software Engineering introduces a dual modality approach with human and agent collaboration, redefining software engineering processes and tools to achieve complex, goal-oriented objectives."
+    expect: [SEIKM-02, SEIKM-07, SEIKM-GEN, DROP]
+  - id: "2602.05447"
+    title: "Structured Context Engineering for File-Native Agentic Systems: Evaluating Schema Accuracy, Format Effectiveness, and Multi-File Navigation at Scale"
+    abstract: "Context engineering for large language model agents operating structured data systems reveals that architectural choices should be tailored to model capability rather than following universal practices."
+    expect: [SEIKM-02, SEIKM-GEN, DROP]
