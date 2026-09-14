@@ -57,13 +57,17 @@ list in the same pull request and say why in the description.
 
 ## Changing the schedule or sources
 
-`config/settings.yaml` holds the arXiv categories, the phrase queries, and the
-display caps. The cron schedule is in
-[`.github/workflows/daily.yml`](.github/workflows/daily.yml).
+`config/settings.yaml` holds the arXiv categories and the display caps. The cron
+schedule is in [`.github/workflows/daily.yml`](.github/workflows/daily.yml).
 
-Be conservative with `harvest.phrase_queries`: each one is an extra API call,
-and arXiv asks for roughly one request every three seconds. Thirty-four queries
-already take about two minutes per run.
+Adding a category to `harvest.rss_categories` is cheap — categories are batched
+into a handful of feed requests, and the relevance gate filters the extra volume
+locally. That is the right way to widen coverage.
+
+Do not switch `harvest.source` to `api` for the scheduled run. arXiv's search
+API returns HTTP 429 to shared cloud IP ranges, and every GitHub Actions runner
+is in one; the API path exists for local backfill
+(`--source api --lookback 7`), where your own IP is doing the asking.
 
 ## Turning on LLM scoring
 

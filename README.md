@@ -41,13 +41,13 @@ These follow the SEIKM 2027 track proposal. Each links to its live section.
 ## How it works
 
 ```
-arXiv API  →  relevance gate  →  topic scoring  →  veto  →  caps  →  publish
-  ~34          engineering        weighted         drop        readable
- queries       context?           phrase           adjacent    per-topic
+arXiv RSS  →  relevance gate  →  topic scoring  →  veto  →  caps  →  publish
+ 17 cats       engineering        weighted         drop        readable
+ 3 requests    context?           phrase           adjacent    per-topic
                                   evidence         ML work     limits
 ```
 
-1. **Harvest.** Four arXiv categories are swept wholesale (`cs.CE`, `eess.SY`, `cs.RO`, `cs.MA`). Thirty high-signal phrases — "digital twin", "topology optimization", "model-based systems engineering" — are searched across thirteen broader categories that are far too noisy to sweep.
+1. **Harvest.** arXiv's daily announcement feeds are read across seventeen categories, from `cs.CE` and `eess.SY` through `cs.LG` and `math.OC`, in three requests. Newly submitted and newly cross-listed papers are kept; revisions of older work are not. The feeds carry the full day's listing, so all the filtering happens locally in the steps below. (The search API is available as a fallback and for backfill, but arXiv returns HTTP 429 to shared cloud IP ranges — which includes every CI runner — so the feeds are the primary source.)
 2. **Gate.** Each paper is scored against a list of engineering-context terms. Below the threshold it is dropped. This is what keeps the digest from filling with unrelated machine learning.
 3. **Score.** Each of the seven topics carries `strong` / `medium` / `weak` phrase lists. A hit in the title counts double; repeated hits get diminishing returns, so one repeated phrase can't dominate. Highest-scoring topic becomes the paper's primary topic, runners-up become `also SEIKM-0x` tags.
 4. **Veto.** A paper matching an out-of-scope marker (image generation, clinical, genomics…) is dropped unless its topic evidence is strong enough to override.
@@ -68,9 +68,9 @@ Every change is checked against [a labelled set of 45 real papers](tests/fixture
 git clone https://github.com/ISCL-UConn/seikm-daily-papers && cd seikm-daily-papers
 pip install -r requirements.txt
 
-python3 tests/test_classifier.py -v          # see how every fixture is classified
-python3 scripts/run_daily.py --dry-run       # harvest + classify, write nothing
-python3 scripts/run_daily.py --lookback 7    # a week's worth, for backfill
+python3 tests/test_classifier.py -v            # see how every fixture is classified
+python3 scripts/run_daily.py --dry-run         # harvest + classify, write nothing
+python3 scripts/run_daily.py --source api --lookback 7   # backfill a week
 ```
 
 ## Following it
@@ -85,6 +85,7 @@ python3 scripts/run_daily.py --lookback 7    # a week's worth, for backfill
 
 - **Inclusion is not endorsement.** These are unreviewed preprints selected by keyword matching, not by a person and not by peer review.
 - **It will mis-file things.** The classifier reads titles and abstracts only. When it gets one wrong, that's a bug report against `config/topics.yaml`.
+- **Quiet days are normal.** arXiv announces Sunday through Thursday at 20:00 US Eastern. Outside that cycle the feeds are empty and no issue is published — the previous one stays up rather than being replaced by a blank page.
 - **arXiv is not all of SEIKM.** A great deal of the committee's work appears in ASME journals and conference proceedings that never touch arXiv. This digest sees preprints, and preprints skew toward AI/ML-adjacent work. Read the topic distribution with that in mind.
 - **It is not an ASME publication.** This is a working tool maintained for the committee, not an official society product.
 
