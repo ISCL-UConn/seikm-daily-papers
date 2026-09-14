@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       lookback:
-        description: "Days of arXiv history to scan (default: config value)"
+        description: "Backfill window in days (API source only; leave blank for the daily RSS feeds)"
         required: false
         default: ""
       dry_run:
