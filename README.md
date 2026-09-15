@@ -17,54 +17,63 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — September 14, 2026
+### Latest issue — September 15, 2026
 
-**54** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-14.md)
+**60** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-15.md)
+
+**Systems Engineering and Complex Systems** (2)
+
+- [Natural-Language to SysMLv2 Translation via Conformance-Driven Iterative Refinement](https://arxiv.org/abs/2607.14162)
+- [AI Deployment Accountability Engineering: A Vision for Accountable AI in Safety-Critical Socio-Technical Systems](https://arxiv.org/abs/2609.14592)
 
 **Informatics for Design and Manufacturing** (9)
 
-- [Repair Before Reinforce: Context-Augmented Knowledge Graph Reasoning for Multi-Hop Question Answering](https://arxiv.org/abs/2609.12230)
-- [When Successful Knowledge Graph Edits Displace Correct Answers: Rank-Level Locality beyond Parameter Support](https://arxiv.org/abs/2609.12116)
-- [GraphProfiler: Source-Linked Sensitive Attribute Inference via Personal Knowledge Graphs](https://arxiv.org/abs/2609.12448)
+- [Natural Language Knowledge Graph Query Execution: Leveraging Controlled Semantics in the LLM Context Window](https://arxiv.org/abs/2609.14652)
+- [Surprising Effectiveness of Self-Demonstrations in Enhancing Schema-Ontology Mapping with LLMs](https://arxiv.org/abs/2609.13776)
+- [Bridging Thought and Action: Taming Long-Horizon Instability in Open-Source LLM Agents with a MetaTool-Enhanced ROS Framework](https://arxiv.org/abs/2609.13335)
 - _…6 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (2)
+**Design, Simulation and Optimization for Advanced Manufacturing** (9)
 
-- [Convective Heat Transfer Optimization for Liquid Cooling Plates Driven by Field Synergy and Fractal Geometry](https://arxiv.org/abs/2609.12344)
-- [Controlling the energy jump of multistable structures using shape optimization](https://arxiv.org/abs/2609.12816)
+- [HGTO: A Unified Graph-Based Physics-Informed Formulation for Structural Topology Optimization](https://arxiv.org/abs/2609.15001)
+- [Grid Topology Optimization for Congestion Management Under High Renewable Penetrations and Discrete Load Growth](https://arxiv.org/abs/2609.14367)
+- [Low Clearance Hinge Joint Mechanism Based on 3D Printing on Sheet Fabrication Methodology](https://arxiv.org/abs/2609.15276)
+- _…6 more_
 
 **Digital Twins, Manufacturing Systems, and Supply Chains** (9)
 
-- [NDT Factory: Synthesizing Verified Network Digital Twins from Semantic Models via Multi-Agent LLM](https://arxiv.org/abs/2609.12170)
-- [3D Digital Twin Visualization of Multiclass GRF-Based Gait Disorder Classification](https://arxiv.org/abs/2609.12442)
-- [Towards Sustainable Hydrogen Systems: Supply Chain Optimization with Model Predictive Control and Reinforcement Learning](https://arxiv.org/abs/2609.11933)
+- [A Hybrid Agentic AI Framework for Intelligent Supply Chain Analytics](https://arxiv.org/abs/2609.13561)
+- [Towards a faithful stochastic model for brain digital twins](https://arxiv.org/abs/2609.13973)
+- [Toward Sustainable AI Deployment: A Carbon-Aware Decision Framework for Enterprise Supply Chain Systems](https://arxiv.org/abs/2609.14881)
 - _…6 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (8)
+**Engineering Knowledge and Physics-Informed AI/ML** (9)
 
-- [Physics-Informed Conformal Prediction: Embedding PDE Consistency into Distribution-Free Uncertainty Quantification for Neural Operators](https://arxiv.org/abs/2609.11935)
-- [PDE-constrained inverse problems at the $\sqrt{n}$ rate via debiased physics-informed neural networks](https://arxiv.org/abs/2609.12301)
-- [Fundamental Dynamical Units for Physics-Informed Structural Inference from Perturbation Time-Series in Networked Systems](https://arxiv.org/abs/2609.11934)
-- _…5 more_
+- [Physics Informed Neural Network model for the dynamical study of Abdominal Aortic Aneurysm](https://arxiv.org/abs/2609.15104)
+- [Tackling Failure Modes of PINNs and PIKANs Using Conflict-Free Gradients](https://arxiv.org/abs/2609.14841)
+- [A derivative-fidelity failure mode in physics-informed neural networks: strengthened benchmark evidence from function-value training](https://arxiv.org/abs/2609.13171)
+- _…6 more_
 
-**Systems Design** (2)
+**Systems Design** (4)
 
-- [A Retrieval-Augmented Automated Stakeholder for Requirements Elicitation Education: A Comparative Study](https://arxiv.org/abs/2609.12576)
-- [Computing at Sea: Floating and Offshore Data Centres as a Pathway to Sustainable AI Infrastructure](https://arxiv.org/abs/2609.12511)
+- [Bypass Observation: A Conceptual Design of a Non-Intrusive Layer-Wise Semantic Extraction Architecture](https://arxiv.org/abs/2609.13807)
+- [Communication Architecture Co-Design for Distributed Control via System Level Synthesis](https://arxiv.org/abs/2609.15341)
+- [Pathwise Individual Rationality in Federated Learning: A Mechanism-Architecture Co-Design](https://arxiv.org/abs/2609.14591)
+- _…1 more_
 
-**Emerging Topics in SEIKM** (14)
+**Emerging Topics in SEIKM** (9)
 
-- [Efficient Vision-Language-Action Management and Serving for Robot Factories](https://arxiv.org/abs/2609.12075)
-- [Understanding Whole-Body Robot Teleoperation Strategies Under Diverse Task Objectives and Constraints](https://arxiv.org/abs/2609.12384)
-- [Agent as Policy for Robotic Manipulation](https://arxiv.org/abs/2609.12541)
-- _…11 more_
+- [Rethinking the Implications of Human Feedback for Preference Learning in Human-Robot Collaboration](https://arxiv.org/abs/2609.13982)
+- [How to Better Train VLAs: Lessons Learned From the REAL-I Challenge at ICRA 2026](https://arxiv.org/abs/2609.13679)
+- [Ergodic Control and Controlled Diffusion for Robot Learning: Review and Tutorial](https://arxiv.org/abs/2609.13295)
+- _…6 more_
 
-**SEIKM General** (10)
+**SEIKM General** (9)
 
-- [Pneumatic neurons for soft robots enable inflate-and-fire networks for rhythmic motion](https://arxiv.org/abs/2609.12258)
-- [An Automated Thickness Evaluation Procedure Using an Integrated Structured Light 3D Camera in a Robotic Bioprinting Framework](https://arxiv.org/abs/2609.12206)
-- [Inferring Dislocation Microstructures from X-ray Diffraction via Cross-Modal Contrastive Learning](https://arxiv.org/abs/2609.12713)
-- _…7 more_
+- [Breaking speed scaling in quadrupedal robots via Huygens' coupled-pendulum dynamics](https://arxiv.org/abs/2609.13290)
+- [Understanding User Preferences of a Slope-Aware Variable-Admittance Filter for a Robot Guide Dog](https://arxiv.org/abs/2609.15362)
+- [Resilient Extremum Seeking Control for Cyber-Physical Systems Under Denial-of-Service Attacks](https://arxiv.org/abs/2609.14192)
+- _…6 more_
 
 <!-- SEIKM:LATEST:END -->
 
