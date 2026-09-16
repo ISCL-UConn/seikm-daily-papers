@@ -152,6 +152,11 @@ gate:
   # A paper must reach this weighted score on the terms below to be considered
   # at all. This is what keeps pure NLP/vision/theory papers out.
   min_score: 3.0
+  # ...unless it has strong evidence for a named SEIKM topic. Convincing topic
+  # evidence IS domain evidence, and without this a vision-language-action
+  # paper would be gated out for never using an "engineering" word, while
+  # every underwater-robot paper sailed in on the word "robot".
+  rescue_topic_score: 6.0
   strong:   # weight 3.0 each
     - manufacturing
     - additive manufacturing
@@ -184,8 +189,6 @@ gate:
     - welding
     - materials science
     - microstructure
-    - robot
-    - robotic
     - cyber-physical
     - interoperability
     - PDE
@@ -195,6 +198,14 @@ gate:
     - engineering system
     - scheduling
     - assembly line
+    - asset administration shell
+    - process planning
+  weak:     # weight 0.6 each -- never enough on their own
+    - robot
+    - robotic
+    - autonomous
+    - architecture
+    - deployment
   medium:   # weight 1.5 each
     - design
     - optimization
@@ -216,8 +227,6 @@ gate:
     - lifecycle
     - digital thread
     - requirement
-    - architecture
-    - deployment
     - human-robot
     - embodied
     - inventory
@@ -262,6 +271,19 @@ veto:
     - jailbreak
     - watermarking
     - deepfake
+    - tokenization
+    - subword
+    - language modeling
+    - recommender system
+    - model serving
+    - inference serving
+    - LLM inference
+    - KV cache
+    - GPU kernel
+    - surgical
+    - nephrectomy
+    - endoscop
+    - tumor
 
 output:
   # Hard caps so a noisy day stays readable.
