@@ -197,3 +197,82 @@ papers:
     title: "Structured Context Engineering for File-Native Agentic Systems: Evaluating Schema Accuracy, Format Effectiveness, and Multi-File Navigation at Scale"
     abstract: "Context engineering for large language model agents operating structured data systems reveals that architectural choices should be tailored to model capability rather than following universal practices."
     expect: [SEIKM-02, SEIKM-GEN, DROP]
+
+  # ---- from live issue #3 (16 Sep 2026): the mis-files that issue exposed,
+  # ---- plus the papers that must survive the tightened gate ---------------
+  - id: "2609.16252"
+    title: "Models as Governed Interfaces for AI-Native MBSE: Read-Side Adequacy and Write-Side Admissibility"
+    abstract: "Machine-readable models such as SysML v2 are now programmatically accessible, and a growing body of work treats that access as the enabling condition for AI participation in systems engineering. Access is necessary, but not sufficient. The remaining work lies not in the modelling language but in the governance of reads and writes."
+    expect: [SEIKM-01]
+  - id: "2609.15991"
+    title: "The Functionalizer: Lossless Functional Decomposition for Subword Tokenization"
+    abstract: "Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO) as unrelated vocabulary entries, which fragments the embedding space, or discard this variation through lossy normalization. We present the Functionalizer, a lossless pre-tokenization scheme."
+    expect: [DROP]
+  - id: "2609.17391"
+    title: "FlashVector: Agent for Hierarchical Model Serving Stack Optimization"
+    abstract: "Model serving is one of the largest cost drivers in production recommender systems. Maximizing its throughput requires navigating a deeply layered hierarchy: GPU kernels, the ML framework computation graph, the model server, and on-demand feature processing, each demanding specialized domain expertise."
+    expect: [DROP]
+  - id: "2609.17291"
+    title: "Extracting ontology-compliant knowledge from scientific text describing irradiated materials using large language models"
+    abstract: "The quest for new materials increasingly relies on predictive models and comprehensive simulations that span scales from atomic to macroscopic levels. However, essential data necessary for these models and simulations are often embedded in scientific literature as unstructured text, limiting reusability."
+    expect: [SEIKM-02]
+  - id: "2609.17193"
+    title: "End-to-End Latency-Minimizing and Load-Balanced Request Scheduling for Edge LLM Inference in Agentic AI Services"
+    abstract: "Large language model (LLM)-powered agentic AI services increasingly demand low-latency inference, motivating the deployment of LLMs across distributed edge servers. However, heterogeneous communication and computing capabilities, together with dynamically evolving inference states, make the edge serving problem hard."
+    expect: [DROP]
+  - id: "2609.16625"
+    title: "AURA: Agentic Diagnosis and Refinement for Production Recommender Systems at Scale"
+    abstract: "How and why does a recommender system fail the users it serves? Oftentimes, practitioners are left to improve their algorithms based on a combination of feedback from stakeholder teams, domain expertise, and insights from data analyses."
+    expect: [DROP]
+  - id: "2609.16498"
+    title: "Geospatial Metadata Improves Discoverability by Connecting Datasets Across Scientific Disciplines"
+    abstract: "Research data repositories are essential infrastructure for scientific inquiry and for ensuring that datasets follow FAIR (Findable, Accessible, Interoperable, and Reusable) principles. However, repository reuse depends on the quality and completeness of geospatial and thematic metadata."
+    expect: [DROP, SEIKM-02, SEIKM-GEN]
+  - id: "2609.17104"
+    title: "Extending high value components performances with Additive Manufacturing: application to naval applications"
+    abstract: "Additive Manufacturing (AM) consists of depositing material in successive layers to obtain the desired part. The parts produced by AM can thus adopt geometries inaccessible by conventional manufacturing means, for example hollow or lattice structures which considerably reduce their weight."
+    expect: [SEIKM-03]
+  - id: "2609.17258"
+    title: "An Exemplar of a Digital Twin in Mechanical Engineering: Understanding Model Hybridization"
+    abstract: "Digital Twins (DTs) are widely adopted across a variety of application domains. In industrial sectors, particularly in mechanical engineering, they accelerate product development, reduce risks, enable early issue prediction, and lower sustainment costs. In practice, DTs increasingly integrate physics-based and data-driven models."
+    expect: [SEIKM-04]
+  - id: "2609.16046"
+    title: "Asymmetric Weighted Earliness-Tardiness: Scheduling with a Nonrestrictive Common Due Date"
+    abstract: "Single-machine asymmetric weighted earliness-tardiness scheduling asks how to sequence jobs around a common synchronization date when early and late completion incur unrelated job-dependent penalties. At the boundary nonrestrictive date, a compact V-shaped schedule reduces the search."
+    expect: [SEIKM-04]
+  - id: "2609.16406"
+    title: "Physics Informed Random Feature Neural Networks for Solving PDEs"
+    abstract: "Machine learning-based partial differential equations (PDEs) solvers have attracted significant attention in recent years. Most progress in this area has been driven by deep neural networks such as physics-informed neural networks (PINNs) and kernel methods such as physics-informed Gaussian Processes."
+    expect: [SEIKM-05]
+  - id: "2609.16641"
+    title: "SAVLA: Symmetry-Aware Vision-Language-Action Models for Robotic Manipulation"
+    abstract: "Vision-language-action (VLA) models have become the dominant paradigm for language-conditioned robot manipulation. However, although images and language instructions inherently encode geometric information, VLAs acquire their spatial competence purely from demonstrations."
+    expect: [SEIKM-07]
+  - id: "2609.17263"
+    title: "CAD-Based Relation Learning and Geometric-Symbolic Planning for Robotic Assembly"
+    abstract: "Assembly Sequence Planning (ASP) remains a challenging problem due to its combinatorial nature, making exhaustive planning approaches impractical for complex industrial assemblies. Furthermore, many CAD models lack reliable semantic contact information or require extensive manual preprocessing."
+    expect: [SEIKM-07, SEIKM-02, SEIKM-03]
+  - id: "2609.16074"
+    title: "World-Action Models for Robot Learning and Control: A Survey"
+    abstract: "Robots operating in open environments act under partial observability, physical constraints, and dynamic task contexts. Beyond mapping observations and language instructions to actions, they must anticipate how candidate actions may affect future states and task-relevant outcomes."
+    expect: [SEIKM-07]
+  - id: "2609.16089"
+    title: "Structure-Preserving Quantum Circuit Architectures for Robot Kinematics"
+    abstract: "Structured spatial data require quantum encodings that preserve geometric relations, expose measurable observables, and remain implementable on finite-depth hardware. This work introduces a quantum representation and circuit architecture for rigid-body transformations and specializes it to Denavit-Hartenberg parameters."
+    expect: [DROP, SEIKM-GEN]
+  - id: "2609.16186"
+    title: "Occupancy Network-Guided Autonomous Robotic Partial Nephrectomy"
+    abstract: "Autonomous soft-tissue cancer surgery has been limited to interventions on organ surfaces, because current systems cannot perceive and adapt to anatomy once it deforms or is cut. We introduce the first vision-guided autonomous system capable of performing complete tumor resections."
+    expect: [DROP]
+  - id: "2609.17106"
+    title: "BRAVE-6D: Benchmark for Robotic Active Vision in 6DOF Pose Estimation"
+    abstract: "Detecting and grasping small objects remains a significant challenge in robotics. Active vision, where the robot moves closer to the object, is an intuitive solution, yet comparing approaches on common ground is difficult since identical physical scene setups are required."
+    expect: [DROP]
+  - id: "2609.17240"
+    title: "Swim-and-Breach at Palm Scale: A Rudder-Steered Two-Propeller Underwater Robot Platform with Differential-Thrust Pitch Control"
+    abstract: "We present a palm-scale (65 mm, 34 g) swim-and-breach robot platform. Two vertically stacked propellers provide both propulsion and differential-thrust pitch control under a proportional-integral-derivative loop, and a tail rudder adds yaw control."
+    expect: [DROP]
+  - id: "2609.17405"
+    title: "Optimized Wrench Polytope Analysis for Real-Time Stability Control of Legged Robots in Complex Multi-Contact Configurations"
+    abstract: "Legged robots offer a variety of automation applications in real-world scenarios. But areas that are difficult to traverse, like slopes, caves, or scaffolding, still pose a great challenge for traversal. To tackle this problem, we propose an optimized algorithm for evaluating the full actuatable wrench."
+    expect: [DROP]
