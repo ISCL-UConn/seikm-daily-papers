@@ -18,6 +18,11 @@ on:
         type: boolean
         required: false
         default: false
+      rebuild:
+        description: "Re-issue today from scratch, ignoring what was already published (use after a config change)"
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -55,6 +60,7 @@ jobs:
           ARGS=""
           if [ -n "${{ inputs.lookback }}" ]; then ARGS="$ARGS --lookback ${{ inputs.lookback }}"; fi
           if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          if [ "${{ inputs.rebuild }}" = "true" ]; then ARGS="$ARGS --rebuild"; fi
           python scripts/run_daily.py $ARGS
 
       - name: Commit and push
