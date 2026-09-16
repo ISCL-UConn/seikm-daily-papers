@@ -40,6 +40,9 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--offline", default=None,
                     help="classify papers from a local JSON file instead of arXiv")
     ap.add_argument("--no-llm", action="store_true", help="skip LLM enrichment")
+    ap.add_argument("--rebuild", action="store_true",
+                    help="re-issue today even for papers already published "
+                         "(use after changing config/topics.yaml or the gate)")
     ap.add_argument("--allow-empty", action="store_true",
                     help="publish an issue even when nothing new cleared the bar")
     ap.add_argument("-v", "--verbose", action="store_true")
@@ -53,11 +56,14 @@ def _merge(into: list[dict], extra: list[dict]) -> list[dict]:
     return into
 
 
-def _harvest(hcfg: dict, source: str, log) -> list[dict]:
+def _harvest(hcfg: dict, source: str, log, *, explicit: bool = False) -> list[dict]:
     """Run the configured source(s).
 
     RSS is the default because arXiv's search API returns HTTP 429 to shared
     cloud IP ranges, which includes every GitHub Actions runner.
+
+    `explicit` means the caller passed --source, in which case it is honoured
+    literally and the empty-result fallback is skipped.
     """
     papers: list[dict] = []
     if source in ("rss", "both"):
@@ -65,7 +71,8 @@ def _harvest(hcfg: dict, source: str, log) -> list[dict]:
         papers = rss_source.harvest(hcfg)
 
     want_api = source in ("api", "both")
-    if not want_api and not papers and hcfg.get("api_fallback_when_empty", True):
+    if (not want_api and not papers and not explicit
+            and hcfg.get("api_fallback_when_empty", True)):
         log.info("RSS returned nothing; trying the export API as a fallback")
         want_api = True
 
@@ -95,14 +102,20 @@ def main() -> int:
         hcfg = dict(config.harvest)
         if args.lookback:
             hcfg["lookback_days"] = args.lookback
-        papers = _harvest(hcfg, args.source or hcfg.get("source", "rss"), log)
+        papers = _harvest(hcfg, args.source or hcfg.get("source", "rss"), log,
+                          explicit=args.source is not None)
     scanned = len(papers)
     log.info("harvested %d unique papers", scanned)
 
     # --- dedupe against past issues --------------------------------------
     store = SeenStore(ROOT / "data" / "seen.json")
-    fresh = store.filter_new(papers)
-    log.info("%d are new (%d already published)", len(fresh), scanned - len(fresh))
+    if args.rebuild:
+        fresh = papers
+        log.info("rebuild: reclassifying all %d harvested papers, ignoring the "
+                 "seen database", len(fresh))
+    else:
+        fresh = store.filter_new(papers)
+        log.info("%d are new (%d already published)", len(fresh), scanned - len(fresh))
 
     # --- classify ---------------------------------------------------------
     kept = assess_papers(config, fresh)
