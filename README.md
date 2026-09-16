@@ -19,25 +19,23 @@ It exists to do three things for the committee:
 
 ### Latest issue — September 16, 2026
 
-**60** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-16.md)
+**56** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-16.md)
 
-**Systems Engineering and Complex Systems** (3)
+**Systems Engineering and Complex Systems** (1)
 
 - [Models as Governed Interfaces for AI-Native MBSE: Read-Side Adequacy and Write-Side Admissibility](https://arxiv.org/abs/2609.16252)
-- [The Functionalizer: Lossless Functional Decomposition for Subword Tokenization](https://arxiv.org/abs/2609.15991)
-- [FlashVector: Agent for Hierarchical Model Serving Stack Optimization](https://arxiv.org/abs/2609.17391)
 
-**Informatics for Design and Manufacturing** (12)
+**Informatics for Design and Manufacturing** (14)
 
 - [Extracting ontology-compliant knowledge from scientific text describing irradiated materials using large language models](https://arxiv.org/abs/2609.17291)
+- [Predicting Partial Answer Quality and Utility in Agentic Retrieval-Augmented Generation](https://arxiv.org/abs/2609.16453)
 - [Symbolic Separation: Grounding Deep Agents in Knowledge Graphs for Trustworthy Operational Data Analytics](https://arxiv.org/abs/2609.17107)
-- [CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design](https://arxiv.org/abs/2609.16251)
-- _…9 more_
+- _…11 more_
 
 **Design, Simulation and Optimization for Advanced Manufacturing** (2)
 
 - [Extending high value components performances with Additive Manufacturing: application to naval applications](https://arxiv.org/abs/2609.17104)
-- [Designing Homogeneous Ti-Nb-Fe-Sn $\beta$ Titanium Alloys by PBF-LB: A Pre-Alloyed Powder Blend Strategy](https://arxiv.org/abs/2609.17476)
+- [Designing Homogeneous Ti-Nb-Fe-Sn β Titanium Alloys by PBF-LB: A Pre-Alloyed Powder Blend Strategy](https://arxiv.org/abs/2609.17476)
 
 **Digital Twins, Manufacturing Systems, and Supply Chains** (8)
 
@@ -57,19 +55,19 @@ It exists to do three things for the committee:
 
 - [Towards Illusions Awareness in Cyber-Physical System's Design](https://arxiv.org/abs/2609.17260)
 
-**Emerging Topics in SEIKM** (12)
+**Emerging Topics in SEIKM** (14)
 
 - [SAVLA: Symmetry-Aware Vision-Language-Action Models for Robotic Manipulation](https://arxiv.org/abs/2609.16641)
 - [CAD-Based Relation Learning and Geometric-Symbolic Planning for Robotic Assembly](https://arxiv.org/abs/2609.17263)
-- [World-Action Models for Robot Learning and Control: A Survey](https://arxiv.org/abs/2609.16074)
-- _…9 more_
+- [The Robot Data Factory](https://arxiv.org/abs/2609.16705)
+- _…11 more_
 
-**SEIKM General** (12)
+**SEIKM General** (6)
 
 - [RobResilience: Implementing and Evaluating a Resilience Framework for Cyber-Physical Embodied Systems](https://arxiv.org/abs/2609.17349)
-- [CoAdapt: An LLM-based Framework for Adaptive Collaborative Perception in IIoT Robotic Swarms](https://arxiv.org/abs/2609.16852)
-- [Structure-Preserving Quantum Circuit Architectures for Robot Kinematics](https://arxiv.org/abs/2609.16089)
-- _…9 more_
+- [A Set-Theoretic Evaluation Framework for Assessing Asset Administration Shell Instances: Towards Comparability and Suitability](https://arxiv.org/abs/2609.17062)
+- [Privacy-Preserving Coordinated Operation of Multi-Player Industrial Network Using Secure Aggregation](https://arxiv.org/abs/2609.16402)
+- _…3 more_
 
 <!-- SEIKM:LATEST:END -->
 
