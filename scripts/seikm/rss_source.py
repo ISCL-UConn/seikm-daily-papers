@@ -31,6 +31,8 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from typing import Any
 
+from .textclean import clean_authors, detex
+
 log = logging.getLogger("seikm.rss")
 
 BASE = "https://rss.arxiv.org/atom/"
@@ -77,7 +79,7 @@ def _parse_authors(entry: ET.Element) -> list[str]:
         for creator in entry.findall("dc:creator", NS):
             raw = _text(creator)
             names.extend(p.strip() for p in raw.split(",") if p.strip())
-    return names
+    return clean_authors(names)
 
 
 def _parse_entry(entry: ET.Element) -> dict[str, Any] | None:
@@ -94,8 +96,8 @@ def _parse_entry(entry: ET.Element) -> dict[str, Any] | None:
     arxiv_id = match.group(1)
     version = int(match.group(2)) if match.group(2) else 1
 
-    title = _text(entry.find("a:title", NS))
-    abstract = " ".join(_PREAMBLE.sub("", summary_raw).split())
+    title = detex(_text(entry.find("a:title", NS)))
+    abstract = detex(" ".join(_PREAMBLE.sub("", summary_raw).split()))
     if not title or not abstract:
         return None
 

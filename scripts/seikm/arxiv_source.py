@@ -24,6 +24,8 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from typing import Any, Iterable
 
+from .textclean import clean_authors, detex
+
 log = logging.getLogger("seikm.arxiv")
 
 API = "https://export.arxiv.org/api/query"
@@ -55,7 +57,8 @@ def _parse_entry(entry: ET.Element) -> dict[str, Any] | None:
 
     published = _text(entry.find("a:published", NS))
     updated = _text(entry.find("a:updated", NS))
-    authors = [_text(a.find("a:name", NS)) for a in entry.findall("a:author", NS)]
+    authors = clean_authors(
+        [_text(a.find("a:name", NS)) for a in entry.findall("a:author", NS)])
     cats = [c.get("term", "") for c in entry.findall("a:category", NS)]
     prim = entry.find("arxiv:primary_category", NS)
     primary = prim.get("term", "") if prim is not None else (cats[0] if cats else "")
@@ -68,8 +71,8 @@ def _parse_entry(entry: ET.Element) -> dict[str, Any] | None:
     return {
         "id": arxiv_id,
         "version": version,
-        "title": _text(entry.find("a:title", NS)),
-        "abstract": _text(entry.find("a:summary", NS)),
+        "title": detex(_text(entry.find("a:title", NS))),
+        "abstract": detex(_text(entry.find("a:summary", NS))),
         "authors": authors,
         "published": published,
         "updated": updated,
@@ -150,9 +153,23 @@ def harvest(harvest_cfg: dict[str, Any], *, now: datetime | None = None) -> list
     queries = build_queries(harvest_cfg)
     log.info("running %d arXiv queries (lookback %s)", len(queries), cutoff.date())
 
+    give_up_after = int(harvest_cfg.get("abandon_after_failures", 3))
+    consecutive_failures = 0
+
     by_id: dict[str, dict[str, Any]] = {}
     for i, (label, query) in enumerate(queries, 1):
         rows = _fetch(query, per_query, timeout, retries)
+        if not rows:
+            consecutive_failures += 1
+            if consecutive_failures >= give_up_after:
+                log.error(
+                    "%d consecutive queries returned nothing; abandoning the API "
+                    "source. arXiv rate-limits shared cloud IPs, so this is "
+                    "expected on CI runners -- RSS is the supported path.",
+                    consecutive_failures)
+                break
+        else:
+            consecutive_failures = 0
         fresh = [r for r in rows if _recent(r, cutoff)]
         for row in fresh:
             existing = by_id.get(row["id"])

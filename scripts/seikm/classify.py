@@ -64,8 +64,10 @@ class Classifier:
         self._gate_terms: list[tuple[str, float]] = [
             *((t, self.tier_weights["strong"]) for t in gate.get("strong", [])),
             *((t, self.tier_weights["medium"]) for t in gate.get("medium", [])),
+            *((t, self.tier_weights["weak"]) for t in gate.get("weak", [])),
         ]
         self._gate_min: float = float(gate["min_score"])
+        self._gate_rescue: float = float(gate.get("rescue_topic_score", 0.0) or 0.0)
 
         self._veto_terms: list[str] = list(config.veto.get("terms", []))
         self._veto_override: float = float(config.veto.get("override_topic_score", 8.0))
@@ -99,11 +101,17 @@ class Classifier:
             matched=matched,
         )
 
-    def _domain_factor(self, gate_score: float) -> float:
-        """Down-weight papers that only just clear the relevance gate."""
+    def _domain_factor(self, gate_score: float, best_topic_score: float = 0.0) -> float:
+        """Down-weight papers that only just clear the relevance gate.
+
+        Strong topic evidence counts toward domain confidence too, otherwise a
+        paper rescued by its topic score would be ranked as if it were barely
+        relevant.
+        """
         if self.gate_reference <= 0:
             return 1.0
-        return min(1.0, gate_score / self.gate_reference)
+        effective = max(gate_score, best_topic_score * 0.5)
+        return min(1.0, effective / self.gate_reference)
 
     def _vetoes(self, ix: TextIndex) -> list[str]:
         return [t for t in self._veto_terms if ix.find(t)]
@@ -114,17 +122,22 @@ class Classifier:
         ix = TextIndex(title, abstract)
         gate_score = round(self._gate_score(ix), 3)
 
-        if gate_score < self._gate_min:
-            return Assessment(
-                kept=False,
-                reason=f"gate {gate_score} < {self._gate_min}",
-                gate_score=gate_score,
-            )
-
         scores = {t.code: self._score_topic(ix, t) for t in self._topics}
         ranked = sorted(scores.values(), key=lambda s: s.score, reverse=True)
         best = ranked[0] if ranked else None
         best_score = best.score if best else 0.0
+
+        # The gate asks "is this engineering work at all?". Strong evidence for
+        # a named SEIKM topic answers that question by itself, so it rescues a
+        # paper whose vocabulary never trips the generic engineering terms.
+        rescued = self._gate_rescue > 0 and best_score >= self._gate_rescue
+        if gate_score < self._gate_min and not rescued:
+            return Assessment(
+                kept=False,
+                reason=f"gate {gate_score} < {self._gate_min}",
+                gate_score=gate_score,
+                scores=scores,
+            )
 
         vetoed = self._vetoes(ix)
         if vetoed and best_score < self._veto_override:
@@ -145,7 +158,8 @@ class Classifier:
                 primary=self.config.general.code,
                 primary_score=round(max(best_score, gate_score * 0.5), 3),
                 rank_score=round(
-                    max(best_score, gate_score * 0.5) * self._domain_factor(gate_score), 3
+                    max(best_score, gate_score * 0.5)
+                    * self._domain_factor(gate_score, best_score), 3
                 ),
                 scores=scores,
                 matched_terms=sorted({m for s in scores.values() for m in s.matched})[:12],
@@ -162,7 +176,7 @@ class Classifier:
             gate_score=gate_score,
             primary=best.code,
             primary_score=best.score,
-            rank_score=round(best.score * self._domain_factor(gate_score), 3),
+            rank_score=round(best.score * self._domain_factor(gate_score, best.score), 3),
             secondary=secondary,
             scores=scores,
             matched_terms=best.matched[:12],
