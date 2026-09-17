@@ -1,761 +1,671 @@
 {
  "issue": {
-  "date": "2026-09-16",
-  "number": 3,
-  "count": 56,
-  "scanned": 670,
-  "generated": "2026-09-16 22:39 UTC"
+  "date": "2026-09-17",
+  "number": 4,
+  "count": 58,
+  "scanned": 744,
+  "generated": "2026-09-17 15:10 UTC"
  },
  "papers": [
   {
-   "id": "2609.16406",
-   "title": "Physics Informed Random Feature Neural Networks for Solving PDEs",
+   "id": "2609.17638",
+   "title": "Lecture notes on Physics Informed Neural Networks, Neural Operators, and their applications",
    "authors": [
-    "Chi-An Chen",
-    "Chunyang Liao",
-    "Ming Zhong"
+    "Alessandro Bombini"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.16406",
-   "pdf_url": "https://arxiv.org/pdf/2609.16406",
+   "abs_url": "https://arxiv.org/abs/2609.17638",
+   "pdf_url": "https://arxiv.org/pdf/2609.17638",
    "topic": "SEIKM-05",
    "secondary_topics": [],
-   "score": 14.243,
-   "rank_score": 14.243,
+   "score": 18.113,
+   "rank_score": 18.113,
+   "primary_category": "cs.LG",
+   "why": null
+  },
+  {
+   "id": "2609.18025",
+   "title": "Physics-Informed Neural Networks for Fast Multilayer Spectral Inversion of H\u03b1 6562.8 A and Ca II 8542.1 A Spectra",
+   "authors": [
+    "Ziyang Zhang",
+    "Qin Li",
+    "Vasyl B. Yurchyshyn",
+    "Kangwoo Yi",
+    "Haimin Wang",
+    "Wenda Cao",
+    "Bo Shen"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18025",
+   "pdf_url": "https://arxiv.org/pdf/2609.18025",
+   "topic": "SEIKM-05",
+   "secondary_topics": [],
+   "score": 13.826,
+   "rank_score": 13.826,
+   "primary_category": "astro-ph.SR",
+   "why": null
+  },
+  {
+   "id": "2609.18317",
+   "title": "Knowledge-Graph Based Augmentation versus Retrieval Augmented Generation for Cultural-Related Question Answering",
+   "authors": [
+    "Pablo Poulenard",
+    "Yannis Karmim",
+    "Valentin Barri\u00e8re"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18317",
+   "pdf_url": "https://arxiv.org/pdf/2609.18317",
+   "topic": "SEIKM-02",
+   "secondary_topics": [],
+   "score": 13.536,
+   "rank_score": 13.087,
+   "primary_category": "cs.CL",
+   "why": null
+  },
+  {
+   "id": "2609.18419",
+   "title": "HiLNO: A Hierarchical Latent Neural Operator with Multi-Scale Supervision for PDEs on General Geometries",
+   "authors": [
+    "Zhicheng Hu",
+    "Jiacheng Li",
+    "Min Yang"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18419",
+   "pdf_url": "https://arxiv.org/pdf/2609.18419",
+   "topic": "SEIKM-05",
+   "secondary_topics": [],
+   "score": 12.102,
+   "rank_score": 12.102,
    "primary_category": "math.NA",
    "why": null
   },
   {
-   "id": "2609.16641",
-   "title": "SAVLA: Symmetry-Aware Vision-Language-Action Models for Robotic Manipulation",
+   "id": "2609.18182",
+   "title": "WFM: Wiki Foundation Model for Complex Agentic Reasoning",
    "authors": [
-    "Junle Li",
-    "Weixian Waylon Li",
-    "Fuxiang Wu",
-    "Fusheng Hao",
-    "Fengxiang He"
+    "Junnan Dong",
+    "Linhao Luo",
+    "Senlei Zhang",
+    "Gong Chen",
+    "Taian Guo",
+    "Yifei Yu",
+    "Rong Tao",
+    "Tao Guo",
+    "Qian-Wen Zhang",
+    "Siyu An",
+    "Ruizhi Qiao",
+    "Xing Sun"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.16641",
-   "pdf_url": "https://arxiv.org/pdf/2609.16641",
-   "topic": "SEIKM-07",
-   "secondary_topics": [],
-   "score": 13.027,
-   "rank_score": 12.122,
-   "primary_category": "cs.RO",
-   "why": null
-  },
-  {
-   "id": "2609.16252",
-   "title": "Models as Governed Interfaces for AI-Native MBSE: Read-Side Adequacy and Write-Side Admissibility",
-   "authors": [
-    "Jason Gower",
-    "Michael J. de C. Henshaw",
-    "Siyuan Ji"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16252",
-   "pdf_url": "https://arxiv.org/pdf/2609.16252",
-   "topic": "SEIKM-01",
-   "secondary_topics": [],
-   "score": 12.102,
-   "rank_score": 12.102,
-   "primary_category": "cs.SE",
-   "why": null
-  },
-  {
-   "id": "2609.17291",
-   "title": "Extracting ontology-compliant knowledge from scientific text describing irradiated materials using large language models",
-   "authors": [
-    "Marco Luca Sbodio",
-    "Marcos Mart\u00ednez Galindo",
-    "Vanessa Lopez",
-    "Blanca Biel",
-    "Pablo Canca",
-    "Pedro Delgado",
-    "Jes\u00fas I. Mendieta-Moreno",
-    "Raphael Tack",
-    "Maria J. Caturla"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.17291",
-   "pdf_url": "https://arxiv.org/pdf/2609.17291",
+   "abs_url": "https://arxiv.org/abs/2609.18182",
+   "pdf_url": "https://arxiv.org/pdf/2609.18182",
    "topic": "SEIKM-02",
    "secondary_topics": [],
-   "score": 11.776,
-   "rank_score": 11.776,
+   "score": 11.899,
+   "rank_score": 10.113,
    "primary_category": "cs.AI",
    "why": null
   },
   {
-   "id": "2609.17104",
-   "title": "Extending high value components performances with Additive Manufacturing: application to naval applications",
+   "id": "2609.18248",
+   "title": "Quanta: A Self-Contained Python Library for Hybrid Retrieval over Quantised Embeddings, Lexical Indexes, and Knowledge Graphs",
    "authors": [
-    "Matthieu Rauch",
-    "GeM)",
-    "Gatien Pechet",
-    "Jean Yves Hascoet",
-    "Guillaume Ruckert"
+    "Ioannis E. Livieris"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.17104",
-   "pdf_url": "https://arxiv.org/pdf/2609.17104",
-   "topic": "SEIKM-03",
-   "secondary_topics": [],
-   "score": 11.702,
-   "rank_score": 11.702,
-   "primary_category": "cs.CE",
-   "why": null
-  },
-  {
-   "id": "2609.17263",
-   "title": "CAD-Based Relation Learning and Geometric-Symbolic Planning for Robotic Assembly",
-   "authors": [
-    "Fabian Harlacher",
-    "Christian Friedrich"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.17263",
-   "pdf_url": "https://arxiv.org/pdf/2609.17263",
-   "topic": "SEIKM-07",
-   "secondary_topics": [
-    "SEIKM-02"
-   ],
-   "score": 10.32,
-   "rank_score": 10.32,
-   "primary_category": "cs.RO",
-   "why": null
-  },
-  {
-   "id": "2609.16453",
-   "title": "Predicting Partial Answer Quality and Utility in Agentic Retrieval-Augmented Generation",
-   "authors": [
-    "Fangzheng Tian",
-    "Debasis Ganguly",
-    "Craig Macdonald"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16453",
-   "pdf_url": "https://arxiv.org/pdf/2609.16453",
+   "abs_url": "https://arxiv.org/abs/2609.18248",
+   "pdf_url": "https://arxiv.org/pdf/2609.18248",
    "topic": "SEIKM-02",
    "secondary_topics": [],
-   "score": 11.76,
-   "rank_score": 9.878,
+   "score": 9.475,
+   "rank_score": 9.475,
    "primary_category": "cs.IR",
    "why": null
   },
   {
-   "id": "2609.17107",
-   "title": "Symbolic Separation: Grounding Deep Agents in Knowledge Graphs for Trustworthy Operational Data Analytics",
+   "id": "2609.18481",
+   "title": "Hyperbolic Graph Representation Learning for Differential Diagnosis on Biomedical Knowledge Graphs",
    "authors": [
-    "Baibek Davletiyarov",
-    "Junaid Ahmed Khan",
-    "Andrea Bartolini"
+    "Pietro Miotto",
+    "Lucia Mellini",
+    "Tommaso Marzi",
+    "Cesare Alippi",
+    "Elena Casiraghi",
+    "Alberto Paccanaro",
+    "Giorgio Valentini",
+    "Mauricio Soto-Gomez"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.17107",
-   "pdf_url": "https://arxiv.org/pdf/2609.17107",
+   "abs_url": "https://arxiv.org/abs/2609.18481",
+   "pdf_url": "https://arxiv.org/pdf/2609.18481",
+   "topic": "SEIKM-02",
+   "secondary_topics": [],
+   "score": 9.168,
+   "rank_score": 9.168,
+   "primary_category": "cs.AI",
+   "why": null
+  },
+  {
+   "id": "2609.18901",
+   "title": "Fast Learning Rates for Physics-Informed Kernel Methods",
+   "authors": [
+    "Luc Brogat-Motte",
+    "Joachim Bona-Pellissier",
+    "Giacomo Meanti",
+    "Lorenzo Rosasco"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18901",
+   "pdf_url": "https://arxiv.org/pdf/2609.18901",
+   "topic": "SEIKM-05",
+   "secondary_topics": [],
+   "score": 8.521,
+   "rank_score": 8.521,
+   "primary_category": "stat.ML",
+   "why": null
+  },
+  {
+   "id": "2609.18636",
+   "title": "From powder to part: influence of virgin and recovered Inconel 625 powders on the DED-LP processability, microstructure and mechanical properties",
+   "authors": [
+    "Romain Deloffre",
+    "Lor\u00e8ne H\u00e9raud",
+    "Julie Lartigau"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18636",
+   "pdf_url": "https://arxiv.org/pdf/2609.18636",
+   "topic": "SEIKM-03",
+   "secondary_topics": [],
+   "score": 8.088,
+   "rank_score": 8.088,
+   "primary_category": "cs.CE",
+   "why": null
+  },
+  {
+   "id": "2609.18164",
+   "title": "Energy-Regularized Imitation Learning for Force- and Work-Aware Robotic Manipulation",
+   "authors": [
+    "Toshiki Otani",
+    "Hiromu Taketsugu",
+    "Norimichi Ukita"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18164",
+   "pdf_url": "https://arxiv.org/pdf/2609.18164",
+   "topic": "SEIKM-07",
+   "secondary_topics": [],
+   "score": 10.627,
+   "rank_score": 8.067,
+   "primary_category": "cs.RO",
+   "why": null
+  },
+  {
+   "id": "2609.19104",
+   "title": "rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference",
+   "authors": [
+    "Kaijun Zhou",
+    "Zhiyang Li",
+    "Le Chen",
+    "Jinyu Gu"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.19104",
+   "pdf_url": "https://arxiv.org/pdf/2609.19104",
+   "topic": "SEIKM-07",
+   "secondary_topics": [],
+   "score": 10.627,
+   "rank_score": 8.067,
+   "primary_category": "cs.RO",
+   "why": null
+  },
+  {
+   "id": "2609.18207",
+   "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+   "authors": [
+    "Perry Dong",
+    "Kuo-Han Hung",
+    "Dorsa Sadigh",
+    "Chelsea Finn"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18207",
+   "pdf_url": "https://arxiv.org/pdf/2609.18207",
+   "topic": "SEIKM-07",
+   "secondary_topics": [],
+   "score": 10.11,
+   "rank_score": 7.301,
+   "primary_category": "cs.RO",
+   "why": null
+  },
+  {
+   "id": "2609.17635",
+   "title": "Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees",
+   "authors": [
+    "Oscar Mogollon Gutierrez",
+    "Fatemeh Ghasemi",
+    "Mohammadhossein Homaei",
+    "Andres Caro",
+    "Mar Avila"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.17635",
+   "pdf_url": "https://arxiv.org/pdf/2609.17635",
+   "topic": "SEIKM-04",
+   "secondary_topics": [
+    "SEIKM-05"
+   ],
+   "score": 6.864,
+   "rank_score": 6.864,
+   "primary_category": "cs.AI",
+   "why": null
+  },
+  {
+   "id": "2609.18863",
+   "title": "Physics-based prediction, uncertainty quantification and decision-making for IN718 crystallographic texture intensity across LPBF defocus regimes",
+   "authors": [
+    "Yisheng Lu",
+    "John Riris",
+    "Jie Song",
+    "Yao Fu",
+    "Jie Chen"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18863",
+   "pdf_url": "https://arxiv.org/pdf/2609.18863",
+   "topic": "SEIKM-05",
+   "secondary_topics": [
+    "SEIKM-03"
+   ],
+   "score": 9.782,
+   "rank_score": 6.835,
+   "primary_category": "cs.LG",
+   "why": null
+  },
+  {
+   "id": "2609.17841",
+   "title": "Hybrid coupling with numerics-informed neural networks and the overlapping Schwarz alternating method",
+   "authors": [
+    "George Chumbipuma",
+    "Irina Tezaur",
+    "Alejandro Diaz",
+    "Beatrice Riviere"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.17841",
+   "pdf_url": "https://arxiv.org/pdf/2609.17841",
+   "topic": "SEIKM-05",
+   "secondary_topics": [],
+   "score": 9.544,
+   "rank_score": 6.506,
+   "primary_category": "cs.LG",
+   "why": null
+  },
+  {
+   "id": "2609.18473",
+   "title": "CADSplat: Sparse-View 3D Gaussian Splatting Aided by CAD Models for Robust, Photorealistic Digital-Twin Reconstruction",
+   "authors": [
+    "Kristof Overdulve",
+    "Lode Jorissen",
+    "Nick Michiels"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18473",
+   "pdf_url": "https://arxiv.org/pdf/2609.18473",
    "topic": "SEIKM-02",
    "secondary_topics": [
     "SEIKM-04"
    ],
-   "score": 9.475,
-   "rank_score": 9.475,
-   "primary_category": "cs.AI",
+   "score": 6.48,
+   "rank_score": 6.48,
+   "primary_category": "cs.CV",
    "why": null
   },
   {
-   "id": "2609.17063",
-   "title": "Development of a Physics-Informed Neural Framework, MEOWN, for Rapid Prediction of Muon Stopping Sites in Crystalline Materials, for understanding Quantum Magnet employing Muon Spectroscopy",
+   "id": "2609.19138",
+   "title": "In-Context Robot Learning with VLM Agents",
    "authors": [
-    "A. Pandey",
-    "K. Sharma",
-    "S. Ghosh",
-    "G. Roy",
-    "T. Basu"
+    "Dongzhou Cheng",
+    "Taoran Yi",
+    "Ye Fang",
+    "Xingwu Zhang",
+    "Fan Feng",
+    "Yixuan Li",
+    "Gengxiong Zhuang",
+    "Rongze Wang",
+    "Shuai Yang",
+    "Wei Song",
+    "Weizhi Xue",
+    "Minyan Wu",
+    "Jie Gui",
+    "Jiaqi Wang",
+    "Tong Wu"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.17063",
-   "pdf_url": "https://arxiv.org/pdf/2609.17063",
-   "topic": "SEIKM-05",
-   "secondary_topics": [],
-   "score": 8.828,
-   "rank_score": 8.828,
-   "primary_category": "cond-mat.mtrl-sci",
-   "why": null
-  },
-  {
-   "id": "2609.16251",
-   "title": "CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design",
-   "authors": [
-    "Zihan Dong",
-    "Yuanzhe Liu",
-    "Zhiyuan Ma",
-    "Qishi Zhan",
-    "Dehan Kong",
-    "Guohao Li",
-    "Kaixin Li"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16251",
-   "pdf_url": "https://arxiv.org/pdf/2609.16251",
-   "topic": "SEIKM-02",
-   "secondary_topics": [
-    "SEIKM-06"
-   ],
-   "score": 8.4,
-   "rank_score": 8.4,
-   "primary_category": "cs.AI",
-   "why": null
-  },
-  {
-   "id": "2609.16599",
-   "title": "Large Language Models in the Loop: A Stability- and Network-Aware Survey in Networked Control, Cyber-Physical, and Multi-Agent Systems",
-   "authors": [
-    "Haiping Du",
-    "Linping Chan"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16599",
-   "pdf_url": "https://arxiv.org/pdf/2609.16599",
-   "topic": "SEIKM-02",
-   "secondary_topics": [
-    "SEIKM-07"
-   ],
-   "score": 8.4,
-   "rank_score": 8.4,
-   "primary_category": "eess.SY",
-   "why": null
-  },
-  {
-   "id": "2609.16705",
-   "title": "The Robot Data Factory",
-   "authors": [
-    "Sami Haddadin",
-    "Ivan Laptev",
-    "Ian Reid",
-    "Dezhen Song",
-    "Cesare Stefanini",
-    "Abdalla Swikir",
-    "Xingxing Zuo",
-    "Lyes Saad Saoud",
-    "Mahmoud Hamandi",
-    "Mohamed Heshmat",
-    "Oualid Doukhi",
-    "Abdeldjallil Naceri",
-    "Attique Bashar",
-    "Abdelrahim Mohamed",
-    "Teodor Tomic",
-    "Yue Peng",
-    "Samuel Schneider",
-    "Cheng-Chung Lee",
-    "Janine Guo",
-    "Qinghao Zhang",
-    "Kim Jeffery"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16705",
-   "pdf_url": "https://arxiv.org/pdf/2609.16705",
+   "abs_url": "https://arxiv.org/abs/2609.19138",
+   "pdf_url": "https://arxiv.org/pdf/2609.19138",
    "topic": "SEIKM-07",
    "secondary_topics": [
-    "SEIKM-04",
     "SEIKM-02"
    ],
-   "score": 8.377,
-   "rank_score": 8.377,
-   "primary_category": "cs.RO",
-   "why": null
-  },
-  {
-   "id": "2609.16621",
-   "title": "Stable by Construction: Variational Latent Markov Operators for Long-Horizon PDE Prediction",
-   "authors": [
-    "Junyi Liao",
-    "Johann Guilleminot",
-    "Vahid Tarokh"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16621",
-   "pdf_url": "https://arxiv.org/pdf/2609.16621",
-   "topic": "SEIKM-05",
-   "secondary_topics": [],
-   "score": 6.974,
-   "rank_score": 6.974,
-   "primary_category": "cs.LG",
-   "why": null
-  },
-  {
-   "id": "2609.16466",
-   "title": "Scaling LLM Agents for Materials Design through Hierarchical Collective Reasoning",
-   "authors": [
-    "Jaehwan Choi",
-    "Yousung Jung"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16466",
-   "pdf_url": "https://arxiv.org/pdf/2609.16466",
-   "topic": "SEIKM-02",
-   "secondary_topics": [],
-   "score": 7.584,
-   "rank_score": 6.891,
-   "primary_category": "cond-mat.mtrl-sci",
-   "why": null
-  },
-  {
-   "id": "2609.16437",
-   "title": "XRoboToolKit-T: Teleoperation with High Stability and Precision with Tactile Sensing for Contact-rich Manipulation",
-   "authors": [
-    "Xiwen Dengxiong",
-    "Xueting Wang",
-    "Ke Jing",
-    "Rui Li",
-    "Yunbo Zhang"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16437",
-   "pdf_url": "https://arxiv.org/pdf/2609.16437",
-   "topic": "SEIKM-07",
-   "secondary_topics": [],
-   "score": 9.667,
-   "rank_score": 6.675,
-   "primary_category": "cs.RO",
-   "why": null
-  },
-  {
-   "id": "2609.16095",
-   "title": "RAG-CT: Mitigating Privacy Risks on Retrieval-Augmented Generation Systems via Scanning Prompt Distribution",
-   "authors": [
-    "Xingyu Lyu",
-    "Jiayimei Wang",
-    "Jianfeng He",
-    "Ning Wang",
-    "Yidan Hu",
-    "Yimin Chen"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16095",
-   "pdf_url": "https://arxiv.org/pdf/2609.16095",
-   "topic": "SEIKM-02",
-   "secondary_topics": [],
-   "score": 9.667,
-   "rank_score": 6.675,
-   "primary_category": "cs.CL",
-   "why": null
-  },
-  {
-   "id": "2609.17440",
-   "title": "Reduced-Space Multi-Fidelity Bayesian Optimization of Process Simulation Models",
-   "authors": [
-    "Niki Triantafyllou",
-    "Andrea Bernardi",
-    "Maria M. Papathanasiou"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.17440",
-   "pdf_url": "https://arxiv.org/pdf/2609.17440",
-   "topic": "SEIKM-05",
-   "secondary_topics": [
-    "SEIKM-03",
-    "SEIKM-04"
-   ],
-   "score": 7.2,
-   "rank_score": 6.542,
-   "primary_category": "cs.LG",
-   "why": null
-  },
-  {
-   "id": "2609.16074",
-   "title": "World-Action Models for Robot Learning and Control: A Survey",
-   "authors": [
-    "Zuxing Lu",
-    "Hongjia Zhai",
-    "Guanzhi Wang",
-    "Huajian Zeng",
-    "Jiaqi Yang",
-    "Jingyu Liu",
-    "Lei Cheng",
-    "Yuantai Zhang",
-    "Yuheng Qiu",
-    "Zezhou Cheng",
-    "Ivan Laptev",
-    "Danfei Xu",
-    "Benjamin Riviere",
-    "Giuseppe Loianno",
-    "Eric Xing",
-    "Xingxing Zuo"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16074",
-   "pdf_url": "https://arxiv.org/pdf/2609.16074",
-   "topic": "SEIKM-07",
-   "secondary_topics": [],
    "score": 9.475,
    "rank_score": 6.413,
-   "primary_category": "cs.RO",
+   "primary_category": "cs.CV",
    "why": null
   },
   {
-   "id": "2609.15997",
-   "title": "Crash Narrative-Guided Countermeasure Recommendation Using Large Language Models: A Retrieval-Augmented Generation Framework for Intersection Safety",
+   "id": "2609.18736",
+   "title": "Clueing up LLMs with Tool-Augmented Deductive Reasoning",
    "authors": [
-    "Abu Saif Md Nasim Uddin",
-    "Mohamed Abdel-Aty",
-    "Zubayer Islam",
-    "Parvez Anowar",
-    "Chenzhu Wang"
+    "Rebecca Ansell",
+    "Autumn Toney-Wails"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.15997",
-   "pdf_url": "https://arxiv.org/pdf/2609.15997",
+   "abs_url": "https://arxiv.org/abs/2609.18736",
+   "pdf_url": "https://arxiv.org/pdf/2609.18736",
    "topic": "SEIKM-02",
    "secondary_topics": [],
    "score": 9.36,
    "rank_score": 6.258,
-   "primary_category": "cs.CL",
-   "why": null
-  },
-  {
-   "id": "2609.17210",
-   "title": "FluxVLA Engine: A One-Stop VLA Engineering Platform for Embodied Intelligence",
-   "authors": [
-    "Yinhao Li",
-    "Weixin Mao",
-    "Zihan Lan",
-    "Jikun Rong",
-    "Qirui Hu",
-    "Yiming Zhang",
-    "Weipeng Deng",
-    "Bowen Shen",
-    "Minzhao Zhu",
-    "Yiming Mao",
-    "Yan Yang",
-    "Chenguang Cui",
-    "Hongyuan Chen",
-    "Xu Huang",
-    "Zheyi Zhao",
-    "Pinxi Shen",
-    "Bozhen He",
-    "Zhen Fu",
-    "Yifan Wang",
-    "Zexin Zhang",
-    "Ang Gao",
-    "Haoyu Chen",
-    "Chengqi Shi",
-    "Hua Chen"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.17210",
-   "pdf_url": "https://arxiv.org/pdf/2609.17210",
-   "topic": "SEIKM-07",
-   "secondary_topics": [],
-   "score": 6.091,
-   "rank_score": 6.091,
-   "primary_category": "cs.RO",
-   "why": null
-  },
-  {
-   "id": "2609.16066",
-   "title": "A panoramic aerodynamic performance prediction method for turbomachinery cascades using transformer-enhanced neural operator",
-   "authors": [
-    "Qineng Wang",
-    "Zhendong Guo",
-    "Liming Song",
-    "Tianyuan Liu"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16066",
-   "pdf_url": "https://arxiv.org/pdf/2609.16066",
-   "topic": "SEIKM-05",
-   "secondary_topics": [],
-   "score": 9.168,
-   "rank_score": 6.004,
-   "primary_category": "cs.LG",
-   "why": null
-  },
-  {
-   "id": "2609.17101",
-   "title": "High-Fidelity Digital Twin Data Models by Randomized Dynamic Mode Decomposition and Deep Learning with Applications in Fluid Dynamics",
-   "authors": [
-    "Diana A. Bistrian"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.17101",
-   "pdf_url": "https://arxiv.org/pdf/2609.17101",
-   "topic": "SEIKM-04",
-   "secondary_topics": [
-    "SEIKM-02",
-    "SEIKM-05"
-   ],
-   "score": 6.0,
-   "rank_score": 6.0,
-   "primary_category": "cs.LG",
-   "why": null
-  },
-  {
-   "id": "2609.17258",
-   "title": "An Exemplar of a Digital Twin in Mechanical Engineering: Understanding Model Hybridization",
-   "authors": [
-    "Mahussi Datongnon",
-    "Hubert Lejeune",
-    "Yoann Jus",
-    "Benoit Combemale",
-    "IRISA",
-    "DiverSe)",
-    "Julien Deantoni",
-    "Laboratoire I3S - COMRED",
-    "KAIROS)"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.17258",
-   "pdf_url": "https://arxiv.org/pdf/2609.17258",
-   "topic": "SEIKM-04",
-   "secondary_topics": [
-    "SEIKM-07"
-   ],
-   "score": 6.0,
-   "rank_score": 6.0,
-   "primary_category": "cs.SE",
-   "why": null
-  },
-  {
-   "id": "2609.16503",
-   "title": "Dense to MoE Adaptation for Compact Vision Language Action Policies",
-   "authors": [
-    "Muchun Niu",
-    "Shuang Chen",
-    "Yuzhou Wu",
-    "Linfeng Zhang"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16503",
-   "pdf_url": "https://arxiv.org/pdf/2609.16503",
-   "topic": "SEIKM-07",
-   "secondary_topics": [],
-   "score": 9.091,
-   "rank_score": 5.903,
-   "primary_category": "cs.RO",
-   "why": null
-  },
-  {
-   "id": "2609.16504",
-   "title": "UniDex-ViTac: Learning Unified Visuo-Tactile Dexterous Manipulation Policy from Human Video Data",
-   "authors": [
-    "Hyesung Lee",
-    "Si-Hwan Heo",
-    "Sungwook Yang"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16504",
-   "pdf_url": "https://arxiv.org/pdf/2609.16504",
-   "topic": "SEIKM-07",
-   "secondary_topics": [],
-   "score": 9.091,
-   "rank_score": 5.903,
-   "primary_category": "cs.RO",
-   "why": null
-  },
-  {
-   "id": "2609.16498",
-   "title": "Geospatial Metadata Improves Discoverability by Connecting Datasets Across Scientific Disciplines",
-   "authors": [
-    "Daniel Ebanks",
-    "Devika Jain"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16498",
-   "pdf_url": "https://arxiv.org/pdf/2609.16498",
-   "topic": "SEIKM-02",
-   "secondary_topics": [],
-   "score": 7.627,
-   "rank_score": 5.884,
-   "primary_category": "cs.DL",
-   "why": null
-  },
-  {
-   "id": "2609.16301",
-   "title": "CLEAR: Cross-Source Evidence Adjudication for Large Language Models in Medicine",
-   "authors": [
-    "Shuai Wang",
-    "Yize Zhao",
-    "Qingyu Chen"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16301",
-   "pdf_url": "https://arxiv.org/pdf/2609.16301",
-   "topic": "SEIKM-02",
-   "secondary_topics": [],
-   "score": 8.899,
-   "rank_score": 5.657,
    "primary_category": "cs.AI",
    "why": null
   },
   {
-   "id": "2609.17349",
-   "title": "RobResilience: Implementing and Evaluating a Resilience Framework for Cyber-Physical Embodied Systems",
+   "id": "2609.18514",
+   "title": "ActiveScale: Scaling Active Perception for Robots across Model, Data, and Hardware",
    "authors": [
-    "Gysella Imrell",
-    "Emanuele Miotto",
-    "Mahya Mohammadi Kashani",
-    "Mauro Conti",
-    "Alberto Giaretta"
+    "Shuai Zhou",
+    "Kaisheng Pang",
+    "Wenxuan Song",
+    "Wenjie Zhang",
+    "Xinhu Zheng",
+    "Haoang Li"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.17349",
-   "pdf_url": "https://arxiv.org/pdf/2609.17349",
-   "topic": "SEIKM-GEN",
+   "abs_url": "https://arxiv.org/abs/2609.18514",
+   "pdf_url": "https://arxiv.org/pdf/2609.18514",
+   "topic": "SEIKM-07",
    "secondary_topics": [],
-   "score": 5.285,
-   "rank_score": 5.285,
-   "primary_category": "cs.CR",
+   "score": 9.348,
+   "rank_score": 6.242,
+   "primary_category": "cs.RO",
    "why": null
   },
   {
-   "id": "2609.17018",
-   "title": "GANADI: Uncovering C/C++ OSS Reuse Genealogies via Pivotal Function-Based Clustering to Enhance Supply Chain Security",
+   "id": "2609.18894",
+   "title": "Learning Lyapunov Operators for Nonlinear Systems",
    "authors": [
-    "Dongyeon Kim",
-    "Seunghoon Woo",
-    "Heejo Lee"
+    "Amartya Mukherjee",
+    "Maxwell Fitzsimmons",
+    "David C. Del Rey Fern\u00e1ndez",
+    "Jun Liu"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.17018",
-   "pdf_url": "https://arxiv.org/pdf/2609.17018",
+   "abs_url": "https://arxiv.org/abs/2609.18894",
+   "pdf_url": "https://arxiv.org/pdf/2609.18894",
+   "topic": "SEIKM-05",
+   "secondary_topics": [],
+   "score": 8.088,
+   "rank_score": 6.239,
+   "primary_category": "math.AP",
+   "why": null
+  },
+  {
+   "id": "2609.18293",
+   "title": "Function-Preserving Data Generation for Zero-Shot Real-to-Sim-to-Real Manipulation",
+   "authors": [
+    "Tianyi Xiang",
+    "Xupeng Xie",
+    "Jiahang Cao",
+    "Andrew F. Luo",
+    "Haoang Li",
+    "Jun Ma"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18293",
+   "pdf_url": "https://arxiv.org/pdf/2609.18293",
+   "topic": "SEIKM-07",
+   "secondary_topics": [],
+   "score": 9.337,
+   "rank_score": 6.227,
+   "primary_category": "cs.RO",
+   "why": null
+  },
+  {
+   "id": "2609.18027",
+   "title": "Agents in the Scene: An Agentic Framework for Resource-Efficient Site-Specific Base Station Deployment",
+   "authors": [
+    "Zihao Zhou",
+    "Zhaolin Wang",
+    "Yuanwei Liu"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18027",
+   "pdf_url": "https://arxiv.org/pdf/2609.18027",
+   "topic": "SEIKM-02",
+   "secondary_topics": [
+    "SEIKM-04"
+   ],
+   "score": 7.2,
+   "rank_score": 6.192,
+   "primary_category": "eess.SY",
+   "why": null
+  },
+  {
+   "id": "2609.18111",
+   "title": "A Comprehensive Review of Generative Physical Artificial Intelligence",
+   "authors": [
+    "Satyam Gaba",
+    "Krutiksinh Rana",
+    "Siva Sai",
+    "Vinay Chamola",
+    "Dusit Niyato"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18111",
+   "pdf_url": "https://arxiv.org/pdf/2609.18111",
+   "topic": "SEIKM-07",
+   "secondary_topics": [
+    "SEIKM-02"
+   ],
+   "score": 7.873,
+   "rank_score": 5.909,
+   "primary_category": "cs.RO",
+   "why": null
+  },
+  {
+   "id": "2609.18555",
+   "title": "Interpretable Patch-Based Deep Learning for Wildfire Spread Prediction from Ensemble Simulations",
+   "authors": [
+    "Marcin Lawenda",
+    "Aleksandra Krasicka",
+    "David Caballero",
+    "Luis Torres",
+    "\u0141ukasz Szustak"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18555",
+   "pdf_url": "https://arxiv.org/pdf/2609.18555",
+   "topic": "SEIKM-05",
+   "secondary_topics": [],
+   "score": 6.02,
+   "rank_score": 5.734,
+   "primary_category": "cs.LG",
+   "why": null
+  },
+  {
+   "id": "2609.19048",
+   "title": "Integrated Optimization of Automated Warehouse Operations and Last-Mile Transport for Differentiated On-Demand Delivery",
+   "authors": [
+    "Xiaozhu Sun",
+    "Bilal Farooq"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.19048",
+   "pdf_url": "https://arxiv.org/pdf/2609.19048",
+   "topic": "SEIKM-04",
+   "secondary_topics": [],
+   "score": 5.774,
+   "rank_score": 5.246,
+   "primary_category": "cs.LG",
+   "why": null
+  },
+  {
+   "id": "2609.18583",
+   "title": "ERAF4XRD: A multimodal agentic framework for constructing validated experimental X-ray diffraction databases from scientific literature",
+   "authors": [
+    "Afnan Mostafa",
+    "William Ratcliff",
+    "Simon J. L. Billinge",
+    "Niaz Abdolrahim"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18583",
+   "pdf_url": "https://arxiv.org/pdf/2609.18583",
+   "topic": "SEIKM-02",
+   "secondary_topics": [],
+   "score": 8.521,
+   "rank_score": 5.186,
+   "primary_category": "cond-mat.mtrl-sci",
+   "why": null
+  },
+  {
+   "id": "2609.18704",
+   "title": "Toward Composable Network Digital Twins: A Subgraph-Based Latency Prediction Study",
+   "authors": [
+    "Shenjia Ding",
+    "David Flynn",
+    "Paul Harvey"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18704",
+   "pdf_url": "https://arxiv.org/pdf/2609.18704",
    "topic": "SEIKM-04",
    "secondary_topics": [],
    "score": 6.0,
    "rank_score": 5.143,
-   "primary_category": "cs.SE",
+   "primary_category": "cs.NI",
    "why": null
   },
   {
-   "id": "2609.16487",
-   "title": "Skill-based Agentic Evaluation for Real-time Data Science Tasks",
+   "id": "2609.18243",
+   "title": "Acting in Meters: Learning Metric Interactions for Precise Robotic Manipulation",
    "authors": [
-    "Aniruddha Tamhane",
-    "Raghavendra Addanki",
-    "Ayushi Aggarwal",
-    "Aditya Bansal",
-    "Rui Wang",
-    "Charles Menguy",
-    "Swati Jain"
+    "Lijie Wang",
+    "Zheng Lu",
+    "Yiming Wang",
+    "Heyang Yu",
+    "Kenghou Hoi",
+    "Bowen Hu",
+    "Di Cui",
+    "Tianyu Xin",
+    "Haoran Liao",
+    "Wanqi Zhong",
+    "Xingjie Fan",
+    "Yizhao Xu",
+    "Ziliang Wang",
+    "Fei Gao",
+    "Yiming Li"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.16487",
-   "pdf_url": "https://arxiv.org/pdf/2609.16487",
-   "topic": "SEIKM-02",
-   "secondary_topics": [],
-   "score": 8.467,
-   "rank_score": 5.121,
-   "primary_category": "cs.AI",
-   "why": null
-  },
-  {
-   "id": "2609.16155",
-   "title": "LLMs as Master Forgers: Generating Synthetic Time Series Data for Manufacturing",
-   "authors": [
-    "Mantek Singh",
-    "Jeshwanth Challagundla",
-    "Prateek Karnal",
-    "Gagan Ganapathy",
-    "Vineet Shah",
-    "Ridam Arora"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16155",
-   "pdf_url": "https://arxiv.org/pdf/2609.16155",
-   "topic": "SEIKM-02",
-   "secondary_topics": [],
-   "score": 5.928,
-   "rank_score": 5.081,
-   "primary_category": "cs.LG",
-   "why": null
-  },
-  {
-   "id": "2609.16091",
-   "title": "Distilling Foundation Models for Agentic What-If Reasoning:Cost, Latency, and Governance in a Hybrid LLM+SLM Architecture",
-   "authors": [
-    "Sourish Dey",
-    "Aditya Kumar"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16091",
-   "pdf_url": "https://arxiv.org/pdf/2609.16091",
-   "topic": "SEIKM-02",
-   "secondary_topics": [],
-   "score": 8.4,
-   "rank_score": 5.04,
-   "primary_category": "cs.LG",
-   "why": null
-  },
-  {
-   "id": "2609.16309",
-   "title": "Agentic Search Spaces for Tabular Machine Learning",
-   "authors": [
-    "Renat Sergazinov",
-    "Artem Chistyakov",
-    "Sergey Pankevich",
-    "Artem Babenko"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16309",
-   "pdf_url": "https://arxiv.org/pdf/2609.16309",
-   "topic": "SEIKM-02",
-   "secondary_topics": [],
-   "score": 8.4,
-   "rank_score": 5.04,
-   "primary_category": "cs.LG",
-   "why": null
-  },
-  {
-   "id": "2609.16075",
-   "title": "AssemblyGrid v1: A Benchmark for Multi-Robot Production with Temporary Coalitions, Local Information, and Geometric Constraints",
-   "authors": [
-    "Fouad Bahrpeyma",
-    "David Heik",
-    "Dirk Reichelt"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16075",
-   "pdf_url": "https://arxiv.org/pdf/2609.16075",
+   "abs_url": "https://arxiv.org/abs/2609.18243",
+   "pdf_url": "https://arxiv.org/pdf/2609.18243",
    "topic": "SEIKM-07",
    "secondary_topics": [],
-   "score": 4.728,
-   "rank_score": 4.728,
+   "score": 8.4,
+   "rank_score": 5.04,
    "primary_category": "cs.RO",
    "why": null
   },
   {
-   "id": "2609.17062",
-   "title": "A Set-Theoretic Evaluation Framework for Assessing Asset Administration Shell Instances: Towards Comparability and Suitability",
+   "id": "2609.18460",
+   "title": "Collective Loss of Control in LLM Agent Systems: An Epidemic Account of Mutation, Contagion, and Recovery",
    "authors": [
-    "Carsten Ellwein",
-    "David Dietrich",
-    "Rozana Cvitkovic",
-    "Bastian Lang",
-    "Hansjoerg Tutsch",
-    "Andreas Wortmann"
+    "Xiangfan Wu",
+    "Zonghao Ying",
+    "Huiyu Wu",
+    "Xing Zheng",
+    "Huangsheng Cheng",
+    "Xiaorong Shi",
+    "Jing Guo"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.17062",
-   "pdf_url": "https://arxiv.org/pdf/2609.17062",
-   "topic": "SEIKM-GEN",
+   "abs_url": "https://arxiv.org/abs/2609.18460",
+   "pdf_url": "https://arxiv.org/pdf/2609.18460",
+   "topic": "SEIKM-02",
    "secondary_topics": [],
-   "score": 4.68,
-   "rank_score": 4.68,
-   "primary_category": "cs.SE",
+   "score": 8.4,
+   "rank_score": 5.04,
+   "primary_category": "cs.AI",
    "why": null
   },
   {
-   "id": "2609.16046",
-   "title": "Asymmetric Weighted Earliness-Tardiness: Scheduling with a Nonrestrictive Common Due Date",
+   "id": "2609.18259",
+   "title": "M\u00b2Tok: Multi-head Multi-codebook Discrete Action Tokenization for Vision-Language-Action Models",
    "authors": [
-    "Nicholas G. Hall",
-    "Hans Kellerer",
-    "Austria)",
-    "Miao Song",
-    "Hong Kong)"
+    "Chunpu Xu",
+    "Zhixuan Liang",
+    "Yuhao Zhang",
+    "Chi-Min Chan",
+    "Jessie Wang",
+    "Yang Xiao",
+    "Mengkang Hu",
+    "Xiaokang Yang",
+    "Yao Mu"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.16046",
-   "pdf_url": "https://arxiv.org/pdf/2609.16046",
-   "topic": "SEIKM-04",
-   "secondary_topics": [],
-   "score": 5.4,
-   "rank_score": 4.629,
-   "primary_category": "math.OC",
-   "why": null
-  },
-  {
-   "id": "2609.16056",
-   "title": "Managing Action Preconditions in Neuro-Symbolic RL: Three Placement Strategies for Embodied Agents",
-   "authors": [
-    "Norbert Oswald",
-    "Fabian Deuser",
-    "Thomas Br\u00e4unl"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16056",
-   "pdf_url": "https://arxiv.org/pdf/2609.16056",
+   "abs_url": "https://arxiv.org/abs/2609.18259",
+   "pdf_url": "https://arxiv.org/pdf/2609.18259",
    "topic": "SEIKM-07",
    "secondary_topics": [],
-   "score": 7.584,
-   "rank_score": 4.55,
-   "primary_category": "cs.LG",
+   "score": 8.4,
+   "rank_score": 5.04,
+   "primary_category": "cs.RO",
    "why": null
   },
   {
-   "id": "2609.16041",
-   "title": "MR-GLi: Mixed Reality-Based Gripper-Linked Overlays for Underwater Robot Arm Teleoperation via Bilateral Control",
+   "id": "2609.18445",
+   "title": "M-SQE: Multilingual Skill Quality Estimation for Enhancing Language Equality in Agentic Skill Use",
    "authors": [
-    "Masashi Sasago",
-    "Masato Kobayashi",
-    "Yuki Uranishi"
+    "Yilun Liu",
+    "Shimin Tao",
+    "Minggui He",
+    "Chenxin Liu",
+    "Li Zhang",
+    "Chen Liu",
+    "Miao Zhang",
+    "Jiaxin Guo",
+    "Min Zhang",
+    "Liqun Deng",
+    "Xiaojun Meng",
+    "Daimeng Wei"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.16041",
-   "pdf_url": "https://arxiv.org/pdf/2609.16041",
+   "abs_url": "https://arxiv.org/abs/2609.18445",
+   "pdf_url": "https://arxiv.org/pdf/2609.18445",
+   "topic": "SEIKM-02",
+   "secondary_topics": [],
+   "score": 8.4,
+   "rank_score": 5.04,
+   "primary_category": "cs.CL",
+   "why": null
+  },
+  {
+   "id": "2609.18437",
+   "title": "Exploring LLMs and RAG for Plausible and Explainable Material Prediction of Vehicle Components",
+   "authors": [
+    "Frederik Wagner",
+    "Annerose Eichel",
+    "Sabine Schulte im Walde"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18437",
+   "pdf_url": "https://arxiv.org/pdf/2609.18437",
+   "topic": "SEIKM-02",
+   "secondary_topics": [],
+   "score": 6.667,
+   "rank_score": 4.915,
+   "primary_category": "cs.IR",
+   "why": null
+  },
+  {
+   "id": "2609.18820",
+   "title": "Compositional Policy Violations: When Step-Level Compliance Fails In Agentic AI Workflows",
+   "authors": [
+    "Ashwini Kurady",
+    "Sri Sai Charith Grandhi",
+    "Rajesh Gupta",
+    "Sumit Mamoria"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18820",
+   "pdf_url": "https://arxiv.org/pdf/2609.18820",
+   "topic": "SEIKM-02",
+   "secondary_topics": [],
+   "score": 8.16,
+   "rank_score": 4.756,
+   "primary_category": "cs.AI",
+   "why": null
+  },
+  {
+   "id": "2609.18031",
+   "title": "Online Multimodal Workload Assessment in Contact-Rich Physical Human-Robot Interaction",
+   "authors": [
+    "Yanyi Chen",
+    "Fan Yang",
+    "Min Deng"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18031",
+   "pdf_url": "https://arxiv.org/pdf/2609.18031",
    "topic": "SEIKM-07",
    "secondary_topics": [],
    "score": 7.968,
@@ -764,216 +674,325 @@
    "why": null
   },
   {
-   "id": "2609.16853",
-   "title": "Can Deep Learning Achieve Cross-Physics Mapping?",
+   "id": "2609.18456",
+   "title": "Optimization Design and Simulation Validation of a Variable Stiffness Actuator Based on a Crossed Four-Bar Mechanism",
    "authors": [
-    "Pengfei Zhu",
-    "Julien Lecompagnon",
-    "Mathias Ziegler"
+    "Yuanlong Ji",
+    "Ruizhe Jiang",
+    "Xiangyu Xie",
+    "Junheng Lin",
+    "Dongrun Jin",
+    "Xingbang Yang"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.16853",
-   "pdf_url": "https://arxiv.org/pdf/2609.16853",
-   "topic": "SEIKM-05",
-   "secondary_topics": [],
-   "score": 7.934,
-   "rank_score": 4.496,
-   "primary_category": "cs.LG",
-   "why": null
-  },
-  {
-   "id": "2609.16157",
-   "title": "Computer-assisted global regularity across nonlinear families of three-dimensional periodic Navier-Stokes flows",
-   "authors": [
-    "Jose Luis Lima de Jesus Silva"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16157",
-   "pdf_url": "https://arxiv.org/pdf/2609.16157",
-   "topic": "SEIKM-05",
-   "secondary_topics": [],
-   "score": 6.091,
-   "rank_score": 4.49,
-   "primary_category": "physics.flu-dyn",
-   "why": null
-  },
-  {
-   "id": "2609.17021",
-   "title": "sensVLA: Spatially-Grounded Vision-Language-Action Model for Autonomous Wheel Loader",
-   "authors": [
-    "Gopi Krishna Erabati",
-    "Bjarne Johannsen",
-    "Angus Stewart",
-    "Vardeep Singh Sandhu"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.17021",
-   "pdf_url": "https://arxiv.org/pdf/2609.17021",
-   "topic": "SEIKM-07",
-   "secondary_topics": [],
-   "score": 6.48,
-   "rank_score": 4.184,
-   "primary_category": "cs.CV",
-   "why": null
-  },
-  {
-   "id": "2609.17476",
-   "title": "Designing Homogeneous Ti-Nb-Fe-Sn \u03b2 Titanium Alloys by PBF-LB: A Pre-Alloyed Powder Blend Strategy",
-   "authors": [
-    "Jo\u00e3o Felipe Queiroz Rodrigues",
-    "Krist\u00edna Bartha",
-    "Mariano Casas-Luna",
-    "Gilberto Vicente Prandi",
-    "M\u00e1rcio Sangali",
-    "Kate\u0159ina Fickov\u00e1",
-    "Ji\u0159\u00ed Kozl\u00edk",
-    "Michaela \u0160lap\u00e1kov\u00e1",
-    "Martin Koller",
-    "Adam Strnad",
-    "Josef Str\u00e1sk\u00fd",
-    "Milo\u0161 Jane\u010dek",
-    "Rubens Caram"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.17476",
-   "pdf_url": "https://arxiv.org/pdf/2609.17476",
-   "topic": "SEIKM-03",
-   "secondary_topics": [],
-   "score": 5.4,
-   "rank_score": 4.166,
-   "primary_category": "cond-mat.mtrl-sci",
-   "why": null
-  },
-  {
-   "id": "2609.16402",
-   "title": "Privacy-Preserving Coordinated Operation of Multi-Player Industrial Network Using Secure Aggregation",
-   "authors": [
-    "Akshdeep Singh Ahluwalia",
-    "Zachary Wilson",
-    "Jeffrey E. Arbogast",
-    "Can Li"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16402",
-   "pdf_url": "https://arxiv.org/pdf/2609.16402",
+   "abs_url": "https://arxiv.org/abs/2609.18456",
+   "pdf_url": "https://arxiv.org/pdf/2609.18456",
    "topic": "SEIKM-GEN",
    "secondary_topics": [],
-   "score": 3.871,
-   "rank_score": 3.871,
-   "primary_category": "cs.CE",
+   "score": 4.428,
+   "rank_score": 4.428,
+   "primary_category": "eess.SY",
    "why": null
   },
   {
-   "id": "2609.17260",
-   "title": "Towards Illusions Awareness in Cyber-Physical System's Design",
+   "id": "2609.17966",
+   "title": "The BAR-SOT Method: Long-term Average Cost Control as Stochastic Optimal Self-Transport",
    "authors": [
-    "Anna Di Placido",
-    "Laboratoire I3S - COMRED",
-    "KAIROS)",
-    "Nicolas Ferry",
-    "Julien Deantoni"
+    "Sharan Srinivasan",
+    "Berke M. Turkay",
+    "Harsha Honnappa"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.17260",
-   "pdf_url": "https://arxiv.org/pdf/2609.17260",
-   "topic": "SEIKM-06",
-   "secondary_topics": [],
-   "score": 3.775,
-   "rank_score": 3.775,
-   "primary_category": "cs.CL",
-   "why": null
-  },
-  {
-   "id": "2609.17160",
-   "title": "Neural Field Ensembles for Aerodynamic Surface Prediction: Winning Solution to the ONERA CRM Wall Distribution 2025 Challenge",
-   "authors": [
-    "Lionel Salesses",
-    "Caroline Sainvitu",
-    "Tariq Benamara"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.17160",
-   "pdf_url": "https://arxiv.org/pdf/2609.17160",
-   "topic": "SEIKM-05",
-   "secondary_topics": [
-    "SEIKM-03"
-   ],
-   "score": 4.021,
-   "rank_score": 3.758,
-   "primary_category": "cs.LG",
-   "why": null
-  },
-  {
-   "id": "2609.16697",
-   "title": "World Models for Embodied Intelligence: From Plausible to Controllable to Actionable",
-   "authors": [
-    "Nanjie Yao",
-    "Hao Wang",
-    "Chong Cheng",
-    "Zhikang Chen",
-    "Wenzhe Li",
-    "Jiafei Lyu",
-    "Li Shen",
-    "Peilin Zhao",
-    "Zongqing Lu",
-    "Gao Huang",
-    "Steven Hoi",
-    "Dacheng Tao",
-    "Deheng Ye"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16697",
-   "pdf_url": "https://arxiv.org/pdf/2609.16697",
-   "topic": "SEIKM-07",
-   "secondary_topics": [],
-   "score": 4.584,
-   "rank_score": 3.741,
-   "primary_category": "cs.RO",
-   "why": null
-  },
-  {
-   "id": "2609.16526",
-   "title": "Symbolic Ensemble Learning Enables Discovery of Fast Accurate Physics-Based Interatomic Potentials",
-   "authors": [
-    "Bilvin Varughese",
-    "Aditya Koneru",
-    "Adil Muhammad",
-    "Troy D. Loeffler",
-    "Sukriti Manna",
-    "Jan Michael Y. Carrillo",
-    "Orcun Yildiz",
-    "Thomas Peterka",
-    "Subramanian K. R. S. Sankaranarayanan"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.16526",
-   "pdf_url": "https://arxiv.org/pdf/2609.16526",
+   "abs_url": "https://arxiv.org/abs/2609.17966",
+   "pdf_url": "https://arxiv.org/pdf/2609.17966",
    "topic": "SEIKM-05",
    "secondary_topics": [],
-   "score": 7.075,
-   "rank_score": 3.575,
-   "primary_category": "cond-mat.mtrl-sci",
-   "why": null
-  },
-  {
-   "id": "2508.15953",
-   "title": "A unified vertical alignment and earthwork model in road design with a new convex optimization model for road networks",
-   "authors": [
-    "Sayan Sadhukhan",
-    "Warren Hare",
-    "Yves Lucet"
-   ],
-   "abs_url": "https://arxiv.org/abs/2508.15953",
-   "pdf_url": "https://arxiv.org/pdf/2508.15953",
-   "topic": "SEIKM-GEN",
-   "secondary_topics": [],
-   "score": 3.564,
-   "rank_score": 3.564,
+   "score": 7.873,
+   "rank_score": 4.427,
    "primary_category": "math.OC",
    "why": null
   },
   {
-   "id": "2609.17123",
-   "title": "AI for Science with GPT-6 Astra: Thermal Design and Electrothermal Analysis of 2D CFET",
+   "id": "2609.18245",
+   "title": "A3P5 NEMESIS Integrated Rover Design for Environmental Reconnaissance and Robotic Sampling with Reproducible Mobility Analysis and an External Data Machine Learning Calibration Benchmark",
    "authors": [
-    "Min-Hui Kim",
-    "Khushi Sharma",
-    "Sarah Zhang",
-    "Ye Wang"
+    "Shafi Bin Sultan",
+    "Sabik Bin Sultan",
+    "Safwan Sadad"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.17123",
-   "pdf_url": "https://arxiv.org/pdf/2609.17123",
+   "abs_url": "https://arxiv.org/abs/2609.18245",
+   "pdf_url": "https://arxiv.org/pdf/2609.18245",
+   "topic": "SEIKM-06",
+   "secondary_topics": [],
+   "score": 4.344,
+   "rank_score": 4.344,
+   "primary_category": "cs.RO",
+   "why": null
+  },
+  {
+   "id": "2609.18396",
+   "title": "Reliable Virtual Sensing: A Multi-Domain Benchmark for Robustness Under Sensor Failures",
+   "authors": [
+    "Jens U. Brandt",
+    "Noah C. Puetz",
+    "Alexander Windmann",
+    "Marc Hilbert",
+    "Elena Raponi",
+    "Thomas B\u00e4ck",
+    "Thomas Bartz-Beielstein"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18396",
+   "pdf_url": "https://arxiv.org/pdf/2609.18396",
+   "topic": "SEIKM-07",
+   "secondary_topics": [],
+   "score": 4.344,
+   "rank_score": 4.344,
+   "primary_category": "cs.LG",
+   "why": null
+  },
+  {
+   "id": "2609.18117",
+   "title": "OpenDexGrasp: Open-vocabulary Task-Oriented Dexterous Grasping",
+   "authors": [
+    "Jiyao Zhang",
+    "Junhan Wang",
+    "Tianyu Wang",
+    "Zeyuan Chen",
+    "Anthony Bolten",
+    "Yitong Peng",
+    "Hao Dong"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18117",
+   "pdf_url": "https://arxiv.org/pdf/2609.18117",
+   "topic": "SEIKM-07",
+   "secondary_topics": [],
+   "score": 7.627,
+   "rank_score": 4.322,
+   "primary_category": "cs.RO",
+   "why": null
+  },
+  {
+   "id": "2609.18130",
+   "title": "Benchmarking Tabular Foundation Models as Surrogates in Expensive Evolutionary Optimization",
+   "authors": [
+    "Lu Han",
+    "Jin Wang",
+    "Yuchen Li",
+    "Haoran Gu",
+    "Shulei Liu",
+    "Ziyang Shi",
+    "Wenao Lu",
+    "Handing Wang"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18130",
+   "pdf_url": "https://arxiv.org/pdf/2609.18130",
+   "topic": "SEIKM-03",
+   "secondary_topics": [
+    "SEIKM-02",
+    "SEIKM-05"
+   ],
+   "score": 4.2,
+   "rank_score": 4.2,
+   "primary_category": "cs.NE",
+   "why": null
+  },
+  {
+   "id": "2609.18566",
+   "title": "Deep learning emergent spacetime from fermionic spectral functions in holography",
+   "authors": [
+    "Koji Hashimoto",
+    "Hyun-Sik Jeong",
+    "Keun-Young Kim",
+    "Daichi Takeda",
+    "Kwan Yun"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18566",
+   "pdf_url": "https://arxiv.org/pdf/2609.18566",
+   "topic": "SEIKM-05",
+   "secondary_topics": [],
+   "score": 6.337,
+   "rank_score": 4.15,
+   "primary_category": "hep-th",
+   "why": null
+  },
+  {
+   "id": "2609.18128",
+   "title": "Symbolic Temporal Supervision of LLM Agents Using Contracts",
+   "authors": [
+    "Yifeng Xiao",
+    "Pierluigi Nuzzo"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18128",
+   "pdf_url": "https://arxiv.org/pdf/2609.18128",
+   "topic": "SEIKM-02",
+   "secondary_topics": [],
+   "score": 7.584,
+   "rank_score": 4.108,
+   "primary_category": "cs.AI",
+   "why": null
+  },
+  {
+   "id": "2609.18763",
+   "title": "Gated Residual Body-Hand Coordination for Whole-Body Humanoid Teleoperation",
+   "authors": [
+    "Ruiming Wu",
+    "Shuang Li",
+    "Liding Zhang",
+    "Alois Knoll",
+    "Zhaopeng Chen"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18763",
+   "pdf_url": "https://arxiv.org/pdf/2609.18763",
+   "topic": "SEIKM-07",
+   "secondary_topics": [],
+   "score": 7.584,
+   "rank_score": 4.108,
+   "primary_category": "cs.RO",
+   "why": null
+  },
+  {
+   "id": "2609.18283",
+   "title": "Where Should Agents Live? Energy-Memory Characterization of Agentic AI for the Edge-Cloud Continuum",
+   "authors": [
+    "Carolina Fortuna",
+    "Vid Han\u017eel",
+    "Tim Strnad",
+    "Bla\u017e Bertalani\u010d"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18283",
+   "pdf_url": "https://arxiv.org/pdf/2609.18283",
+   "topic": "SEIKM-02",
+   "secondary_topics": [],
+   "score": 7.584,
+   "rank_score": 4.108,
+   "primary_category": "cs.AI",
+   "why": null
+  },
+  {
+   "id": "2609.18520",
+   "title": "AeroWeaver: An Embodied-Agent Harness for Weaving Aerial Skills into Distributed, Adaptive Swarm Execution",
+   "authors": [
+    "Jiabin Lou",
+    "Yirong Yang",
+    "Haopeng Wang",
+    "Xuxin Lv",
+    "Xinyu Liu",
+    "Diyuan Hou",
+    "Xuehong Liu",
+    "Rongye Shi",
+    "Wenjun Wu"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18520",
+   "pdf_url": "https://arxiv.org/pdf/2609.18520",
+   "topic": "SEIKM-07",
+   "secondary_topics": [
+    "SEIKM-02"
+   ],
+   "score": 6.48,
+   "rank_score": 3.888,
+   "primary_category": "cs.AI",
+   "why": null
+  },
+  {
+   "id": "2609.18029",
+   "title": "Toward a Time-Aware Assessment Framework for the Carbon Cost of AI-Enabled Decarbonization",
+   "authors": [
+    "Chenrui Xu",
+    "Burcu Akinci",
+    "Christopher McComb"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18029",
+   "pdf_url": "https://arxiv.org/pdf/2609.18029",
+   "topic": "SEIKM-04",
+   "secondary_topics": [
+    "SEIKM-02"
+   ],
+   "score": 4.584,
+   "rank_score": 3.882,
+   "primary_category": "cs.CY",
+   "why": null
+  },
+  {
+   "id": "2609.17876",
+   "title": "Surface chemistry investigation of an additively manufactured Al-Mg-Si-Zr alloy: Studies from experiments and first-principles simulation",
+   "authors": [
+    "Zhengqing Wei",
+    "Philip Grimm",
+    "Inna Plyushchay",
+    "Volker Hoffmann",
+    "Nebahat Bulut",
+    "Lutfi Caglar Ege",
+    "Julia Kristin Hufenbach",
+    "Sibylle Gemming"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.17876",
+   "pdf_url": "https://arxiv.org/pdf/2609.17876",
+   "topic": "SEIKM-03",
+   "secondary_topics": [],
+   "score": 6.36,
+   "rank_score": 3.816,
+   "primary_category": "cond-mat.mtrl-sci",
+   "why": null
+  },
+  {
+   "id": "2609.18769",
+   "title": "Version- and Scope-Aware Question Answering over Normative Documents: A Deployed System and an End-to-End Evaluation at Production Scale",
+   "authors": [
+    "Liuyin Wang",
+    "Shuaipeng Jin",
+    "Jiwei Shi",
+    "Jensen Hsu"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18769",
+   "pdf_url": "https://arxiv.org/pdf/2609.18769",
+   "topic": "SEIKM-GEN",
+   "secondary_topics": [],
+   "score": 3.792,
+   "rank_score": 3.792,
+   "primary_category": "cs.AI",
+   "why": null
+  },
+  {
+   "id": "2609.18505",
+   "title": "Integrating Flipped Learning and Generative AI for Practice-Based Design Education: Evidence from a Knit Yarn Design Course",
+   "authors": [
+    "Hong Qu",
+    "Zichao Ling",
+    "Yadie Yang"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18505",
+   "pdf_url": "https://arxiv.org/pdf/2609.18505",
+   "topic": "SEIKM-06",
+   "secondary_topics": [],
+   "score": 6.217,
+   "rank_score": 3.73,
+   "primary_category": "cs.HC",
+   "why": null
+  },
+  {
+   "id": "2609.18847",
+   "title": "Quantum Computing in Next-Gen Smart Grid Operations: A Comprehensive Review",
+   "authors": [
+    "Md Habib Ullah"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.18847",
+   "pdf_url": "https://arxiv.org/pdf/2609.18847",
+   "topic": "SEIKM-04",
+   "secondary_topics": [],
+   "score": 4.651,
+   "rank_score": 3.632,
+   "primary_category": "eess.SY",
+   "why": null
+  },
+  {
+   "id": "2609.19087",
+   "title": "An Atlas and Design Rules for Single- and Dual-Atom Alloys",
+   "authors": [
+    "Fabian Berger",
+    "Yicheng Wang",
+    "E. Charles H. Sykes",
+    "Angelos Michaelides"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.19087",
+   "pdf_url": "https://arxiv.org/pdf/2609.19087",
    "topic": "SEIKM-GEN",
    "secondary_topics": [],
    "score": 3.564,
@@ -982,130 +1001,132 @@
    "why": null
   },
   {
-   "id": "2609.17124",
-   "title": "LOTUSim-Energy: A Maritime Simulator for Human-Drone Interaction in Autonomous Offshore Operation &amp; Maintenance",
+   "id": "2609.18434",
+   "title": "Hardware-Free Robotics Laboratories in Mixed Reality",
    "authors": [
-    "Juliette Grosset",
-    "Marie Dubromel",
-    "H\u00e9l\u00e8ne Lech\u00eane",
-    "Quentin Arzel",
-    "C\u00e9dric Buche",
-    "IMT Atlantique)"
+    "Santiago Berrezueta-Guzman",
+    "Habiba-Loai Khalil",
+    "Andrei Koshelev",
+    "Vanesa Metaj",
+    "Stefan Wagner"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.17124",
-   "pdf_url": "https://arxiv.org/pdf/2609.17124",
-   "topic": "SEIKM-07",
+   "abs_url": "https://arxiv.org/abs/2609.18434",
+   "pdf_url": "https://arxiv.org/pdf/2609.18434",
+   "topic": "SEIKM-GEN",
    "secondary_topics": [],
-   "score": 4.171,
-   "rank_score": 3.217,
+   "score": 3.546,
+   "rank_score": 3.546,
    "primary_category": "cs.RO",
    "why": null
   },
   {
-   "id": "2609.16288",
-   "title": "Drift Field Net: Learning Ocean Lagrangian advection fields from in-situ and satellite observations",
+   "id": "2609.17796",
+   "title": "Quantum Block Encodings for Periodic Two-Phase Finite Element Operators: 2D Poisson and 2D Elasticity",
    "authors": [
-    "Th\u00e9o Archambault",
-    "Pierre Garcia",
-    "Mattia Romero",
-    "Anastase Charantonis",
-    "Dominique B\u00e9r\u00e9ziat"
+    "Krishnan Suresh"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.16288",
-   "pdf_url": "https://arxiv.org/pdf/2609.16288",
-   "topic": "SEIKM-05",
+   "abs_url": "https://arxiv.org/abs/2609.17796",
+   "pdf_url": "https://arxiv.org/pdf/2609.17796",
+   "topic": "SEIKM-03",
    "secondary_topics": [],
-   "score": 5.137,
-   "rank_score": 3.082,
+   "score": 3.48,
+   "rank_score": 3.48,
+   "primary_category": "cs.CE",
+   "why": null
+  },
+  {
+   "id": "2609.17825",
+   "title": "NObSP: Functional Decomposition of Neural Networks via Oblique Subspace Projections",
+   "authors": [
+    "Alexander Caicedo",
+    "V\u00edctor De La Hoz",
+    "Santiago Alf\u00e9rez"
+   ],
+   "abs_url": "https://arxiv.org/abs/2609.17825",
+   "pdf_url": "https://arxiv.org/pdf/2609.17825",
+   "topic": "SEIKM-01",
+   "secondary_topics": [],
+   "score": 6.96,
+   "rank_score": 3.46,
    "primary_category": "cs.LG",
    "why": null
   },
   {
-   "id": "2609.16734",
-   "title": "The Closer, the Better: Engineering RGB Thermometric Performance in Tb3+, Eu3+-Doped MOFs",
+   "id": "2609.17948",
+   "title": "Apply-<x>Mag: One Tool to Support Many Inclusive Design Methods",
    "authors": [
-    "M. Szymczak",
-    "L. Giang",
-    "L. Marciniak"
+    "Sadia Afroz",
+    "Rudrajit Choudhuri",
+    "Fatima A. Moussaoui",
+    "Amreeta Chatterjee",
+    "Margaret Burnett",
+    "Anita Sarma"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.16734",
-   "pdf_url": "https://arxiv.org/pdf/2609.16734",
-   "topic": "SEIKM-GEN",
+   "abs_url": "https://arxiv.org/abs/2609.17948",
+   "pdf_url": "https://arxiv.org/pdf/2609.17948",
+   "topic": "SEIKM-06",
    "secondary_topics": [],
-   "score": 3.271,
-   "rank_score": 3.057,
-   "primary_category": "cond-mat.mtrl-sci",
+   "score": 6.96,
+   "rank_score": 3.46,
+   "primary_category": "cs.HC",
    "why": null
   },
   {
-   "id": "2609.16378",
-   "title": "Geometry vs Structure: Graph-Based Diagnostics for LiDAR Point-Cloud Simulation Fidelity",
+   "id": "2609.17627",
+   "title": "Flexible-body Modeling, Kinematic Identification, and Assembly Accuracy of Overconstrained Spatial Linkages",
    "authors": [
-    "Ghazal Farhani",
-    "Taufiq Rahman"
+    "Daniel Huczala",
+    "Michael Pieber",
+    "Johannes Gerstmayr",
+    "Andreas Mair",
+    "Frederik Schulte",
+    "Silvia Glas",
+    "Tomas Postulka",
+    "Ales Vysocky",
+    "Martin Pfurner"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.16378",
-   "pdf_url": "https://arxiv.org/pdf/2609.16378",
-   "topic": "SEIKM-04",
+   "abs_url": "https://arxiv.org/abs/2609.17627",
+   "pdf_url": "https://arxiv.org/pdf/2609.17627",
+   "topic": "SEIKM-GEN",
    "secondary_topics": [],
-   "score": 3.0,
-   "rank_score": 3.0,
+   "score": 3.369,
+   "rank_score": 3.244,
    "primary_category": "cs.RO",
    "why": null
   },
   {
-   "id": "2609.16899",
-   "title": "Optimal Control Strategies for a Network of Electric Vehicle Charging Energy Hubs with Smart Scheduling via Distributed Optimization",
+   "id": "2609.18287",
+   "title": "A continuous-time dynamic contracting problem with limited liability and finite horizon",
    "authors": [
-    "Diego Fernandez-Zapico",
-    "Finn Vehlhaber",
-    "Maedeh Izadi",
-    "Theo Hofman",
-    "Mauro Salazar"
+    "Andrea Bovo",
+    "Tiziano De Angelis",
+    "St\u00e9phane Villeneuve"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.16899",
-   "pdf_url": "https://arxiv.org/pdf/2609.16899",
-   "topic": "SEIKM-04",
+   "abs_url": "https://arxiv.org/abs/2609.18287",
+   "pdf_url": "https://arxiv.org/pdf/2609.18287",
+   "topic": "SEIKM-05",
    "secondary_topics": [],
-   "score": 3.0,
-   "rank_score": 3.0,
-   "primary_category": "eess.SY",
+   "score": 4.2,
+   "rank_score": 3.24,
+   "primary_category": "math.OC",
    "why": null
   },
   {
-   "id": "2609.16939",
-   "title": "Review on Electric Railway System Optimization: Train Dynamic Scheduling, Energy Management, and Storage Integration",
+   "id": "2609.19039",
+   "title": "LSR-Net: Learning the Forward Evolution Operator for Nonlinear Fluid Dynamics",
    "authors": [
-    "Fei Liu",
-    "Can Wan",
-    "Stefan \u00d6stlund",
-    "Qianwen Xu"
+    "Qian Hou",
+    "Sutrisno",
+    "Yuqing Li",
+    "Zecheng Gan"
    ],
-   "abs_url": "https://arxiv.org/abs/2609.16939",
-   "pdf_url": "https://arxiv.org/pdf/2609.16939",
-   "topic": "SEIKM-04",
+   "abs_url": "https://arxiv.org/abs/2609.19039",
+   "pdf_url": "https://arxiv.org/pdf/2609.19039",
+   "topic": "SEIKM-05",
    "secondary_topics": [],
-   "score": 3.0,
-   "rank_score": 3.0,
-   "primary_category": "eess.SY",
-   "why": null
-  },
-  {
-   "id": "2609.17084",
-   "title": "Towards an Asset Administration Shell Maturity Model",
-   "authors": [
-    "Carsten Ellwein",
-    "David Dietrich",
-    "Rozana Cvitkovic",
-    "Andreas Wortmann"
-   ],
-   "abs_url": "https://arxiv.org/abs/2609.17084",
-   "pdf_url": "https://arxiv.org/pdf/2609.17084",
-   "topic": "SEIKM-04",
-   "secondary_topics": [],
-   "score": 3.0,
-   "rank_score": 3.0,
-   "primary_category": "cs.SE",
+   "score": 6.091,
+   "rank_score": 3.028,
+   "primary_category": "physics.comp-ph",
    "why": null
   }
  ]

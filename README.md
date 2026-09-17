@@ -17,57 +17,61 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — September 16, 2026
+### Latest issue — September 17, 2026
 
-**56** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-16.md)
+**58** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-17.md)
 
 **Systems Engineering and Complex Systems** (1)
 
-- [Models as Governed Interfaces for AI-Native MBSE: Read-Side Adequacy and Write-Side Admissibility](https://arxiv.org/abs/2609.16252)
+- [NObSP: Functional Decomposition of Neural Networks via Oblique Subspace Projections](https://arxiv.org/abs/2609.17825)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [Extracting ontology-compliant knowledge from scientific text describing irradiated materials using large language models](https://arxiv.org/abs/2609.17291)
-- [Predicting Partial Answer Quality and Utility in Agentic Retrieval-Augmented Generation](https://arxiv.org/abs/2609.16453)
-- [Symbolic Separation: Grounding Deep Agents in Knowledge Graphs for Trustworthy Operational Data Analytics](https://arxiv.org/abs/2609.17107)
+- [Knowledge-Graph Based Augmentation versus Retrieval Augmented Generation for Cultural-Related Question Answering](https://arxiv.org/abs/2609.18317)
+- [WFM: Wiki Foundation Model for Complex Agentic Reasoning](https://arxiv.org/abs/2609.18182)
+- [Quanta: A Self-Contained Python Library for Hybrid Retrieval over Quantised Embeddings, Lexical Indexes, and Knowledge Graphs](https://arxiv.org/abs/2609.18248)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (2)
+**Design, Simulation and Optimization for Advanced Manufacturing** (4)
 
-- [Extending high value components performances with Additive Manufacturing: application to naval applications](https://arxiv.org/abs/2609.17104)
-- [Designing Homogeneous Ti-Nb-Fe-Sn β Titanium Alloys by PBF-LB: A Pre-Alloyed Powder Blend Strategy](https://arxiv.org/abs/2609.17476)
+- [From powder to part: influence of virgin and recovered Inconel 625 powders on the DED-LP processability, microstructure and mechanical properties](https://arxiv.org/abs/2609.18636)
+- [Benchmarking Tabular Foundation Models as Surrogates in Expensive Evolutionary Optimization](https://arxiv.org/abs/2609.18130)
+- [Surface chemistry investigation of an additively manufactured Al-Mg-Si-Zr alloy: Studies from experiments and first-principles simulation](https://arxiv.org/abs/2609.17876)
+- _…1 more_
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (8)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (5)
 
-- [High-Fidelity Digital Twin Data Models by Randomized Dynamic Mode Decomposition and Deep Learning with Applications in Fluid Dynamics](https://arxiv.org/abs/2609.17101)
-- [An Exemplar of a Digital Twin in Mechanical Engineering: Understanding Model Hybridization](https://arxiv.org/abs/2609.17258)
-- [GANADI: Uncovering C/C++ OSS Reuse Genealogies via Pivotal Function-Based Clustering to Enhance Supply Chain Security](https://arxiv.org/abs/2609.17018)
-- _…5 more_
+- [Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees](https://arxiv.org/abs/2609.17635)
+- [Integrated Optimization of Automated Warehouse Operations and Last-Mile Transport for Differentiated On-Demand Delivery](https://arxiv.org/abs/2609.19048)
+- [Toward Composable Network Digital Twins: A Subgraph-Based Latency Prediction Study](https://arxiv.org/abs/2609.18704)
+- _…2 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (10)
+**Engineering Knowledge and Physics-Informed AI/ML** (12)
 
-- [Physics Informed Random Feature Neural Networks for Solving PDEs](https://arxiv.org/abs/2609.16406)
-- [Development of a Physics-Informed Neural Framework, MEOWN, for Rapid Prediction of Muon Stopping Sites in Crystalline Materials, for understanding Quantum Magnet employing Muon Spectroscopy](https://arxiv.org/abs/2609.17063)
-- [Stable by Construction: Variational Latent Markov Operators for Long-Horizon PDE Prediction](https://arxiv.org/abs/2609.16621)
-- _…7 more_
+- [Lecture notes on Physics Informed Neural Networks, Neural Operators, and their applications](https://arxiv.org/abs/2609.17638)
+- [Physics-Informed Neural Networks for Fast Multilayer Spectral Inversion of Hα 6562.8 A and Ca II 8542.1 A Spectra](https://arxiv.org/abs/2609.18025)
+- [HiLNO: A Hierarchical Latent Neural Operator with Multi-Scale Supervision for PDEs on General Geometries](https://arxiv.org/abs/2609.18419)
+- _…9 more_
 
-**Systems Design** (1)
+**Systems Design** (3)
 
-- [Towards Illusions Awareness in Cyber-Physical System's Design](https://arxiv.org/abs/2609.17260)
+- [A3P5 NEMESIS Integrated Rover Design for Environmental Reconnaissance and Robotic Sampling with Reproducible Mobility Analysis and an External Data Machine Learning Calibration Benchmark](https://arxiv.org/abs/2609.18245)
+- [Integrating Flipped Learning and Generative AI for Practice-Based Design Education: Evidence from a Knit Yarn Design Course](https://arxiv.org/abs/2609.18505)
+- [Apply-<x>Mag: One Tool to Support Many Inclusive Design Methods](https://arxiv.org/abs/2609.17948)
 
 **Emerging Topics in SEIKM** (14)
 
-- [SAVLA: Symmetry-Aware Vision-Language-Action Models for Robotic Manipulation](https://arxiv.org/abs/2609.16641)
-- [CAD-Based Relation Learning and Geometric-Symbolic Planning for Robotic Assembly](https://arxiv.org/abs/2609.17263)
-- [The Robot Data Factory](https://arxiv.org/abs/2609.16705)
+- [Energy-Regularized Imitation Learning for Force- and Work-Aware Robotic Manipulation](https://arxiv.org/abs/2609.18164)
+- [rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference](https://arxiv.org/abs/2609.19104)
+- [Reinforcement Learning for Real-Time Vision-Language-Action Policies](https://arxiv.org/abs/2609.18207)
 - _…11 more_
 
-**SEIKM General** (6)
+**SEIKM General** (5)
 
-- [RobResilience: Implementing and Evaluating a Resilience Framework for Cyber-Physical Embodied Systems](https://arxiv.org/abs/2609.17349)
-- [A Set-Theoretic Evaluation Framework for Assessing Asset Administration Shell Instances: Towards Comparability and Suitability](https://arxiv.org/abs/2609.17062)
-- [Privacy-Preserving Coordinated Operation of Multi-Player Industrial Network Using Secure Aggregation](https://arxiv.org/abs/2609.16402)
-- _…3 more_
+- [Optimization Design and Simulation Validation of a Variable Stiffness Actuator Based on a Crossed Four-Bar Mechanism](https://arxiv.org/abs/2609.18456)
+- [Version- and Scope-Aware Question Answering over Normative Documents: A Deployed System and an End-to-End Evaluation at Production Scale](https://arxiv.org/abs/2609.18769)
+- [An Atlas and Design Rules for Single- and Dual-Atom Alloys](https://arxiv.org/abs/2609.19087)
+- _…2 more_
 
 <!-- SEIKM:LATEST:END -->
 
