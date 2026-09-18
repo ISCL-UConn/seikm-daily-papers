@@ -17,60 +17,58 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — September 17, 2026
+### Latest issue — September 18, 2026
 
-**58** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-17.md)
+**54** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-18.md)
 
 **Systems Engineering and Complex Systems** (1)
 
-- [NObSP: Functional Decomposition of Neural Networks via Oblique Subspace Projections](https://arxiv.org/abs/2609.17825)
+- [Energy Harvesting for Self-Powered Microsystems: A Critical Review of Materials, Power Management, and System Integration](https://arxiv.org/abs/2609.20157)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [Knowledge-Graph Based Augmentation versus Retrieval Augmented Generation for Cultural-Related Question Answering](https://arxiv.org/abs/2609.18317)
-- [WFM: Wiki Foundation Model for Complex Agentic Reasoning](https://arxiv.org/abs/2609.18182)
-- [Quanta: A Self-Contained Python Library for Hybrid Retrieval over Quantised Embeddings, Lexical Indexes, and Knowledge Graphs](https://arxiv.org/abs/2609.18248)
+- [Closed-World Resolution Against Tool Hallucination in LLM Agents](https://arxiv.org/abs/2609.19425)
+- [Labeled Incidence Structures for Native Transformer Modeling of Text, Knowledge Graphs, and Hypergraphs](https://arxiv.org/abs/2609.20278)
+- [VisKG-LM: Compiling Knowledge Graphs into Visual Memory for Multiple-Choice Question Answering](https://arxiv.org/abs/2609.19158)
 - _…11 more_
 
 **Design, Simulation and Optimization for Advanced Manufacturing** (4)
 
-- [From powder to part: influence of virgin and recovered Inconel 625 powders on the DED-LP processability, microstructure and mechanical properties](https://arxiv.org/abs/2609.18636)
-- [Benchmarking Tabular Foundation Models as Surrogates in Expensive Evolutionary Optimization](https://arxiv.org/abs/2609.18130)
-- [Surface chemistry investigation of an additively manufactured Al-Mg-Si-Zr alloy: Studies from experiments and first-principles simulation](https://arxiv.org/abs/2609.17876)
+- [Kinematics-Grounded Agentic AI for Robotic Additive Manufacturing Process Planning](https://arxiv.org/abs/2609.19347)
+- [Topology optimization with buckling constraints: Adaptive eigenvalue aggregation and modality identification](https://arxiv.org/abs/2609.19603)
+- [A Computational Method to Simulate Electrostatic Actuation in Polycatenated Architected Materials](https://arxiv.org/abs/2609.20373)
 - _…1 more_
 
 **Digital Twins, Manufacturing Systems, and Supply Chains** (5)
 
-- [Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees](https://arxiv.org/abs/2609.17635)
-- [Integrated Optimization of Automated Warehouse Operations and Last-Mile Transport for Differentiated On-Demand Delivery](https://arxiv.org/abs/2609.19048)
-- [Toward Composable Network Digital Twins: A Subgraph-Based Latency Prediction Study](https://arxiv.org/abs/2609.18704)
+- [FreqCondNorm: Towards Cross-domain Predictive Maintenance through a Frequency-Conditioned Transformer Foundation Model](https://arxiv.org/abs/2609.20535)
+- [Digital Twins Need Feedback](https://arxiv.org/abs/2606.23562)
+- [SabreAgent: Language Models at Design Time for Lost-Sales Inventory Control](https://arxiv.org/abs/2609.19760)
 - _…2 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (12)
+**Engineering Knowledge and Physics-Informed AI/ML** (10)
 
-- [Lecture notes on Physics Informed Neural Networks, Neural Operators, and their applications](https://arxiv.org/abs/2609.17638)
-- [Physics-Informed Neural Networks for Fast Multilayer Spectral Inversion of Hα 6562.8 A and Ca II 8542.1 A Spectra](https://arxiv.org/abs/2609.18025)
-- [HiLNO: A Hierarchical Latent Neural Operator with Multi-Scale Supervision for PDEs on General Geometries](https://arxiv.org/abs/2609.18419)
-- _…9 more_
+- [Beyond PINNs: A Unified Gauss--Newton and Petrov--Galerkin Framework for Neural and Hybrid PDE Solvers](https://arxiv.org/abs/2609.20641)
+- [Amortizing Physics-Informed Neural Solvers via Graph Hypernetworks](https://arxiv.org/abs/2609.19915)
+- [Hypernetwork-Parameterized Spatially Adaptive Neural Operators for PDE Learning](https://arxiv.org/abs/2609.20309)
+- _…7 more_
 
-**Systems Design** (3)
+**Systems Design** (1)
 
-- [A3P5 NEMESIS Integrated Rover Design for Environmental Reconnaissance and Robotic Sampling with Reproducible Mobility Analysis and an External Data Machine Learning Calibration Benchmark](https://arxiv.org/abs/2609.18245)
-- [Integrating Flipped Learning and Generative AI for Practice-Based Design Education: Evidence from a Knit Yarn Design Course](https://arxiv.org/abs/2609.18505)
-- [Apply-<x>Mag: One Tool to Support Many Inclusive Design Methods](https://arxiv.org/abs/2609.17948)
+- [GLAMDRING: Gait Learning And Morphology co-Design via Reinforcement LearnING of CPGs](https://arxiv.org/abs/2609.19452)
 
 **Emerging Topics in SEIKM** (14)
 
-- [Energy-Regularized Imitation Learning for Force- and Work-Aware Robotic Manipulation](https://arxiv.org/abs/2609.18164)
-- [rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference](https://arxiv.org/abs/2609.19104)
-- [Reinforcement Learning for Real-Time Vision-Language-Action Policies](https://arxiv.org/abs/2609.18207)
+- [Affective Shared Autonomy: Temporal Affect Dynamics and Subjective Evaluation in Bimanual Teleoperation Tasks](https://arxiv.org/abs/2609.19802)
+- [ULOHA: An Underwater Bimanual Robot System for Robot Learning](https://arxiv.org/abs/2609.19200)
+- ["Your Robot Was Trained on a Lie": Collision Mesh Poisoning Attacks on Robotic Manipulation](https://arxiv.org/abs/2609.18122)
 - _…11 more_
 
 **SEIKM General** (5)
 
-- [Optimization Design and Simulation Validation of a Variable Stiffness Actuator Based on a Crossed Four-Bar Mechanism](https://arxiv.org/abs/2609.18456)
-- [Version- and Scope-Aware Question Answering over Normative Documents: A Deployed System and an End-to-End Evaluation at Production Scale](https://arxiv.org/abs/2609.18769)
-- [An Atlas and Design Rules for Single- and Dual-Atom Alloys](https://arxiv.org/abs/2609.19087)
+- [Generating Heterogeneous 3D Geological Microstructures from 2D Images via a Stable Diffusion-Adversarial Model](https://arxiv.org/abs/2609.20358)
+- [The Organization of Inference: Information, Resource Constraints, and AI Production](https://arxiv.org/abs/2609.20449)
+- [Resilient Design and Optimal Operation of Battery Energy Storage Systems for Behind-the-Meter Data Center Microgrids](https://arxiv.org/abs/2609.19342)
 - _…2 more_
 
 <!-- SEIKM:LATEST:END -->
