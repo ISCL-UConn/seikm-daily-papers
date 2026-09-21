@@ -17,59 +17,52 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — September 18, 2026
+### Latest issue — September 21, 2026
 
-**54** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-18.md)
-
-**Systems Engineering and Complex Systems** (1)
-
-- [Energy Harvesting for Self-Powered Microsystems: A Critical Review of Materials, Power Management, and System Integration](https://arxiv.org/abs/2609.20157)
+**43** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-21.md)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [Closed-World Resolution Against Tool Hallucination in LLM Agents](https://arxiv.org/abs/2609.19425)
-- [Labeled Incidence Structures for Native Transformer Modeling of Text, Knowledge Graphs, and Hypergraphs](https://arxiv.org/abs/2609.20278)
-- [VisKG-LM: Compiling Knowledge Graphs into Visual Memory for Multiple-Choice Question Answering](https://arxiv.org/abs/2609.19158)
+- [Knowledge-Graph-Augmented Chronos-2 for HEC-RAS Surrogate Forecasting](https://arxiv.org/abs/2609.21381)
+- [From Code Archival to Knowledge Graph: Bridging Software Heritage, COAR Notify and Wikidata](https://arxiv.org/abs/2609.21667)
+- [An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency](https://arxiv.org/abs/2609.22043)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (4)
+**Design, Simulation and Optimization for Advanced Manufacturing** (2)
 
-- [Kinematics-Grounded Agentic AI for Robotic Additive Manufacturing Process Planning](https://arxiv.org/abs/2609.19347)
-- [Topology optimization with buckling constraints: Adaptive eigenvalue aggregation and modality identification](https://arxiv.org/abs/2609.19603)
-- [A Computational Method to Simulate Electrostatic Actuation in Polycatenated Architected Materials](https://arxiv.org/abs/2609.20373)
-- _…1 more_
+- [Bilevel Optimization of Topology and Hyperparameters (BOTH)](https://arxiv.org/abs/2609.21758)
+- [LOInK: Learned Optimal Inverse Kinematics via Structured Neural Surrogate Models](https://arxiv.org/abs/2609.21275)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (5)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (3)
 
-- [FreqCondNorm: Towards Cross-domain Predictive Maintenance through a Frequency-Conditioned Transformer Foundation Model](https://arxiv.org/abs/2609.20535)
-- [Digital Twins Need Feedback](https://arxiv.org/abs/2606.23562)
-- [SabreAgent: Language Models at Design Time for Lost-Sales Inventory Control](https://arxiv.org/abs/2609.19760)
+- [Model-Free Control for Residential Heating: Deployment and Simulation of Nonlinear Data-Enabled Predictive Control](https://arxiv.org/abs/2609.21500)
+- [Optimal Day-Ahead Scheduling of Fast EV Charging Station With Multi-Stage Battery Degradation Model](https://arxiv.org/abs/2609.20946)
+- [Distribution-Free Budgeted Stealthy Attack Scheduling for Remote State Estimation](https://arxiv.org/abs/2609.21148)
+
+**Engineering Knowledge and Physics-Informed AI/ML** (5)
+
+- [Automated Physics-Informed Neural-Networks-Based Calibration of Highly Segmented Silicon Telescopes](https://arxiv.org/abs/2609.20868)
+- [ForceTwin: Physics-informed Digital Twins for Robotic Manipulation from Instrumented Human Interaction](https://arxiv.org/abs/2609.21751)
+- [MOSAIC-SR: Transformer-Guided Symbolic Regression for Scientific Equation Recovery](https://arxiv.org/abs/2609.20997)
 - _…2 more_
-
-**Engineering Knowledge and Physics-Informed AI/ML** (10)
-
-- [Beyond PINNs: A Unified Gauss--Newton and Petrov--Galerkin Framework for Neural and Hybrid PDE Solvers](https://arxiv.org/abs/2609.20641)
-- [Amortizing Physics-Informed Neural Solvers via Graph Hypernetworks](https://arxiv.org/abs/2609.19915)
-- [Hypernetwork-Parameterized Spatially Adaptive Neural Operators for PDE Learning](https://arxiv.org/abs/2609.20309)
-- _…7 more_
 
 **Systems Design** (1)
 
-- [GLAMDRING: Gait Learning And Morphology co-Design via Reinforcement LearnING of CPGs](https://arxiv.org/abs/2609.19452)
+- [PolyBridgeBench: Benchmarking Multimodal LLMs for Physics-Grounded Bridge Design](https://arxiv.org/abs/2609.21493)
 
 **Emerging Topics in SEIKM** (14)
 
-- [Affective Shared Autonomy: Temporal Affect Dynamics and Subjective Evaluation in Bimanual Teleoperation Tasks](https://arxiv.org/abs/2609.19802)
-- [ULOHA: An Underwater Bimanual Robot System for Robot Learning](https://arxiv.org/abs/2609.19200)
-- ["Your Robot Was Trained on a Lie": Collision Mesh Poisoning Attacks on Robotic Manipulation](https://arxiv.org/abs/2609.18122)
+- [ForeTac-VLA: A Forecasting-Based Tactile-Vision-Language-Action Model for Contact-Rich Robotic Manipulation](https://arxiv.org/abs/2609.20980)
+- [DEXTERA: From a Single Image to Deployable Dexterous Manipulation via Real-to-Sim-to-Real](https://arxiv.org/abs/2609.21045)
+- [A Sim-to-Real Integration Pipeline for Training and Deployment of Chunk-Based VLA Manipulation Policies](https://arxiv.org/abs/2609.21817)
 - _…11 more_
 
-**SEIKM General** (5)
+**SEIKM General** (4)
 
-- [Generating Heterogeneous 3D Geological Microstructures from 2D Images via a Stable Diffusion-Adversarial Model](https://arxiv.org/abs/2609.20358)
-- [The Organization of Inference: Information, Resource Constraints, and AI Production](https://arxiv.org/abs/2609.20449)
-- [Resilient Design and Optimal Operation of Battery Energy Storage Systems for Behind-the-Meter Data Center Microgrids](https://arxiv.org/abs/2609.19342)
-- _…2 more_
+- [Adaptive Mesh Coarsening for Efficient Phase-Field Fracture Simulations](https://arxiv.org/abs/2609.21201)
+- [Beyond Exact Match: Task-Aware GRPO for Cross-Domain PCBA Visual Question Answering](https://arxiv.org/abs/2609.21276)
+- [Optimization Geometry of Equivalent Brownian RKHS Representations](https://arxiv.org/abs/2609.21693)
+- _…1 more_
 
 <!-- SEIKM:LATEST:END -->
 
