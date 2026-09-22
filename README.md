@@ -17,52 +17,61 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — September 21, 2026
+### Latest issue — September 22, 2026
 
-**43** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-21.md)
+**60** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-22.md)
 
-**Informatics for Design and Manufacturing** (14)
+**Systems Engineering and Complex Systems** (2)
 
-- [Knowledge-Graph-Augmented Chronos-2 for HEC-RAS Surrogate Forecasting](https://arxiv.org/abs/2609.21381)
-- [From Code Archival to Knowledge Graph: Bridging Software Heritage, COAR Notify and Wikidata](https://arxiv.org/abs/2609.21667)
-- [An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency](https://arxiv.org/abs/2609.22043)
-- _…11 more_
+- [Hierarchical Bayesian optimization of an aircraft-based multi-agent system-of-systems](https://arxiv.org/abs/2609.22130)
+- [Efficient physiological control of an integrated system architecture for continuous-flow ventricular assist devices: in-silico study](https://arxiv.org/abs/2609.24966)
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (2)
+**Informatics for Design and Manufacturing** (11)
 
-- [Bilevel Optimization of Topology and Hyperparameters (BOTH)](https://arxiv.org/abs/2609.21758)
-- [LOInK: Learned Optimal Inverse Kinematics via Structured Neural Surrogate Models](https://arxiv.org/abs/2609.21275)
+- [Semantics Delivery Network: Rethinking Web Retrieval Infrastructure for LLM Agents](https://arxiv.org/abs/2609.22486)
+- [Schematize: An Agentic System for Generating and Refining Information-Extraction Schemas for Legal Research](https://arxiv.org/abs/2609.22209)
+- [A Governance-Aware Large Language Model Orchestrated Agentic Digital Twin for Transmission System Operator Control Room Decision Support](https://arxiv.org/abs/2609.22476)
+- _…8 more_
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (3)
+**Design, Simulation and Optimization for Advanced Manufacturing** (5)
 
-- [Model-Free Control for Residential Heating: Deployment and Simulation of Nonlinear Data-Enabled Predictive Control](https://arxiv.org/abs/2609.21500)
-- [Optimal Day-Ahead Scheduling of Fast EV Charging Station With Multi-Stage Battery Degradation Model](https://arxiv.org/abs/2609.20946)
-- [Distribution-Free Budgeted Stealthy Attack Scheduling for Remote State Estimation](https://arxiv.org/abs/2609.21148)
-
-**Engineering Knowledge and Physics-Informed AI/ML** (5)
-
-- [Automated Physics-Informed Neural-Networks-Based Calibration of Highly Segmented Silicon Telescopes](https://arxiv.org/abs/2609.20868)
-- [ForceTwin: Physics-informed Digital Twins for Robotic Manipulation from Instrumented Human Interaction](https://arxiv.org/abs/2609.21751)
-- [MOSAIC-SR: Transformer-Guided Symbolic Regression for Scientific Equation Recovery](https://arxiv.org/abs/2609.20997)
+- [A Monolithic Force-Proprioception Soft Acutuator Enabled by Single-Material 3D printing](https://arxiv.org/abs/2609.24499)
+- [Artificial Neural Networks as Surrogate Models in Black Box Optimization](https://arxiv.org/abs/2609.22329)
+- [K-TRAIL: Simulator-Guided Generative Design of EM/RF Circuits](https://arxiv.org/abs/2609.23183)
 - _…2 more_
 
-**Systems Design** (1)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (10)
 
-- [PolyBridgeBench: Benchmarking Multimodal LLMs for Physics-Grounded Bridge Design](https://arxiv.org/abs/2609.21493)
+- [Benchmarking Hybrid Deep Learning Architectures for Predictive Maintenance in Industry 4.0](https://arxiv.org/abs/2609.22583)
+- [Uncertainty and Business-Aware Remaining Useful Life Estimation for Semiconductor Manufacturing](https://arxiv.org/abs/2609.22160)
+- [Contrastive Siamese Representation Learning for Predictive Maintenance of Electrical Submersible Pumps](https://arxiv.org/abs/2609.22360)
+- _…7 more_
 
-**Emerging Topics in SEIKM** (14)
+**Engineering Knowledge and Physics-Informed AI/ML** (10)
 
-- [ForeTac-VLA: A Forecasting-Based Tactile-Vision-Language-Action Model for Contact-Rich Robotic Manipulation](https://arxiv.org/abs/2609.20980)
-- [DEXTERA: From a Single Image to Deployable Dexterous Manipulation via Real-to-Sim-to-Real](https://arxiv.org/abs/2609.21045)
-- [A Sim-to-Real Integration Pipeline for Training and Deployment of Chunk-Based VLA Manipulation Policies](https://arxiv.org/abs/2609.21817)
-- _…11 more_
+- [Physics-Informed Neural Network Surrogates with Polynomial Chaos-Based Uncertainty Propagation for Stochastic Model Predictive Control](https://arxiv.org/abs/2609.23077)
+- [PINNForge: Execution-Grounded Evolutionary Design of Physics-Informed Neural Networks for PDE Solving via Large Language Models](https://arxiv.org/abs/2609.23023)
+- [Adaptive Physics-Informed Neural Networks for the Blasius Boundary-Layer Problem](https://arxiv.org/abs/2609.22185)
+- _…7 more_
 
-**SEIKM General** (4)
+**Systems Design** (2)
 
-- [Adaptive Mesh Coarsening for Efficient Phase-Field Fracture Simulations](https://arxiv.org/abs/2609.21201)
-- [Beyond Exact Match: Task-Aware GRPO for Cross-Domain PCBA Visual Question Answering](https://arxiv.org/abs/2609.21276)
-- [Optimization Geometry of Equivalent Brownian RKHS Representations](https://arxiv.org/abs/2609.21693)
-- _…1 more_
+- [Task-Oriented Co-Design and Optimization of Geared Actuators for Robotic Applications](https://arxiv.org/abs/2609.22795)
+- [NPU Accelerator: Quantized Real-Time Vehicle Detection on PYNQ-Z1 Using FINN](https://arxiv.org/abs/2609.24757)
+
+**Emerging Topics in SEIKM** (10)
+
+- [Toward Human-in-the-Loop Robot Failure Recovery: Bridging Communication Gaps in Human-Robot Collaboration](https://arxiv.org/abs/2609.24055)
+- [ORDER: A Fictitious-World Benchmark for Domain-Adaptive Embodied AI](https://arxiv.org/abs/2609.22285)
+- [AquaCap: A Training-Free Underwater Embodied Agent with Code-as-Policy](https://arxiv.org/abs/2609.23133)
+- _…7 more_
+
+**SEIKM General** (10)
+
+- [From Documented Strengths to Force Limits: Material-Informed Robotic Insertion for Construction Assembly](https://arxiv.org/abs/2609.22609)
+- [Co-occurrence Patterns of LoRA Adapters in Production Diffusion Model Inference Services](https://arxiv.org/abs/2609.23321)
+- [SegTSim: A Big Data Driven Segmented Temporal Simulation Framework for Heterogeneous Multivariate Systems](https://arxiv.org/abs/2609.22192)
+- _…7 more_
 
 <!-- SEIKM:LATEST:END -->
 
