@@ -17,58 +17,49 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — September 23, 2026
+### Latest issue — September 24, 2026
 
-**46** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-23.md)
-
-**Systems Engineering and Complex Systems** (2)
-
-- [From functioning to evolving: A complex systems perspective on future self-organised federated energy communities](https://arxiv.org/abs/2609.25425)
-- [Teaching Reinforcement Learning and Humanoid Robotics to High-School Students: An Expert-Validated Curriculum Design on a Low-Cost Open Platform](https://arxiv.org/abs/2609.25674)
+**49** new papers across **6** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-24.md)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [Reducing Hallucinations in Large Language Models Through Integrated Self-Verification and Retrieval-Augmented Generation](https://arxiv.org/abs/2609.26229)
-- [ArticleMiner: Ontology-Guided Knowledge Graph Construction from Scientific Publications](https://arxiv.org/abs/2609.25607)
-- [TCMaster: Confidence-Aware Querying and Workload-Guided Physical Design for Multi-Source Traditional Chinese Medicine Knowledge Graphs](https://arxiv.org/abs/2609.25712)
+- [Agentic Governance and Adversarial Verification for Policy-Constrained LLM Healthcare Appeal Generation](https://arxiv.org/abs/2609.27844)
+- [UniDataAgent: An Ontology-Grounded Agent for Enterprise Question-to-Report Automation](https://arxiv.org/abs/2609.27257)
+- [Benchmarking Automated Knowledge Graph Construction from Semi-Structured Data](https://arxiv.org/abs/2609.26985)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (3)
+**Design, Simulation and Optimization for Advanced Manufacturing** (4)
 
-- [DeepFEAv2: Deep Learning for Transient Finite Element Analysis Beyond Structured Meshes](https://arxiv.org/abs/2609.26426)
-- [Multimaterial Topology Optimization using SIMP, DMO, and gSF: A comparative study with Honeycomb tessellations](https://arxiv.org/abs/2609.25976)
-- [Topology-Stratified Materials Discovery with A Flow-Based Generative Model](https://arxiv.org/abs/2609.26547)
-
-**Digital Twins, Manufacturing Systems, and Supply Chains** (4)
-
-- [Human-Centricity in Industry 5.0: A Survey of Worker Sensing, Adaptive Operations, and Human-in-the-Loop Systems](https://arxiv.org/abs/2609.26245)
-- [Bridging the Data Gap: Digital Twin as a New Paradigm for AI-based Radio Sensing](https://arxiv.org/abs/2609.26214)
-- [Multi-Term Fourier Graph Neural Network with Sample Relationship Learning for Enhanced Remaining Useful Life Prediction](https://arxiv.org/abs/2609.25179)
+- [Topology optimization of multimaterial aircraft pylons using generalized shape function approach](https://arxiv.org/abs/2609.27685)
+- [Probabilistic and Geometry Aware Neural Surrogate of Scrape Off Layer Plasma Simulations](https://arxiv.org/abs/2609.28116)
+- [Efficient Geometry Representation Strategies for the Shape Optimization of Profile Extrusion Dies](https://arxiv.org/abs/2609.27602)
 - _…1 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (5)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (2)
 
-- [Probabilistic Physics-Informed Neural Solvers for Woods-Saxon Parameter Identification: A Coupled Forward-Inverse Approach](https://arxiv.org/abs/2609.26169)
-- [Variational objectives for amortized Bayesian inference in inverse problems: The role of posterior conditioning](https://arxiv.org/abs/2609.25145)
-- [Predictive Uncertainty for Neural CAE Surrogates](https://arxiv.org/abs/2609.25430)
+- [Curriculum Learning with GNN-based Reinforcement Learning for Job Shop Scheduling](https://arxiv.org/abs/2609.28085)
+- [A Modular Dual-Arm Robotic Cell for Disassembly and Repair of Industrial Control Electronics](https://arxiv.org/abs/2609.27466)
+
+**Engineering Knowledge and Physics-Informed AI/ML** (12)
+
+- [KATOsuper: Surrogate-accelerated neural topology optimization with sensitivity-consistent Fourier neural operators](https://arxiv.org/abs/2609.27216)
+- [Sparse-Observation Atmospheric Thermal Forecasting with Physics-Informed Neural Networks for Climate-Aware Digital Twins](https://arxiv.org/abs/2609.27290)
+- [Physics-guided inverse design of Co-based superalloys using machine learning and multi-objective optimization for enhanced γ' solvus temperature](https://arxiv.org/abs/2609.27405)
+- _…9 more_
+
+**Emerging Topics in SEIKM** (12)
+
+- [RoboCafé in the Open: Interaction Continuity in Long-Term Public Human-Robot Interaction](https://arxiv.org/abs/2609.27475)
+- [TANDEM: Task and Motion Planning with As-Needed Demonstrations for Efficient Vision-Language-Action Model Fine-tuning](https://arxiv.org/abs/2609.28314)
+- [AWM-VLA: AlignedWorld Modeling for Efficient and Explainable Vision-Language-Action Policies](https://arxiv.org/abs/2609.27753)
+- _…9 more_
+
+**SEIKM General** (5)
+
+- [Automotive mmWave Spinning Radar Place Recognition with Spatially Gated Feature-Correlation Representation](https://arxiv.org/abs/2609.27394)
+- [Evaluation Choices Decide the Forecasting Leaderboard: Evidence from a Production Marketplace Panel](https://arxiv.org/abs/2609.27867)
+- [Tough and high-temperature stable nacre-like Bi4Ti3O12-based piezoceramics](https://arxiv.org/abs/2609.27576)
 - _…2 more_
-
-**Systems Design** (1)
-
-- [Zephyron: Integrated Design and Analytical Evaluation of a Solar-Assisted Mobile Manipulator for Multimodal Environmental Reconnaissance and Distributed Visual Inference](https://arxiv.org/abs/2609.25709)
-
-**Emerging Topics in SEIKM** (14)
-
-- [Imperfection for Precision: Upcycling Imperfect Data for High-Precision Robotic Manipulation](https://arxiv.org/abs/2609.26672)
-- [MATE: Multi-Agent Virtual Teleoperation Platform for Humanoid Collaboration Data Collection](https://arxiv.org/abs/2609.26520)
-- [Towards Systematic Qualification of Vision-Language Models for Automotive Perception Systems](https://arxiv.org/abs/2609.25945)
-- _…11 more_
-
-**SEIKM General** (3)
-
-- [Differentiable Policy Transport over Multi-Layer Network Feasibility Geometry](https://arxiv.org/abs/2609.26068)
-- [Learning from Humans for Proactive Assistance in Human-Robot Collaborative Transport](https://arxiv.org/abs/2609.25351)
-- [Analysis of trade-offs in urban heat mitigation using a Bayesian Optimization framework for an urban canopy layer model](https://arxiv.org/abs/2609.25953)
 
 <!-- SEIKM:LATEST:END -->
 
