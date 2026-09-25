@@ -17,49 +17,58 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — September 24, 2026
+### Latest issue — September 25, 2026
 
-**49** new papers across **6** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-24.md)
+**56** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-25.md)
+
+**Systems Engineering and Complex Systems** (2)
+
+- [Developing a Unified Verification and Validation Activity Standard at JPL](https://arxiv.org/abs/2609.28600)
+- [Design, development, and preliminary validity and reliability evidence of the Software Engineering Self-Efficacy Scale (SESES)](https://arxiv.org/abs/2609.29068)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [Agentic Governance and Adversarial Verification for Policy-Constrained LLM Healthcare Appeal Generation](https://arxiv.org/abs/2609.27844)
-- [UniDataAgent: An Ontology-Grounded Agent for Enterprise Question-to-Report Automation](https://arxiv.org/abs/2609.27257)
-- [Benchmarking Automated Knowledge Graph Construction from Semi-Structured Data](https://arxiv.org/abs/2609.26985)
+- [AgenticCADedit: A Stateful, Tool-Mediated Agentic Approach to Multimodal 3D CAD Editing](https://arxiv.org/abs/2609.29621)
+- [CodeGraph: Open-Taxonomy Knowledge Graph for Source Code with Wikidata Grounding](https://arxiv.org/abs/2609.29474)
+- [ARGUS: Role-Aware Event Knowledge Graphs for U.S. Employment-Discrimination Complaints](https://arxiv.org/abs/2609.30184)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (4)
+**Design, Simulation and Optimization for Advanced Manufacturing** (2)
 
-- [Topology optimization of multimaterial aircraft pylons using generalized shape function approach](https://arxiv.org/abs/2609.27685)
-- [Probabilistic and Geometry Aware Neural Surrogate of Scrape Off Layer Plasma Simulations](https://arxiv.org/abs/2609.28116)
-- [Efficient Geometry Representation Strategies for the Shape Optimization of Profile Extrusion Dies](https://arxiv.org/abs/2609.27602)
-- _…1 more_
+- [Iterative Learning Control of the Cooling Rate in a Dual-Laser Powder Bed Fusion Process](https://arxiv.org/abs/2609.28734)
+- [Growth-Inspired Graph Generation and Inverse Design of Mechanical Lattices via Dot Matrices Database Augmentation and GCNN](https://arxiv.org/abs/2609.29024)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (2)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (5)
 
-- [Curriculum Learning with GNN-based Reinforcement Learning for Job Shop Scheduling](https://arxiv.org/abs/2609.28085)
-- [A Modular Dual-Arm Robotic Cell for Disassembly and Repair of Industrial Control Electronics](https://arxiv.org/abs/2609.27466)
-
-**Engineering Knowledge and Physics-Informed AI/ML** (12)
-
-- [KATOsuper: Surrogate-accelerated neural topology optimization with sensitivity-consistent Fourier neural operators](https://arxiv.org/abs/2609.27216)
-- [Sparse-Observation Atmospheric Thermal Forecasting with Physics-Informed Neural Networks for Climate-Aware Digital Twins](https://arxiv.org/abs/2609.27290)
-- [Physics-guided inverse design of Co-based superalloys using machine learning and multi-objective optimization for enhanced γ' solvus temperature](https://arxiv.org/abs/2609.27405)
-- _…9 more_
-
-**Emerging Topics in SEIKM** (12)
-
-- [RoboCafé in the Open: Interaction Continuity in Long-Term Public Human-Robot Interaction](https://arxiv.org/abs/2609.27475)
-- [TANDEM: Task and Motion Planning with As-Needed Demonstrations for Efficient Vision-Language-Action Model Fine-tuning](https://arxiv.org/abs/2609.28314)
-- [AWM-VLA: AlignedWorld Modeling for Efficient and Explainable Vision-Language-Action Policies](https://arxiv.org/abs/2609.27753)
-- _…9 more_
-
-**SEIKM General** (5)
-
-- [Automotive mmWave Spinning Radar Place Recognition with Spatially Gated Feature-Correlation Representation](https://arxiv.org/abs/2609.27394)
-- [Evaluation Choices Decide the Forecasting Leaderboard: Evidence from a Production Marketplace Panel](https://arxiv.org/abs/2609.27867)
-- [Tough and high-temperature stable nacre-like Bi4Ti3O12-based piezoceramics](https://arxiv.org/abs/2609.27576)
+- [Dynamic production control and deadlock prevention in conveyor equipped manufacturing systems](https://arxiv.org/abs/2609.29461)
+- [Network Design against the Bullwhip Effect in Complex Supply Chains](https://arxiv.org/abs/2609.28823)
+- [AI-Moderated Interviews for Market Research and Digital Twins Calibration](https://arxiv.org/abs/2609.29143)
 - _…2 more_
+
+**Engineering Knowledge and Physics-Informed AI/ML** (14)
+
+- [Physics-Informed Neural Operator Surrogate for 2D Magnetohydrodynamic Reconnection](https://arxiv.org/abs/2609.29514)
+- [Elucidating the Conformal Structure of the Brinkman Penalisation Method for Geometry-Adapted, Structure-Preserving Operator Learning of Hamiltonian PDEs](https://arxiv.org/abs/2609.29847)
+- [Physics and Data Driven Transformer-Mamba Framework for Flow Field](https://arxiv.org/abs/2609.29087)
+- _…11 more_
+
+**Systems Design** (1)
+
+- [The Gold in Bias: Maturing the AI Design Process through Verification](https://arxiv.org/abs/2609.29730)
+
+**Emerging Topics in SEIKM** (14)
+
+- [TAPESIM: Efficient Simulation of Adhesive Tape Dispensing for Robotic Manipulation](https://arxiv.org/abs/2609.28766)
+- [AdaHVLA: Adaptive Harnesses for Long-Horizon Vision-Language-Action Execution](https://arxiv.org/abs/2609.29204)
+- [Simple Torque-Observation Alignment for Zero-Shot Sim-to-Real Grasping with a Direct-Drive Gripper](https://arxiv.org/abs/2609.29031)
+- _…11 more_
+
+**SEIKM General** (4)
+
+- [Distributed Algorithms for Filtering, Estimation, and Fault Detection over Cyber-Physical-Systems: A Tutorial and Survey](https://arxiv.org/abs/2609.29640)
+- [Functional Architecture of European Electricity Trading Markets: Requirements for AI Supported Trading Systems under Regulatory Constraints](https://arxiv.org/abs/2609.29108)
+- [From Processing to Functionality: Engineering Accessible Material States in Cu-Embedded SiO_x Memristive Devices](https://arxiv.org/abs/2609.30047)
+- _…1 more_
 
 <!-- SEIKM:LATEST:END -->
 
