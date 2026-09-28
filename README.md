@@ -17,57 +17,52 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — September 25, 2026
+### Latest issue — September 28, 2026
 
-**56** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-25.md)
-
-**Systems Engineering and Complex Systems** (2)
-
-- [Developing a Unified Verification and Validation Activity Standard at JPL](https://arxiv.org/abs/2609.28600)
-- [Design, development, and preliminary validity and reliability evidence of the Software Engineering Self-Efficacy Scale (SESES)](https://arxiv.org/abs/2609.29068)
+**47** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-28.md)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [AgenticCADedit: A Stateful, Tool-Mediated Agentic Approach to Multimodal 3D CAD Editing](https://arxiv.org/abs/2609.29621)
-- [CodeGraph: Open-Taxonomy Knowledge Graph for Source Code with Wikidata Grounding](https://arxiv.org/abs/2609.29474)
-- [ARGUS: Role-Aware Event Knowledge Graphs for U.S. Employment-Discrimination Complaints](https://arxiv.org/abs/2609.30184)
+- [Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol](https://arxiv.org/abs/2609.30341)
+- [Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains](https://arxiv.org/abs/2609.31282)
+- [Parameters vs. Context: TRACE Fine-Tuning for Robust Retrieval-Augmented Generation](https://arxiv.org/abs/2609.30337)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (2)
+**Design, Simulation and Optimization for Advanced Manufacturing** (1)
 
-- [Iterative Learning Control of the Cooling Rate in a Dual-Laser Powder Bed Fusion Process](https://arxiv.org/abs/2609.28734)
-- [Growth-Inspired Graph Generation and Inverse Design of Mechanical Lattices via Dot Matrices Database Augmentation and GCNN](https://arxiv.org/abs/2609.29024)
+- [Retrainable physics-integrated neural differentiable modeling of sintering across material systems](https://arxiv.org/abs/2609.31518)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (5)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (8)
 
-- [Dynamic production control and deadlock prevention in conveyor equipped manufacturing systems](https://arxiv.org/abs/2609.29461)
-- [Network Design against the Bullwhip Effect in Complex Supply Chains](https://arxiv.org/abs/2609.28823)
-- [AI-Moderated Interviews for Market Research and Digital Twins Calibration](https://arxiv.org/abs/2609.29143)
-- _…2 more_
+- [PORL: Pretrained Offline Reinforcement Learning for the Job Shop Scheduling Problem](https://arxiv.org/abs/2609.30948)
+- [GraspTwin: Zero-Shot Task-Oriented Grasp Optimization via a Digital Twin](https://arxiv.org/abs/2609.30543)
+- [Decision-Gated Surrogate-Assisted Stochastic Optimization with Independent High-Fidelity Certification for Photovoltaic Hosting-Capacity Planning](https://arxiv.org/abs/2609.30847)
+- _…5 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (14)
+**Engineering Knowledge and Physics-Informed AI/ML** (12)
 
-- [Physics-Informed Neural Operator Surrogate for 2D Magnetohydrodynamic Reconnection](https://arxiv.org/abs/2609.29514)
-- [Elucidating the Conformal Structure of the Brinkman Penalisation Method for Geometry-Adapted, Structure-Preserving Operator Learning of Hamiltonian PDEs](https://arxiv.org/abs/2609.29847)
-- [Physics and Data Driven Transformer-Mamba Framework for Flow Field](https://arxiv.org/abs/2609.29087)
-- _…11 more_
+- [Gradient Surgery for Physics-Informed Neural Networks](https://arxiv.org/abs/2609.30966)
+- [NEXT: Physics-Informed Neuro-Spectral Exponential Time Differencing Architectures](https://arxiv.org/abs/2609.31539)
+- [Deep-Learning Solvers and Surrogates for Infinity and p-Laplace Problems](https://arxiv.org/abs/2609.30809)
+- _…9 more_
 
-**Systems Design** (1)
+**Systems Design** (2)
 
-- [The Gold in Bias: Maturing the AI Design Process through Verification](https://arxiv.org/abs/2609.29730)
+- [Toward AI-Augmented Cooperative Engineering Workflows: Requirements and Architecture the European Rover Challenge](https://arxiv.org/abs/2609.31136)
+- [LensDesigner: A Self-Improving Agent for Optical Lens Design](https://arxiv.org/abs/2609.30450)
 
-**Emerging Topics in SEIKM** (14)
+**Emerging Topics in SEIKM** (6)
 
-- [TAPESIM: Efficient Simulation of Adhesive Tape Dispensing for Robotic Manipulation](https://arxiv.org/abs/2609.28766)
-- [AdaHVLA: Adaptive Harnesses for Long-Horizon Vision-Language-Action Execution](https://arxiv.org/abs/2609.29204)
-- [Simple Torque-Observation Alignment for Zero-Shot Sim-to-Real Grasping with a Direct-Drive Gripper](https://arxiv.org/abs/2609.29031)
-- _…11 more_
+- [Augmented Reality Interfaces for Human-Robot Collaboration: Development of a ROS 2-Based Sensor Streaming Framework and Validation via SLAM Algorithms](https://arxiv.org/abs/2609.31396)
+- [SciHorizon-eLab: An Agentic Protocol-to-Task Compiler for Scalable Benchmarking of Scientific Embodied Agents](https://arxiv.org/abs/2609.30971)
+- [VLaRL: Augmenting Vision-Language-Action Models with Simulation-Trained Latent-Conditioned Residual RL](https://arxiv.org/abs/2609.30868)
+- _…3 more_
 
 **SEIKM General** (4)
 
-- [Distributed Algorithms for Filtering, Estimation, and Fault Detection over Cyber-Physical-Systems: A Tutorial and Survey](https://arxiv.org/abs/2609.29640)
-- [Functional Architecture of European Electricity Trading Markets: Requirements for AI Supported Trading Systems under Regulatory Constraints](https://arxiv.org/abs/2609.29108)
-- [From Processing to Functionality: Engineering Accessible Material States in Cu-Embedded SiO_x Memristive Devices](https://arxiv.org/abs/2609.30047)
+- [AutoResearch at Production Scale: Failure Modes and a Multi-Agent Framework](https://arxiv.org/abs/2609.30541)
+- [Material and thermal properties of MgCl2 molten salt by ab initio and machine-learning molecular-dynamics simulations](https://arxiv.org/abs/2609.30549)
+- [Simulation-Efficient Analog Circuit Yield Optimization via Monte Carlo Zeroth-Order Gradient Estimation](https://arxiv.org/abs/2609.30678)
 - _…1 more_
 
 <!-- SEIKM:LATEST:END -->
