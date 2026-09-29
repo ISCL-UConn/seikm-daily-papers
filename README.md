@@ -17,53 +17,55 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — September 28, 2026
+### Latest issue — September 29, 2026
 
-**47** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-28.md)
+**60** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-29.md)
 
-**Informatics for Design and Manufacturing** (14)
+**Systems Engineering and Complex Systems** (1)
 
-- [Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol](https://arxiv.org/abs/2609.30341)
-- [Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains](https://arxiv.org/abs/2609.31282)
-- [Parameters vs. Context: TRACE Fine-Tuning for Robust Retrieval-Augmented Generation](https://arxiv.org/abs/2609.30337)
-- _…11 more_
+- [A packet-level digital hardware twin for commissioning megahertz diagnostic edge AI and plasma control system integration in tokamaks](https://arxiv.org/abs/2609.33994)
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (1)
+**Informatics for Design and Manufacturing** (13)
 
-- [Retrainable physics-integrated neural differentiable modeling of sintering across material systems](https://arxiv.org/abs/2609.31518)
+- [LLM-Guided Ontology-Driven Knowledge Graph Construction from Unstructured Text](https://arxiv.org/abs/2609.31663)
+- [APOLO: Automatic Prompt Optimization for Ontology Learning](https://arxiv.org/abs/2609.34540)
+- [Toward Agentic Optical Networks: A Vision of LLM Agent-Driven Autonomous Lifecycle Management](https://arxiv.org/abs/2609.32226)
+- _…10 more_
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (8)
+**Design, Simulation and Optimization for Advanced Manufacturing** (5)
 
-- [PORL: Pretrained Offline Reinforcement Learning for the Job Shop Scheduling Problem](https://arxiv.org/abs/2609.30948)
-- [GraspTwin: Zero-Shot Task-Oriented Grasp Optimization via a Digital Twin](https://arxiv.org/abs/2609.30543)
-- [Decision-Gated Surrogate-Assisted Stochastic Optimization with Independent High-Fidelity Certification for Photovoltaic Hosting-Capacity Planning](https://arxiv.org/abs/2609.30847)
-- _…5 more_
+- [TopoMamba: A Load-Support Relation-Guided Multi-Directional State-Space Model for Topology Optimization](https://arxiv.org/abs/2609.33688)
+- [A Comparative Study on Robust Topology Optimization of Design-Dependent Pressure-Actuated Compliant Mechanisms with Quadrilateral Elements](https://arxiv.org/abs/2609.34341)
+- [A Robust "Shrink-and-wrap" Piecewise Construction Transforms 3-Dimensional Mesh Structures into Mechanical Metamaterials](https://arxiv.org/abs/2609.31761)
+- _…2 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (12)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (6)
 
-- [Gradient Surgery for Physics-Informed Neural Networks](https://arxiv.org/abs/2609.30966)
-- [NEXT: Physics-Informed Neuro-Spectral Exponential Time Differencing Architectures](https://arxiv.org/abs/2609.31539)
-- [Deep-Learning Solvers and Surrogates for Infinity and p-Laplace Problems](https://arxiv.org/abs/2609.30809)
-- _…9 more_
-
-**Systems Design** (2)
-
-- [Toward AI-Augmented Cooperative Engineering Workflows: Requirements and Architecture the European Rover Challenge](https://arxiv.org/abs/2609.31136)
-- [LensDesigner: A Self-Improving Agent for Optical Lens Design](https://arxiv.org/abs/2609.30450)
-
-**Emerging Topics in SEIKM** (6)
-
-- [Augmented Reality Interfaces for Human-Robot Collaboration: Development of a ROS 2-Based Sensor Streaming Framework and Validation via SLAM Algorithms](https://arxiv.org/abs/2609.31396)
-- [SciHorizon-eLab: An Agentic Protocol-to-Task Compiler for Scalable Benchmarking of Scientific Embodied Agents](https://arxiv.org/abs/2609.30971)
-- [VLaRL: Augmenting Vision-Language-Action Models with Simulation-Trained Latent-Conditioned Residual RL](https://arxiv.org/abs/2609.30868)
+- [APEX: An Extensible Model for Agent-Assisted Production Scheduling](https://arxiv.org/abs/2609.33430)
+- [TRACE: Learning to Self-Calibrate Wireless Digital Twins from ISAC Measurements](https://arxiv.org/abs/2609.32923)
+- [Digital Twins for Small Towns and Rural Regions: Data Integration, Simulation and Visualisation Across Three Use Cases in Lower Austria](https://arxiv.org/abs/2609.31623)
 - _…3 more_
 
-**SEIKM General** (4)
+**Engineering Knowledge and Physics-Informed AI/ML** (13)
 
-- [AutoResearch at Production Scale: Failure Modes and a Multi-Agent Framework](https://arxiv.org/abs/2609.30541)
-- [Material and thermal properties of MgCl2 molten salt by ab initio and machine-learning molecular-dynamics simulations](https://arxiv.org/abs/2609.30549)
-- [Simulation-Efficient Analog Circuit Yield Optimization via Monte Carlo Zeroth-Order Gradient Estimation](https://arxiv.org/abs/2609.30678)
-- _…1 more_
+- [GAC-PINN: Geometry-Adaptive and Constraint-Enhanced Physics-Informed Neural Networks](https://arxiv.org/abs/2609.35196)
+- [PINNMorph: Evolving Online Adaptation Policies for Physics-Informed Neural Networks](https://arxiv.org/abs/2609.32685)
+- [Exterior complex scaling enables physics-informed neural networks for quantum scattering](https://arxiv.org/abs/2602.04553)
+- _…10 more_
+
+**Emerging Topics in SEIKM** (12)
+
+- [TAO-DA: Towards Autonomous Operation--A Dual-Arm Vision-Language-Action Model for Coordinated Manipulation](https://arxiv.org/abs/2609.33197)
+- [Learning to Act under Visual Interruptions with Vision-Language-Action Models](https://arxiv.org/abs/2609.35003)
+- [SLIP-VLA: Single-Step Latent Imagination for Policy Learning in Vision-Language-Action Models](https://arxiv.org/abs/2609.33575)
+- _…9 more_
+
+**SEIKM General** (10)
+
+- [HGPTrans: Hierarchical Graph-Pooling Transolver for Automotive Aerodynamic Drag Coefficient Prediction](https://arxiv.org/abs/2609.31765)
+- [Phase-field simulation of interfacial stability in structured gas-liquid contactors: design rules for gas diffusion electrodes](https://arxiv.org/abs/2609.34755)
+- [Robot Tool Design from Scratch via Behavior-Aware Hierarchical Optimization](https://arxiv.org/abs/2609.35479)
+- _…7 more_
 
 <!-- SEIKM:LATEST:END -->
 
