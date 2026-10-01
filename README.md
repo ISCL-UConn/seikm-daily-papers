@@ -17,58 +17,54 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — September 30, 2026
+### Latest issue — October 1, 2026
 
-**56** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-09-30.md)
-
-**Systems Engineering and Complex Systems** (1)
-
-- [Cross-Organizational SysML Model Integration: A Survey of Challenges and AI-Supported Tasks](https://arxiv.org/abs/2609.37000)
+**56** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-01.md)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [From Lexical Baselines to Agentic Retrieval-Augmented Generation: Structured Skill and Responsibility-Level Extraction with the SFIA Framework](https://arxiv.org/abs/2609.35806)
-- [From Automated Simulation to Autonomous Discovery: A Hierarchical Framework for Agentic Computational Materials Science](https://arxiv.org/abs/2609.36469)
-- [CAD-Native Transformer Operators for AI-Aided Engineering](https://arxiv.org/abs/2609.36806)
+- [Agentic Tool-Augmented Reasoning for Explainable Image Forgery Detection](https://arxiv.org/abs/2609.39066)
+- [GraphCert: Bootstrap Agentic Graph Reasoning with Certified Evidence Rubrics](https://arxiv.org/abs/2609.38798)
+- [Covert Assistance: Helpful LLM Agents Evade Oversight in Multi-Agent Systems](https://arxiv.org/abs/2609.39050)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (3)
+**Design, Simulation and Optimization for Advanced Manufacturing** (6)
 
-- [Neural topology optimization of ship structures under propulsion machinery vibrations](https://arxiv.org/abs/2609.38089)
-- [Accelerating phase-field simulations on exascale computing systems for faster-than-real-time precipitate aging predictions](https://arxiv.org/abs/2609.36100)
-- [TaoFlowForge: Progressive Native Mesh Generation via Cascaded Flow Matching](https://arxiv.org/abs/2609.37139)
+- [CNCGEN: A Dataset and Framework for Machining Process Planning and Toolpath Generation from B-rep Models](https://arxiv.org/abs/2609.39738)
+- [TO-mdiSPAs: Topology Optimization of multi-directional Soft Pneumatic Actuators](https://arxiv.org/abs/2609.39618)
+- [Airfoil2Vec: Spectral Geometry-Conditioned Neural Surrogate Models for Airfoil Aerodynamics and a Downforce-Generating CFD Dataset](https://arxiv.org/abs/2609.38213)
+- _…3 more_
 
 **Digital Twins, Manufacturing Systems, and Supply Chains** (5)
 
-- [EnergyEminence: Source-Aware Environmental Calibration and Evaluation in a Physics-Grounded Grid Digital Twin](https://arxiv.org/abs/2609.36215)
-- [Attributing Sensor Deviations to Degradation, Weather, or Attack in Oilfield Digital Twins: A Simulation Study of Probabilistic Attribution and Cost-Based Decisions](https://arxiv.org/abs/2609.31973)
-- [Geometry-Aided Channel Deduction with Partial Channel Estimates and Uncalibrated Digital Twin](https://arxiv.org/abs/2609.37277)
+- [Grounding Time-Series Foundation Models in Digital Twin Topology for Predictive Maintenance](https://arxiv.org/abs/2609.40071)
+- [Travel Time Prediction in Supply Chain Management Using Machine Learning](https://arxiv.org/abs/2609.38190)
+- [Evaluating Whether GPT-6 Astra Performs Unsanctioned Supply-Chain Attacks](https://arxiv.org/abs/2609.38415)
 - _…2 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (14)
+**Engineering Knowledge and Physics-Informed AI/ML** (13)
 
-- [CI-PINN: Causal Integral Physics-Informed Neural Network for Solving Evolution Equations](https://arxiv.org/abs/2609.36615)
-- [PE-EK-PINN: Physics Embedding with Evolving Kernel for Scalable Physics-Informed Neural Networks](https://arxiv.org/abs/2609.38023)
-- [Preconditioned Physics-Informed Neural Operator Training](https://arxiv.org/abs/2609.36216)
-- _…11 more_
+- [Cluster Attention Neural Operators for Solving Parametric Partial Differential Equations](https://arxiv.org/abs/2609.39914)
+- [A Data-Free Physics-Informed Neural Operator for Level-Set Interface Advection](https://arxiv.org/abs/2609.38195)
+- [Geometry-physics confounding impairs PDE learning across varying domains](https://arxiv.org/abs/2609.38623)
+- _…10 more_
 
-**Systems Design** (1)
+**Systems Design** (2)
 
-- [Vertiport Design Methodology and Capacity Analysis](https://arxiv.org/abs/2609.37288)
+- [Draft: A Parametric Tool for Robot Design Exploration](https://arxiv.org/abs/2609.38405)
+- [Tool-Policy Co-Design for Powder Weighing in Laboratory Automation](https://arxiv.org/abs/2609.39797)
 
 **Emerging Topics in SEIKM** (14)
 
-- [AeroManip-VLA: Scalable Vision-Language-Action Learning for Aerial Manipulation with RL-Generated Demonstrations](https://arxiv.org/abs/2609.36915)
-- [Rho: A Foundation for Efficiently Adaptable VLA Models](https://arxiv.org/abs/2609.38164)
-- [RawVLA: Embodied Neural Image Signal Processor For Robotic Manipulation](https://arxiv.org/abs/2609.37530)
+- [Memorize, Adapt, Ignore: Diagnosing Robot Learning Mechanisms under Training Data Variation](https://arxiv.org/abs/2609.38401)
+- [Spike-driven Vision-Language-Action Model](https://arxiv.org/abs/2609.39514)
+- [Exploiting Vulnerabilities: Universal Adversarial Attacks on Vision-Language-Action Models in Robotics](https://arxiv.org/abs/2609.39178)
 - _…11 more_
 
-**SEIKM General** (4)
+**SEIKM General** (2)
 
-- [MatToolBench: Benchmarking Multimodal Agents in Real-World Materials Science Workflows](https://arxiv.org/abs/2609.37053)
-- [Fabrication framework for three-dimensional colloidal particles with decoupled geometry and material composition](https://arxiv.org/abs/2609.36747)
-- [cktFormer: Transformer-Based Approach for Automated Analog Circuit Design](https://arxiv.org/abs/2609.36752)
-- _…1 more_
+- [LogiC-Diff: Embedding Security Properties Into AI-Enabled Cyber-Physical Systems](https://arxiv.org/abs/2609.38381)
+- [Forward-Invariant Policy Classes for Safe Reinforcement Learning in Multicopter Control](https://arxiv.org/abs/2609.38655)
 
 <!-- SEIKM:LATEST:END -->
 
