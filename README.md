@@ -17,54 +17,58 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — October 1, 2026
+### Latest issue — October 2, 2026
 
-**56** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-01.md)
+**58** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-02.md)
+
+**Systems Engineering and Complex Systems** (1)
+
+- [Learning the identity: a case study of how SGD selects among functional decompositions](https://arxiv.org/abs/2610.00615)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [Agentic Tool-Augmented Reasoning for Explainable Image Forgery Detection](https://arxiv.org/abs/2609.39066)
-- [GraphCert: Bootstrap Agentic Graph Reasoning with Certified Evidence Rubrics](https://arxiv.org/abs/2609.38798)
-- [Covert Assistance: Helpful LLM Agents Evade Oversight in Multi-Agent Systems](https://arxiv.org/abs/2609.39050)
+- [BuildGraph: A Synthetic Multi-Archetype Building Knowledge Graph Dataset](https://arxiv.org/abs/2610.00038)
+- [Trajectory-Aware Clinical Risk Prediction via Severity-Grounded Knowledge Graphs and Retrieval-Augmented Generation](https://arxiv.org/abs/2607.18270)
+- [LLM-Assisted Discovery of Typed Semantic Links for Ontology Network Construction](https://arxiv.org/abs/2610.01393)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (6)
+**Design, Simulation and Optimization for Advanced Manufacturing** (2)
 
-- [CNCGEN: A Dataset and Framework for Machining Process Planning and Toolpath Generation from B-rep Models](https://arxiv.org/abs/2609.39738)
-- [TO-mdiSPAs: Topology Optimization of multi-directional Soft Pneumatic Actuators](https://arxiv.org/abs/2609.39618)
-- [Airfoil2Vec: Spectral Geometry-Conditioned Neural Surrogate Models for Airfoil Aerodynamics and a Downforce-Generating CFD Dataset](https://arxiv.org/abs/2609.38213)
-- _…3 more_
+- [Finite Element Simulation of Microwave Technologies for PowderBased Volumetric Additive Manufacturing Processes](https://arxiv.org/abs/2610.00842)
+- [Compositional Embedding Architecture for Physical Field Prediction in Componentized Aerospace Systems](https://arxiv.org/abs/2610.00237)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (5)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (7)
 
-- [Grounding Time-Series Foundation Models in Digital Twin Topology for Predictive Maintenance](https://arxiv.org/abs/2609.40071)
-- [Travel Time Prediction in Supply Chain Management Using Machine Learning](https://arxiv.org/abs/2609.38190)
-- [Evaluating Whether GPT-6 Astra Performs Unsanctioned Supply-Chain Attacks](https://arxiv.org/abs/2609.38415)
-- _…2 more_
+- [Calibrating Prediction Timeliness Through Multi-Objective Hyperparameter Optimization for Remaining Useful Life Prediction](https://arxiv.org/abs/2610.01530)
+- [LLM-Driven Multi-Agent Control for Skill-Based Smart Manufacturing](https://arxiv.org/abs/2610.01364)
+- [TouchTherm: Building Multimodal Digital Twins of Objects for Tactile and Thermal Rendering](https://arxiv.org/abs/2610.01943)
+- _…4 more_
 
 **Engineering Knowledge and Physics-Informed AI/ML** (13)
 
-- [Cluster Attention Neural Operators for Solving Parametric Partial Differential Equations](https://arxiv.org/abs/2609.39914)
-- [A Data-Free Physics-Informed Neural Operator for Level-Set Interface Advection](https://arxiv.org/abs/2609.38195)
-- [Geometry-physics confounding impairs PDE learning across varying domains](https://arxiv.org/abs/2609.38623)
+- [Kolmogorov-Arnold Networks for Free-Boundary Partial Differential Equations](https://arxiv.org/abs/2610.02084)
+- [Scientific Discovery under Validation Congestion via Multi-Fidelity Pairwise Rankings](https://arxiv.org/abs/2610.01827)
+- [Atoms to Processes: The Role of Artificial Intelligence and Machine Learning in Chemical Engineering](https://arxiv.org/abs/2610.02014)
 - _…10 more_
 
 **Systems Design** (2)
 
-- [Draft: A Parametric Tool for Robot Design Exploration](https://arxiv.org/abs/2609.38405)
-- [Tool-Policy Co-Design for Powder Weighing in Laboratory Automation](https://arxiv.org/abs/2609.39797)
+- [A Design Theory for AI-Assisted Software Development Derived from Christopher Alexander's Theory of Form](https://arxiv.org/abs/2610.01372)
+- [Critsly and StudioCrit: An Artefact-Aware AI Critique Workspace and Simulation-Based Readiness Study for Design Education](https://arxiv.org/abs/2610.00085)
 
 **Emerging Topics in SEIKM** (14)
 
-- [Memorize, Adapt, Ignore: Diagnosing Robot Learning Mechanisms under Training Data Variation](https://arxiv.org/abs/2609.38401)
-- [Spike-driven Vision-Language-Action Model](https://arxiv.org/abs/2609.39514)
-- [Exploiting Vulnerabilities: Universal Adversarial Attacks on Vision-Language-Action Models in Robotics](https://arxiv.org/abs/2609.39178)
+- [DITTO-X: Forward and Reverse Teleoperation for Dexterous Manipulation and Human Intervention](https://arxiv.org/abs/2610.00781)
+- [ChunkVLA-AM: Parallel Action Chunking for Vision-Language-Action Robot Control in Additive Manufacturing](https://arxiv.org/abs/2610.01856)
+- [Robot Learning on Discrete Surfaces: Theory and Applications](https://arxiv.org/abs/2610.01910)
 - _…11 more_
 
-**SEIKM General** (2)
+**SEIKM General** (5)
 
-- [LogiC-Diff: Embedding Security Properties Into AI-Enabled Cyber-Physical Systems](https://arxiv.org/abs/2609.38381)
-- [Forward-Invariant Policy Classes for Safe Reinforcement Learning in Multicopter Control](https://arxiv.org/abs/2609.38655)
+- [CompMat-Bench: Benchmarking AI Agents for Computational Materials Science](https://arxiv.org/abs/2610.00636)
+- [Differentiable Hybrid-Action Neural Feedback Control for District Heating Networks](https://arxiv.org/abs/2610.01822)
+- [Robust Online Aero-Engine Blade Defect Detection via Dual-Alignment Test-Time Adaptation](https://arxiv.org/abs/2610.00067)
+- _…2 more_
 
 <!-- SEIKM:LATEST:END -->
 
