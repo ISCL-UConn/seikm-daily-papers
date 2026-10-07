@@ -17,56 +17,61 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — October 6, 2026
+### Latest issue — October 7, 2026
 
-**58** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-06.md)
+**60** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-07.md)
 
-**Informatics for Design and Manufacturing** (14)
+**Systems Engineering and Complex Systems** (2)
 
-- [Agentic-ZTA: A Multi-Agent Architecture for Autonomous Zero Trust Enforcement](https://arxiv.org/abs/2610.05782)
-- [CADForge: Agentic Single-View CAD Reconstruction with Explicit Geometry Reasoning](https://arxiv.org/abs/2610.04262)
-- [Agentic schema-guided extraction of materials process knowledge from scientific literature](https://arxiv.org/abs/2610.06322)
-- _…11 more_
+- [A Validated Dataset and Benchmark for Coherent Multi-Diagram SysML Models](https://arxiv.org/abs/2610.07356)
+- [Deep Defence on Wheels: A Dual Intrusion Detection System Architecture for Comprehensive In-Vehicle Network Security](https://arxiv.org/abs/2610.07489)
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (3)
+**Informatics for Design and Manufacturing** (12)
 
-- [Generative World Models Enable Predictive Control of Laser Melt Pool Dynamics](https://arxiv.org/abs/2610.06250)
-- [An End-to-End Framework for Modelling Pneumatic Soft Robots Based on Differentiable Finite Element Methods](https://arxiv.org/abs/2610.04612)
-- [Polynomial neural surrogates for designing photonic quantum experiments](https://arxiv.org/abs/2610.06032)
+- [OntoPlan: An Ontology-Grounded Scene Representation and Agentic Framework for Scalable Robot Task Planning](https://arxiv.org/abs/2610.07649)
+- [Natural Language Questions as an Interface for Knowledge Graphs: QRAKEN Graph Distillation and Semantic Self-Healing](https://arxiv.org/abs/2610.08095)
+- [Agentic AutoRAG: RAG Pipeline Optimization through Reasoning-Driven Agents](https://arxiv.org/abs/2610.08452)
+- _…9 more_
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (6)
+**Design, Simulation and Optimization for Advanced Manufacturing** (5)
 
-- [Integrating Survival-Based Aging Models with Data-Driven RUL Prognostics](https://arxiv.org/abs/2610.06128)
-- [GrayShield: Bit-Level Sanitization for Transformer Model Supply-Chain Security](https://arxiv.org/abs/2610.04319)
-- [Detecting Defects that Matter: An Application-Driven Benchmark for Anomaly Detection in Manufacturing and Retail Logistics (VAND 4.0 Challenge)](https://arxiv.org/abs/2610.04392)
-- _…3 more_
+- [Event Cameras for Melt-Pool Monitoring in Additive Manufacturing: A Benchmark and a Cross-Machine Transfer Analysis](https://arxiv.org/abs/2610.06973)
+- [Simplified Swarm Optimization for Surrogate-Assisted Reliability Design of Insulated-Gate Bipolar Transistor Power Modules Using an Open-Source Process Finite-Element Model](https://arxiv.org/abs/2610.07412)
+- [An FE2 model for shear-deformable beams considering periodic lattice-like truss mesostructures](https://arxiv.org/abs/2610.08607)
+- _…2 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (14)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (7)
 
-- [Label-free physics-informed strength reduction and a neural operator for the reliability of spatially variable slopes](https://arxiv.org/abs/2610.04828)
-- [CEENs: Causality-enforced evolutional networks for solving time-dependent partial differential equations](https://arxiv.org/abs/2610.04405)
-- [Component-Level Evaluation of Adaptive PINN Training for CFD-Oriented Crystal Growth Simulation](https://arxiv.org/abs/2610.05127)
-- _…11 more_
+- [Demo: Vision-Language Model-Guided Online Calibration of an Electromagnetic Digital Twin](https://arxiv.org/abs/2610.07081)
+- [Explainable Failure Prediction and Prevention in Maritime](https://arxiv.org/abs/2610.08363)
+- [RenderBench: Benchmarking Render-to-Real Video Transfer with Reconstructed Digital Twins](https://arxiv.org/abs/2610.08684)
+- _…4 more_
 
-**Systems Design** (3)
+**Engineering Knowledge and Physics-Informed AI/ML** (12)
 
-- [AnchorGen: Anchored Optimization for Customizable Generative 3D Design](https://arxiv.org/abs/2610.06135)
-- [Adaptive Partitioning Schemes for Optimistic Optimization](https://arxiv.org/abs/2610.04039)
-- [Adaptive Inductor and Frequency Management for Integrated Power Converters](https://arxiv.org/abs/2610.06555)
+- [Learning When to Refine: Long-Horizon Reinforcement Learning for Budgeted Neural-Operator PDE Solvers](https://arxiv.org/abs/2610.06883)
+- [FOSLS-deRhaNN: native de Rham neural classes for H(div) and H(curl) with applications to first-order system least-squares neural network methods for partial differential equations](https://arxiv.org/abs/2610.08016)
+- [Learning PDE solution operators with variable initial conditions via Latent Dynamics Networks](https://arxiv.org/abs/2610.08475)
+- _…9 more_
 
-**Emerging Topics in SEIKM** (14)
+**Systems Design** (2)
 
-- [Beyond LLM Serving: Characterizing Vision-Language-Action Workloads for Embodied AI System Design](https://arxiv.org/abs/2610.05062)
-- [Now You Feel It, Now You See Me: Digital-Twin-based Teleoperation Interface for Dexterous Manipulation](https://arxiv.org/abs/2610.05081)
-- [Grounded in Time: A Multi-Source Dataset and Benchmark for Temporal Grounding in Robotic Manipulation](https://arxiv.org/abs/2610.04255)
-- _…11 more_
+- [Agentic Design Space Exploration for Joint Hardware Configuration Selection and Mapping of AI Inference Workloads on Heterogeneous Edge SoCs](https://arxiv.org/abs/2610.07191)
+- [Mapping E-textiles Design Pain Points and Generative AI Opportunities: Insights from Workshops in Shanghai and Winchester](https://arxiv.org/abs/2610.07296)
 
-**SEIKM General** (4)
+**Emerging Topics in SEIKM** (11)
 
-- [Model-Guided Design of Nanoparticle Dispersity through Process-Chain Optimization](https://arxiv.org/abs/2610.06155)
-- [Shapley-based Structural Analysis of Neural Calibration for Stochastic Volatility Models](https://arxiv.org/abs/2610.03076)
-- [Visual Swarm Navigation via Deep Reinforcement Learning and Evolutionary Hybrid Design](https://arxiv.org/abs/2610.06400)
-- _…1 more_
+- [ReDex: Repairing Sim-to-Real Dexterous Policies by Finger-Level Compliant Interaction](https://arxiv.org/abs/2610.07525)
+- [SMART: Zero-Shot Sim-to-Real Articulated Object Manipulation via Large-Scale Synthetic Pretraining](https://arxiv.org/abs/2610.07652)
+- [VLA-ACL: Action-Consistent Visual Token Pruning for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2610.08133)
+- _…8 more_
+
+**SEIKM General** (9)
+
+- [LOGIC: An LLM Benchmark for Intent-Grounded Change Impact in Aerospace Electrical Systems](https://arxiv.org/abs/2610.07580)
+- [A Data-Driven Framework for Unsupervised Monitoring of Transmission Systems Using End-of-Line Testing Data: A Case Study at Ford Motor Company](https://arxiv.org/abs/2610.06980)
+- [Powder-in-tube confinement as a design principle for fatigue-resistant caloric materials](https://arxiv.org/abs/2610.08172)
+- _…6 more_
 
 <!-- SEIKM:LATEST:END -->
 
