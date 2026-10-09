@@ -17,54 +17,57 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — October 8, 2026
+### Latest issue — October 9, 2026
 
-**54** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-08.md)
+**54** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-09.md)
+
+**Systems Engineering and Complex Systems** (1)
+
+- [Agent4RE: A Self-Refining Multi-agent Framework for End-to-End Software Requirements Engineering and Benchmarking](https://arxiv.org/abs/2610.10628)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [BEACON-SP: Ontology-Grounded GraphRAG Framework for Clinical Suicide Risk Assessment](https://arxiv.org/abs/2610.09026)
-- [CircuitATLAS: Agentic reasoning over a systems neuroscience knowledge graph for target discovery in circuitopathies](https://arxiv.org/abs/2610.09643)
-- [CADFather: Autonomous CAD Reconstruction through Coordinated Tool Use](https://arxiv.org/abs/2610.09127)
+- [Narrow and Deep: An Ontology Tower as the Knowledge of an LLM Agent for an Industrial Equipment System](https://arxiv.org/abs/2610.11768)
+- [A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization](https://arxiv.org/abs/2610.12183)
+- [RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design](https://arxiv.org/abs/2610.10858)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (2)
+**Design, Simulation and Optimization for Advanced Manufacturing** (1)
 
-- [Design optimization of tendon-driven robots considering tendon wrapping and shortcut](https://arxiv.org/abs/2610.09645)
-- [Cross-Domain Pretraining for Steady-State Neural CFD Surrogates](https://arxiv.org/abs/2610.10398)
+- [Ceramic Materials: From Atomic Bonding and Processing to Microstructure, Functional Properties, and Biomedical Applications](https://arxiv.org/abs/2610.10874)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (3)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (4)
 
-- [Agentic AI-Assisted Modeling for Production Scheduling: Assessment in Constraint Programming](https://arxiv.org/abs/2610.10184)
-- [Adjoint-Based Calibration and Optimal Control of Stochastic Multiscale Bioprocess Digital Twins](https://arxiv.org/abs/2610.09505)
-- [Differential Refresh Policies for Models Trained on Lagging Data Snapshots: From a Single-Age Equivalence Limit to an Optimal Per-Segment Allocation](https://arxiv.org/abs/2610.09519)
+- [Ruleless Digital Twins: Toward Declarative Decision-Making Through Standardized Frameworks and Technologies](https://arxiv.org/abs/2610.10631)
+- [Digital Twin for Pre-Deployment Validation of AI-Driven Safety-Critical Industrial Edge Control Loops](https://arxiv.org/abs/2610.11934)
+- [Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub](https://arxiv.org/abs/2610.11169)
+- _…1 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (12)
+**Engineering Knowledge and Physics-Informed AI/ML** (14)
 
-- [Fourier neural operator for real-time simulation of 3D dynamic urban microclimate](https://arxiv.org/abs/2308.03985)
-- [Domain-informed Adaptive Sampling for Generalizable PINNs in Metal Additive Manufacturing via Conditional Flow Matching](https://arxiv.org/abs/2610.09126)
-- [Physics-Informed Neural Plasticity: PDE Solvers That Reshape Themselves](https://arxiv.org/abs/2610.09510)
-- _…9 more_
+- [Gen-PINNs: Generative Adversarial Physics Informed Neural Networks for solving partial differential equations](https://arxiv.org/abs/2610.10897)
+- [Cova-PINN: Cross-Domain Conservation Physics-Informed Neural Network for Fluid-Solid Conjugate Heat Transfer in Complex Geometries](https://arxiv.org/abs/2610.11108)
+- [AB-PIELMs: Adaptive-Basis Physics-Informed Extreme Learning Machines for Residual-Driven Domain Decomposition](https://arxiv.org/abs/2610.11673)
+- _…11 more_
 
 **Systems Design** (3)
 
-- [Procedural Generation of Conceptual 3D Ship Internal Arrangements for Design-Space Exploration](https://arxiv.org/abs/2610.09585)
-- [DuoSketch: How Pairs Navigate Challenges in AI-Supported Collaborative Design Ideation](https://arxiv.org/abs/2610.10249)
-- [LACE-CRAFT: Robot Co-Design with Actor Inheritance and Blackboard Collaboration](https://arxiv.org/abs/2610.09283)
+- [Bayesian Optimisation under State-Preservation Constraints](https://arxiv.org/abs/2610.12150)
+- [From Asymptotic to Designer-Assigned-Time Control: A Review of Stability Notions, Design Mechanisms, and Controller Architectures](https://arxiv.org/abs/2610.11964)
+- [La-Ribo: RNA Co-Design via Geometry-Latent Flow Matching](https://arxiv.org/abs/2610.12236)
 
 **Emerging Topics in SEIKM** (14)
 
-- [RoboRender: Robot-Oriented Video Generation for Visual Sim-to-Real Transfer](https://arxiv.org/abs/2610.09254)
-- [RobotAPO: Adversarial Physics Preference Optimization for Robotic Manipulation Video Generation](https://arxiv.org/abs/2610.09454)
-- [On-Demand Robotic Assembly via Differentiable Geometric Part Repair](https://arxiv.org/abs/2610.09777)
+- [SimVLA: Zero-Shot Sim-to-Real VLA Learning for Mobile Manipulation](https://arxiv.org/abs/2610.11248)
+- [Leveraging Human-In-The-Loop Demonstrations in Reinforcement Learning for Digital Twin-Driven Robot Flexibility](https://arxiv.org/abs/2610.12140)
+- [WARP-VLA: Wrist-Camera Adaptation for View-Robust Policy Execution in Vision-Language-Action Models](https://arxiv.org/abs/2610.11508)
 - _…11 more_
 
-**SEIKM General** (6)
+**SEIKM General** (3)
 
-- [Deep learning driven framework for optimization of polycrystalline microstructures under competing strength requirements](https://arxiv.org/abs/2610.09461)
-- [Stream-Based Active Learning with Cooperative Neural Networks for Data-Efficient Partial Inverse Design: An Automotive Glass Run Channel Case Study](https://arxiv.org/abs/2610.09848)
-- [Structural Analysis of Hybrid-Trace Nets: An Optimization Approach](https://arxiv.org/abs/2610.09184)
-- _…3 more_
+- [Should Your Database Systems Use Hardware-Assisted Memory Safety Extensions in Production?](https://arxiv.org/abs/2610.11525)
+- [TRACE: A Governance Framework for Measuring Explainability Debt in Production AI Systems](https://arxiv.org/abs/2610.10957)
+- [Towards Path-Creative Navigation: Robot Navigation through Embodied Interaction](https://arxiv.org/abs/2610.11072)
 
 <!-- SEIKM:LATEST:END -->
 
