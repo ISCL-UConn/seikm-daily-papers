@@ -17,57 +17,53 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — October 9, 2026
+### Latest issue — October 12, 2026
 
-**54** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-09.md)
-
-**Systems Engineering and Complex Systems** (1)
-
-- [Agent4RE: A Self-Refining Multi-agent Framework for End-to-End Software Requirements Engineering and Benchmarking](https://arxiv.org/abs/2610.10628)
+**49** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-12.md)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [Narrow and Deep: An Ontology Tower as the Knowledge of an LLM Agent for an Industrial Equipment System](https://arxiv.org/abs/2610.11768)
-- [A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization](https://arxiv.org/abs/2610.12183)
-- [RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design](https://arxiv.org/abs/2610.10858)
+- [Verifiable Retrieval for Legal Reasoning through Structure-driven Knowledge Graph](https://arxiv.org/abs/2610.13695)
+- [DRYLAB-Bench: Benchmarking the Biosecurity Risk of Agentic LLM Mutation Design](https://arxiv.org/abs/2610.13116)
+- [Faithful and Complete LLM-Assisted Automated Construction of Hierarchical Hardware Knowledge Graphs](https://arxiv.org/abs/2610.12762)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (1)
+**Design, Simulation and Optimization for Advanced Manufacturing** (3)
 
-- [Ceramic Materials: From Atomic Bonding and Processing to Microstructure, Functional Properties, and Biomedical Applications](https://arxiv.org/abs/2610.10874)
+- [A volume-controlled level-set method for topology optimization](https://arxiv.org/abs/2610.12922)
+- [Localized Generative Design of Ship Hulls with Diffusion Models and High-Fidelity Assessment](https://arxiv.org/abs/2610.12870)
+- [Geometry-Aware Multi-Objective Optimization: Norm-Constrained Oracles with Entropic Weight Updates](https://arxiv.org/abs/2610.13773)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (4)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (5)
 
-- [Ruleless Digital Twins: Toward Declarative Decision-Making Through Standardized Frameworks and Technologies](https://arxiv.org/abs/2610.10631)
-- [Digital Twin for Pre-Deployment Validation of AI-Driven Safety-Critical Industrial Edge Control Loops](https://arxiv.org/abs/2610.11934)
-- [Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub](https://arxiv.org/abs/2610.11169)
-- _…1 more_
+- [Lightweight Time-Frequency Vibration Sensing for Consumer Device Condition Monitoring](https://arxiv.org/abs/2610.13040)
+- [Vulnerable Models in the AI Supply Chain: An Empirical Study of Adoption, Propagation, and Usage Patterns](https://arxiv.org/abs/2610.12893)
+- [CTML: A Comprehensive Framework for Continuous Testing in Machine Learning Operations](https://arxiv.org/abs/2610.12515)
+- _…2 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (14)
+**Engineering Knowledge and Physics-Informed AI/ML** (9)
 
-- [Gen-PINNs: Generative Adversarial Physics Informed Neural Networks for solving partial differential equations](https://arxiv.org/abs/2610.10897)
-- [Cova-PINN: Cross-Domain Conservation Physics-Informed Neural Network for Fluid-Solid Conjugate Heat Transfer in Complex Geometries](https://arxiv.org/abs/2610.11108)
-- [AB-PIELMs: Adaptive-Basis Physics-Informed Extreme Learning Machines for Residual-Driven Domain Decomposition](https://arxiv.org/abs/2610.11673)
-- _…11 more_
+- [SBNO : Schrödinger Bridge Neural Operator for the Forward and Inverse Problems under Missing Information](https://arxiv.org/abs/2610.13317)
+- [Constrained Probabilistic Numerics: Gaussian Process Solvers for Linear PDEs under Linear Inequality Constraints](https://arxiv.org/abs/2610.13804)
+- [PDE-PFN: Prior-Data Fitted Neural PDE Solver](https://arxiv.org/abs/2610.13334)
+- _…6 more_
 
-**Systems Design** (3)
+**Systems Design** (2)
 
-- [Bayesian Optimisation under State-Preservation Constraints](https://arxiv.org/abs/2610.12150)
-- [From Asymptotic to Designer-Assigned-Time Control: A Review of Stability Notions, Design Mechanisms, and Controller Architectures](https://arxiv.org/abs/2610.11964)
-- [La-Ribo: RNA Co-Design via Geometry-Latent Flow Matching](https://arxiv.org/abs/2610.12236)
+- [GeoFitBench-LLM: A Benchmark for Assessing Large Language Models' Capabilities in Geospatial Data Requirements Elicitation for Geo-Analytic Tasks](https://arxiv.org/abs/2610.12669)
+- [Towards Safer Cities: A Design Process for Perception Datasets in Urban Driving Scenarios](https://arxiv.org/abs/2610.13077)
 
 **Emerging Topics in SEIKM** (14)
 
-- [SimVLA: Zero-Shot Sim-to-Real VLA Learning for Mobile Manipulation](https://arxiv.org/abs/2610.11248)
-- [Leveraging Human-In-The-Loop Demonstrations in Reinforcement Learning for Digital Twin-Driven Robot Flexibility](https://arxiv.org/abs/2610.12140)
-- [WARP-VLA: Wrist-Camera Adaptation for View-Robust Policy Execution in Vision-Language-Action Models](https://arxiv.org/abs/2610.11508)
+- [A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance](https://arxiv.org/abs/2610.13479)
+- [Human2Dex: Dexterous Robot Learning from Wrist-Centric Human Demonstrations](https://arxiv.org/abs/2610.13119)
+- [Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding](https://arxiv.org/abs/2610.13164)
 - _…11 more_
 
-**SEIKM General** (3)
+**SEIKM General** (2)
 
-- [Should Your Database Systems Use Hardware-Assisted Memory Safety Extensions in Production?](https://arxiv.org/abs/2610.11525)
-- [TRACE: A Governance Framework for Measuring Explainability Debt in Production AI Systems](https://arxiv.org/abs/2610.10957)
-- [Towards Path-Creative Navigation: Robot Navigation through Embodied Interaction](https://arxiv.org/abs/2610.11072)
+- [Towards Enriching Design-Time Models with Evidence from Simulation and Operational Activities](https://arxiv.org/abs/2610.13456)
+- [AgentSWE: Can Coding Agents Build the Agent You Actually Want?](https://arxiv.org/abs/2610.13361)
 
 <!-- SEIKM:LATEST:END -->
 
