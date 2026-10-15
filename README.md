@@ -17,63 +17,49 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — October 14, 2026
+### Latest issue — October 15, 2026
 
-**60** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-14.md)
+**52** new papers across **6** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-15.md)
 
-**Systems Engineering and Complex Systems** (2)
+**Informatics for Design and Manufacturing** (14)
 
-- [Wireless Energy Transfer for Space Applications: A Review of Technologies, Mission Architectures, Energy Routing, and System Integration](https://arxiv.org/abs/2610.16960)
-- [Explaining Heterogeneous Treatment Effects with Causal Forests and the Hoeffding Functional Decomposition](https://arxiv.org/abs/2610.16447)
+- [MMKG-R1: Constructing Multimodal Knowledge Graphs via Reinforcement Learning](https://arxiv.org/abs/2610.19341)
+- [Plant Memory: Technical Language Processing and a Verified Maintenance Ontology for Agent-Accessible Failure Knowledge from SAP PM Work Orders](https://arxiv.org/abs/2610.19131)
+- [Beyond Corrected Actions: Training LLM Agents on Textual Critiques](https://arxiv.org/abs/2610.19367)
+- _…11 more_
 
-**Informatics for Design and Manufacturing** (10)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (4)
 
-- [OntoAR-HAR: Ontology-Guided Agentic RAG with Personalized Memory for Human Activity Recognition](https://arxiv.org/abs/2610.15292)
-- [SEEK: Agentic Knowledge Graph Retrieval for Secure Code Generation](https://arxiv.org/abs/2610.14968)
-- [Ontology-Based Post-Coordinated Expression Assembly: from Clinical Narrative to Queryable Knowledge Graphs](https://arxiv.org/abs/2610.16474)
-- _…7 more_
+- [Feasibility of a Patient-Specific Digital Twin for Ventriculoperitoneal Shunt Trajectory Planning](https://arxiv.org/abs/2610.20074)
+- [Long Term Pediatric Vaccine Tender Scheduling with Quantity Discounts](https://arxiv.org/abs/2610.19045)
+- [What You Sign Is Not What You Run: The Verifiability Gap in Quantized LLM Supply Chains](https://arxiv.org/abs/2610.19498)
+- _…1 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (5)
+**Engineering Knowledge and Physics-Informed AI/ML** (14)
 
-- [How the Classical Baseline Shapes Machine-Learning Speed Claims in Topology Optimization](https://arxiv.org/abs/2610.16051)
-- [Learning When to Transfer: Reinforcement Learning for Carbon-Footprint Modeling in New Manufacturing Domains](https://arxiv.org/abs/2610.18730)
-- [Comparative Study of Canvas- and Coordinate-Based Geometry-Conditioned Neural Networks for Real-Time Prediction of Indoor Environments with Varying Room Dimensions](https://arxiv.org/abs/2610.15885)
-- _…2 more_
+- [Physics-Guided Multi-Fidelity Surrogate Modeling for Natural Supercavity Geometry of an Axisymmetric Conical Cavitator](https://arxiv.org/abs/2610.18886)
+- [Fractional is Better: Learnable Derivative Orders in Neural Operator Learning](https://arxiv.org/abs/2610.20363)
+- [Sequential Learning-Based Physics-Informed Neural Network Modeling for Parameter Estimation on a Power Converter](https://arxiv.org/abs/2610.20041)
+- _…11 more_
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (10)
+**Systems Design** (3)
 
-- [Decision-Making in Digital Twins: Optimization, Control, and Learning](https://arxiv.org/abs/2610.16929)
-- [Seamless Deployment of Machine Learning Inference at the Far Edge: An Empirical AWS IoT Greengrass Architecture for Industrial Predictive Maintenance](https://arxiv.org/abs/2610.14815)
-- [Semantic Edge-Cloud Communication for Real-Time Urban Traffic Digital Twins](https://arxiv.org/abs/2610.14187)
-- _…7 more_
+- [Design Space Exploration of Reinforcement Learning Configurations for Post-Legalization Placement](https://arxiv.org/abs/2610.20224)
+- [TANGO: RNA Topology and Geometry Co-Design](https://arxiv.org/abs/2610.20277)
+- [From Efficiency to Sufficiency: The Cost-Aware Measurement Design Framework for Automated Essay Scoring](https://arxiv.org/abs/2610.19287)
 
-**Engineering Knowledge and Physics-Informed AI/ML** (10)
+**Emerging Topics in SEIKM** (14)
 
-- [Physics-informed random neural architectures on compact boundaryless multiply connected manifolds for random-operator models in machine learning and uncertainty quantification](https://arxiv.org/abs/2610.14844)
-- [Sampling from Neural Operator Priors to Solve Partial Differential Equations](https://arxiv.org/abs/2610.16396)
-- [Physics-Informed Deep Learning in Oncology](https://arxiv.org/abs/2610.18682)
-- _…7 more_
+- [AutoRSR: Automated Real-to-Sim-to-Real Data Generation for Scalable Robot Learning](https://arxiv.org/abs/2610.20336)
+- [RoboSpan: Learning Modular Coordination Policies for High-DoF Whole-Body Mobile Manipulation with Teleoperation](https://arxiv.org/abs/2610.19594)
+- [VLRLA: Deployment-Time Adaptation of Vision-Language-Action Models through In-Context Reinforcement Learning](https://arxiv.org/abs/2610.19517)
+- _…11 more_
 
-**Systems Design** (5)
+**SEIKM General** (3)
 
-- [LLM-Augmented Bayesian Optimization with Adaptive Policies for Chiplet Design Space Exploration](https://arxiv.org/abs/2610.14612)
-- [Communicating Uncertainty in AI-Supported Nurse Scheduling: Expert Co-Design and Evaluation of an Explainable AI Prototype](https://arxiv.org/abs/2610.18679)
-- [SafeDSE: Joint Exploration of Safety Architecture Patterns, Mapping, and Scheduling for Dataflow Applications With Safety Arguments (Extended Version)](https://arxiv.org/abs/2610.16213)
-- _…2 more_
-
-**Emerging Topics in SEIKM** (9)
-
-- [LIBERO-Industry: Benchmarking Robotic Manipulation under Industrial Process Constraints](https://arxiv.org/abs/2610.16782)
-- [LABIT: Long-Horizon Robotic Assembly Benchmark for Industrial Tasks](https://arxiv.org/abs/2610.16398)
-- [Design and Evaluation of a Collaborative Teleoperation Interface for Multi-Operator Multi-Robot Systems in Challenging Environments](https://arxiv.org/abs/2610.15001)
-- _…6 more_
-
-**SEIKM General** (9)
-
-- [Game-Creation-Agents: Autonomous Game Production](https://arxiv.org/abs/2610.16776)
-- [Side-Vent Design for Microphone-Based Mechanomyography Sensors: Modeling and Experimental Evaluation of Contact Dependence](https://arxiv.org/abs/2610.15600)
-- [Direct Electromechanical Actuation of the Shift Drum in Non-Synchronized Motorcycle Transmissions: From Actuator Sizing and Electronics Design to Closed-Loop Position Control](https://arxiv.org/abs/2610.17385)
-- _…6 more_
+- [Generating Accurate Microstructures of Anisotropic Magnetorheological Elastomers](https://arxiv.org/abs/2610.20289)
+- [Supercell-enabled inverse design of boundary-state dispersion for group-velocity control in pseudomagnetic phononic crystals](https://arxiv.org/abs/2610.18908)
+- [Enabling Tidying Tasks in Robotic Vacuum Cleaners via a Geometry-Induced Self-Locking Deployable Linkage](https://arxiv.org/abs/2610.20150)
 
 <!-- SEIKM:LATEST:END -->
 
