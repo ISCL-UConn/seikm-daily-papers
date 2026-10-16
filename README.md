@@ -17,49 +17,52 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — October 15, 2026
+### Latest issue — October 16, 2026
 
-**52** new papers across **6** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-15.md)
+**51** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-16.md)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [MMKG-R1: Constructing Multimodal Knowledge Graphs via Reinforcement Learning](https://arxiv.org/abs/2610.19341)
-- [Plant Memory: Technical Language Processing and a Verified Maintenance Ontology for Agent-Accessible Failure Knowledge from SAP PM Work Orders](https://arxiv.org/abs/2610.19131)
-- [Beyond Corrected Actions: Training LLM Agents on Textual Critiques](https://arxiv.org/abs/2610.19367)
+- [DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents](https://arxiv.org/abs/2610.21755)
+- [OpCredit: Operation-Aware Policy Learning for Agentic Knowledge Graph Question Answering](https://arxiv.org/abs/2610.21345)
+- [Learning to Steer LLM Agents and Multi-Agent Systems](https://arxiv.org/abs/2610.22316)
 - _…11 more_
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (4)
+**Design, Simulation and Optimization for Advanced Manufacturing** (1)
 
-- [Feasibility of a Patient-Specific Digital Twin for Ventriculoperitoneal Shunt Trajectory Planning](https://arxiv.org/abs/2610.20074)
-- [Long Term Pediatric Vaccine Tender Scheduling with Quantity Discounts](https://arxiv.org/abs/2610.19045)
-- [What You Sign Is Not What You Run: The Verifiability Gap in Quantized LLM Supply Chains](https://arxiv.org/abs/2610.19498)
-- _…1 more_
+- [Analytically Benchmarked Spatial and Temporal Discretization Guidelines for Finite Element Simulation of Thermal Waves](https://arxiv.org/abs/2610.20938)
 
-**Engineering Knowledge and Physics-Informed AI/ML** (14)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (5)
 
-- [Physics-Guided Multi-Fidelity Surrogate Modeling for Natural Supercavity Geometry of an Axisymmetric Conical Cavitator](https://arxiv.org/abs/2610.18886)
-- [Fractional is Better: Learnable Derivative Orders in Neural Operator Learning](https://arxiv.org/abs/2610.20363)
-- [Sequential Learning-Based Physics-Informed Neural Network Modeling for Parameter Estimation on a Power Converter](https://arxiv.org/abs/2610.20041)
-- _…11 more_
+- [Content associations with answer selection and engagement in supply chain community question answering](https://arxiv.org/abs/2610.21807)
+- [RAC: A Relational Agent Contract for Constraint-Governed Engineering Tasks](https://arxiv.org/abs/2610.20935)
+- [De-Risking Robotic Welding for In-Space Metal Joining Through Physics-Grounded Digital Twins](https://arxiv.org/abs/2610.21939)
+- _…2 more_
 
-**Systems Design** (3)
+**Engineering Knowledge and Physics-Informed AI/ML** (12)
 
-- [Design Space Exploration of Reinforcement Learning Configurations for Post-Legalization Placement](https://arxiv.org/abs/2610.20224)
-- [TANGO: RNA Topology and Geometry Co-Design](https://arxiv.org/abs/2610.20277)
-- [From Efficiency to Sufficiency: The Cost-Aware Measurement Design Framework for Automated Essay Scoring](https://arxiv.org/abs/2610.19287)
+- [The importance of tensor handling and implementation of physics-informed DeepONets](https://arxiv.org/abs/2610.22157)
+- [Global-in-time Spectral Duhamel-Picard Method for Post-Exposure Bake Simulation and Physics-Informed Neural Operators for EUV Lithography](https://arxiv.org/abs/2610.20655)
+- [PiCo: Physics-Informed Concept Probing for Geo-Foundation Models](https://arxiv.org/abs/2610.20973)
+- _…9 more_
+
+**Systems Design** (2)
+
+- [Architecting for Hardware Diversity: Meta's End-to-End Co-Design for High-Performance AI Training on AMD GPUs](https://arxiv.org/abs/2610.22230)
+- [Co-designing a Layered Control Architecture](https://arxiv.org/abs/2610.20900)
 
 **Emerging Topics in SEIKM** (14)
 
-- [AutoRSR: Automated Real-to-Sim-to-Real Data Generation for Scalable Robot Learning](https://arxiv.org/abs/2610.20336)
-- [RoboSpan: Learning Modular Coordination Policies for High-DoF Whole-Body Mobile Manipulation with Teleoperation](https://arxiv.org/abs/2610.19594)
-- [VLRLA: Deployment-Time Adaptation of Vision-Language-Action Models through In-Context Reinforcement Learning](https://arxiv.org/abs/2610.19517)
+- [A Phenomenology of Neural Geometry in Vision-Language-Action Models](https://arxiv.org/abs/2610.20840)
+- [Context Matters! Social, Spatial, and Semantic Coordination with an Embodied Agent in Immersive Analytics](https://arxiv.org/abs/2610.21484)
+- [When to Ask for Help: A Decision-Theoretic Account and Measurement Standard for Slow-Module Scheduling in Dual-System Vision-Language-Action Models](https://arxiv.org/abs/2610.21160)
 - _…11 more_
 
 **SEIKM General** (3)
 
-- [Generating Accurate Microstructures of Anisotropic Magnetorheological Elastomers](https://arxiv.org/abs/2610.20289)
-- [Supercell-enabled inverse design of boundary-state dispersion for group-velocity control in pseudomagnetic phononic crystals](https://arxiv.org/abs/2610.18908)
-- [Enabling Tidying Tasks in Robotic Vacuum Cleaners via a Geometry-Induced Self-Locking Deployable Linkage](https://arxiv.org/abs/2610.20150)
+- [Scaling up statistical model checking of cyber-physical systems via algorithm ensemble and parallel simulations over HPC infrastructures](https://arxiv.org/abs/2610.21772)
+- [Hierarchical Building-Floo-Room Framework for Privacy-Preserving Autonomous Delivery in Large-Scale Buildings](https://arxiv.org/abs/2610.21361)
+- [Optimal Demand Response-Based Energy Management for Campus Buildings with Battery Energy Storage Systems: A Case Study of the ELB Building](https://arxiv.org/abs/2610.20777)
 
 <!-- SEIKM:LATEST:END -->
 
