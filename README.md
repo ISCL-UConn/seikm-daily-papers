@@ -17,52 +17,48 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — October 16, 2026
+### Latest issue — October 19, 2026
 
-**51** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-16.md)
+**39** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-19.md)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents](https://arxiv.org/abs/2610.21755)
-- [OpCredit: Operation-Aware Policy Learning for Agentic Knowledge Graph Question Answering](https://arxiv.org/abs/2610.21345)
-- [Learning to Steer LLM Agents and Multi-Agent Systems](https://arxiv.org/abs/2610.22316)
+- [AgentOnto: Ontology-Guided LLM Agents for Enterprise Data Analytics](https://arxiv.org/abs/2610.23317)
+- [AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems](https://arxiv.org/abs/2610.22511)
+- [Designing for Imperfect Prompts: A Simulation-Based Evaluation of an LLM-Based Enterprise Data Assistant Using Knowledge Graphs](https://arxiv.org/abs/2610.23304)
 - _…11 more_
 
 **Design, Simulation and Optimization for Advanced Manufacturing** (1)
 
-- [Analytically Benchmarked Spatial and Temporal Discretization Guidelines for Finite Element Simulation of Thermal Waves](https://arxiv.org/abs/2610.20938)
+- [A Physics-based and Geometry-aware Reduced-order Framework for Accelerated Part-Scale Thermomechanical Simulation of Additive Friction Stir Deposition Process](https://arxiv.org/abs/2610.22375)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (5)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (3)
 
-- [Content associations with answer selection and engagement in supply chain community question answering](https://arxiv.org/abs/2610.21807)
-- [RAC: A Relational Agent Contract for Constraint-Governed Engineering Tasks](https://arxiv.org/abs/2610.20935)
-- [De-Risking Robotic Welding for In-Space Metal Joining Through Physics-Grounded Digital Twins](https://arxiv.org/abs/2610.21939)
-- _…2 more_
+- [BOLT: Multi-Bottleneck Bound-Guided Learning for Flexible Job-Shop Scheduling with Time Lags and Resource-Coupled Transport](https://arxiv.org/abs/2610.22433)
+- [Hard Instances on Demand](https://arxiv.org/abs/2610.22637)
+- [Self-Building Labs](https://arxiv.org/abs/2610.23826)
 
-**Engineering Knowledge and Physics-Informed AI/ML** (12)
+**Engineering Knowledge and Physics-Informed AI/ML** (7)
 
-- [The importance of tensor handling and implementation of physics-informed DeepONets](https://arxiv.org/abs/2610.22157)
-- [Global-in-time Spectral Duhamel-Picard Method for Post-Exposure Bake Simulation and Physics-Informed Neural Operators for EUV Lithography](https://arxiv.org/abs/2610.20655)
-- [PiCo: Physics-Informed Concept Probing for Geo-Foundation Models](https://arxiv.org/abs/2610.20973)
+- [Learnable Splines for Unstructured Neural Operators](https://arxiv.org/abs/2610.22446)
+- [An Adaptive-Horizon Graph Neural Operator for coupled surrogate morphodynamic modelling](https://arxiv.org/abs/2610.22432)
+- [Physics-Informed Machine Learning for Response Tensors in Crystalline Magnets: Application to Kagome Metals](https://arxiv.org/abs/2610.22642)
+- _…4 more_
+
+**Systems Design** (1)
+
+- [When the implementation matters more than the algorithm: NSGA-II and other multi-objective optimizers in engineering design tools](https://arxiv.org/abs/2610.22397)
+
+**Emerging Topics in SEIKM** (12)
+
+- [MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models](https://arxiv.org/abs/2610.22951)
+- [From Sliding Windows to Self-evolving Lifelong Memory: A Dual-perspective Survey of Memory Paradigms for Long-Horizon Robotics VLA Models](https://arxiv.org/abs/2610.23319)
+- [Scaling Online Exploration for Robot Agents](https://arxiv.org/abs/2610.22496)
 - _…9 more_
 
-**Systems Design** (2)
+**SEIKM General** (1)
 
-- [Architecting for Hardware Diversity: Meta's End-to-End Co-Design for High-Performance AI Training on AMD GPUs](https://arxiv.org/abs/2610.22230)
-- [Co-designing a Layered Control Architecture](https://arxiv.org/abs/2610.20900)
-
-**Emerging Topics in SEIKM** (14)
-
-- [A Phenomenology of Neural Geometry in Vision-Language-Action Models](https://arxiv.org/abs/2610.20840)
-- [Context Matters! Social, Spatial, and Semantic Coordination with an Embodied Agent in Immersive Analytics](https://arxiv.org/abs/2610.21484)
-- [When to Ask for Help: A Decision-Theoretic Account and Measurement Standard for Slow-Module Scheduling in Dual-System Vision-Language-Action Models](https://arxiv.org/abs/2610.21160)
-- _…11 more_
-
-**SEIKM General** (3)
-
-- [Scaling up statistical model checking of cyber-physical systems via algorithm ensemble and parallel simulations over HPC infrastructures](https://arxiv.org/abs/2610.21772)
-- [Hierarchical Building-Floo-Room Framework for Privacy-Preserving Autonomous Delivery in Large-Scale Buildings](https://arxiv.org/abs/2610.21361)
-- [Optimal Demand Response-Based Energy Management for Campus Buildings with Battery Energy Storage Systems: A Case Study of the ELB Building](https://arxiv.org/abs/2610.20777)
+- [From Natural Language Intent to Executable Control: Hierarchical Feedback-Guided LLM Planning for Multi-component Cyber-Physical Systems](https://arxiv.org/abs/2610.22441)
 
 <!-- SEIKM:LATEST:END -->
 
