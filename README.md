@@ -17,54 +17,47 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — October 20, 2026
+### Latest issue — October 21, 2026
 
-**60** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-20.md)
+**47** new papers across **6** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-21.md)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [Toward Agentic Retrieval-Augmented Generation for Enterprise Retail Workflows over Heterogeneous Data Sources](https://arxiv.org/abs/2610.25096)
-- [Outcome-Anchored Credit Reallocation for Agentic Knowledge Graph Question Answering](https://arxiv.org/abs/2610.25384)
-- [AGR: Agentic Generative Retrieval with Tool-Augmented Search](https://arxiv.org/abs/2610.26831)
+- [SCODEL: Shared Canonical Ontology Definitions for Food Entity Linking and Ontology-Grounded Recipe Knowledge Graphs](https://arxiv.org/abs/2610.27637)
+- [Automated Brick Schema Knowledge Graph Completion Across Buildings](https://arxiv.org/abs/2610.27339)
+- [MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring](https://arxiv.org/abs/2610.26913)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (4)
+**Design, Simulation and Optimization for Advanced Manufacturing** (2)
 
-- [CAST: Cast-Admissible Generative Design and Shape Optimization with Paired Depth Images](https://arxiv.org/abs/2610.26309)
-- [Concurrent two-scale topology optimization of printable bone scaffolds via rectified-flow generation and exact latent-space refinement](https://arxiv.org/abs/2610.25565)
-- [Colour-Field Based Particle Categorization for Residual Stress Detection and Reduction in Solid SPH Simulations](https://arxiv.org/abs/2610.24210)
-- _…1 more_
+- [Topology optimization of shipboard components for Navy shock certification via the Dynamic Design Analysis Method](https://arxiv.org/abs/2610.27378)
+- [Early-stage local melting during solid-state sintering of a Cu-Ni-Ti-Zr-Hf alloy: A combined thermodynamic and kinetic analysis](https://arxiv.org/abs/2610.27825)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (11)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (2)
 
-- [CoRS: Fast Neural Flexible Job-Shop Scheduling via Composite Interval State Reuse](https://arxiv.org/abs/2610.26239)
-- [Data-Driven Resource Aggregation for Scalable Digital Twin and Simulation Model Generation](https://arxiv.org/abs/2610.24126)
-- [Dynamic Control of a Make-to-Order Manufacturing System under Throughput Time Constraints: An Effective Computational Method in the High-Dimensional Case](https://arxiv.org/abs/2610.24096)
-- _…8 more_
+- [A Digital Twin to Improve Cyber-Social Impact](https://arxiv.org/abs/2610.28430)
+- [A Process-Informed, Photorealistic Digital Twin for Vision-Based Inline Inspection of C-SMC Strip Deposition](https://arxiv.org/abs/2610.28050)
 
 **Engineering Knowledge and Physics-Informed AI/ML** (14)
 
-- [Reconstruction of Unobserved Core Electron Density in Tokamak Plasmas with a Neural Operator Transport Surrogate and Uncertainty Quantification](https://arxiv.org/abs/2610.24525)
-- [Parameter misspecification in physics-informed neural networks: A closed-form audit and its limits](https://arxiv.org/abs/2610.23948)
-- [Spherical Physics-informed Neural Operator with Multi-scale Coupling for Meteorological Downscaling](https://arxiv.org/abs/2610.24708)
+- [HypoNet Nankai PS: rapid hypocenter determination for the Nankai Trough using physics-informed neural networks with three-dimensional P- and S-wave velocity models](https://arxiv.org/abs/2610.27561)
+- [Low Residuals, Wrong Value: Learning the Viscosity Solution of Hamilton-Jacobi-Isaacs Equations with PINNs](https://arxiv.org/abs/2610.27193)
+- [Synthetic Dataset Generation, Physical Consistency and Active Learning for Shape-Informed Surrogate Modeling of Hemodynamics](https://arxiv.org/abs/2610.27130)
 - _…11 more_
 
-**Systems Design** (1)
+**Emerging Topics in SEIKM** (9)
 
-- [CROPS: Cosserat-Rod-Based Co-Design of Soft Slender Programmable Material Systems for Biomedical Applications](https://arxiv.org/abs/2610.24209)
+- [Physical AI for Intralogistics: Benchmarking the NVIDIA Sim-to-Real Ecosystem for Cosmos-Enhanced COMPASS Navigation on Industrial Mobile Robots](https://arxiv.org/abs/2610.28432)
+- [Physical AI: Concepts, Techniques, and Challenges](https://arxiv.org/abs/2610.27045)
+- [LocoPilot: Single-Operator Bilateral Teleoperation for Loco-Manipulation Policy Learning](https://arxiv.org/abs/2610.27998)
+- _…6 more_
 
-**Emerging Topics in SEIKM** (13)
+**SEIKM General** (6)
 
-- [Robot Learning with Vision-Language-Action Models for Agricultural Manipulation](https://arxiv.org/abs/2610.26717)
-- [AQUAACT: A Joystick-Level Underwater Teleoperation Dataset and Closed-Loop Benchmark](https://arxiv.org/abs/2610.25534)
-- [ReDOA: Real-World Distillation via Observation Alignment for Image-Based Manipulation Policy Learning](https://arxiv.org/abs/2610.25691)
-- _…10 more_
-
-**SEIKM General** (3)
-
-- [Stable Signer V3: 4D Deformable Primitive Splatting Is All You Need for Sign Language Production](https://arxiv.org/abs/2610.24926)
-- [Safety Analysis of CPSs Over-the-air Updates: Test Case Prioritization and Selection](https://arxiv.org/abs/2610.24475)
-- [LowNet: Looped Wavelet Neural Networks with 24 Learnable Parameters for Solving Poisson Equations](https://arxiv.org/abs/2610.24941)
+- [Optimizing Flexibility and Commitments: Partially-Adaptive Multi-Stage Matrix Assembly Layout Design Problem](https://arxiv.org/abs/2610.27401)
+- [Execution-Time Validation of Context-Carrying Action Intents in Industrial Cyber-Physical Systems](https://arxiv.org/abs/2610.27971)
+- [Multiscale Modeling of Zr Corrosion: Predicting Microstructures of Oxide Films](https://arxiv.org/abs/2610.28493)
+- _…3 more_
 
 <!-- SEIKM:LATEST:END -->
 
