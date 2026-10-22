@@ -17,47 +17,56 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — October 21, 2026
+### Latest issue — October 22, 2026
 
-**47** new papers across **6** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-21.md)
+**45** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-22.md)
+
+**Systems Engineering and Complex Systems** (3)
+
+- [Brittle by Design? Multi-Scenario Reinforcement Learning for Robust Mission Coordination in Systems of Systems](https://arxiv.org/abs/2610.28818)
+- [AI-Based End-to-End Automotive Design and Software Development for SDVs](https://arxiv.org/abs/2610.29160)
+- [Engineering Requirements for Generative AI Agents: The BARD Process Theory](https://arxiv.org/abs/2610.29741)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [SCODEL: Shared Canonical Ontology Definitions for Food Entity Linking and Ontology-Grounded Recipe Knowledge Graphs](https://arxiv.org/abs/2610.27637)
-- [Automated Brick Schema Knowledge Graph Completion Across Buildings](https://arxiv.org/abs/2610.27339)
-- [MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring](https://arxiv.org/abs/2610.26913)
+- [Building Knowledge Graphs for Theses: A Survey](https://arxiv.org/abs/2610.28648)
+- [Automated Materials Data and Knowledge Extraction using Machine Learning and Large Language Models](https://arxiv.org/abs/2610.29895)
+- [Beyond source attribution: Address authorship and comparability decisions in an LLM-built scholarly knowledge graph](https://arxiv.org/abs/2610.28663)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (2)
+**Design, Simulation and Optimization for Advanced Manufacturing** (1)
 
-- [Topology optimization of shipboard components for Navy shock certification via the Dynamic Design Analysis Method](https://arxiv.org/abs/2610.27378)
-- [Early-stage local melting during solid-state sintering of a Cu-Ni-Ti-Zr-Hf alloy: A combined thermodynamic and kinetic analysis](https://arxiv.org/abs/2610.27825)
+- [Scalable Stress-Constrained Topology Optimization: A Super-resolution and Simultaneous Approach Based on Machine Learning](https://arxiv.org/abs/2610.28703)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (2)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (4)
 
-- [A Digital Twin to Improve Cyber-Social Impact](https://arxiv.org/abs/2610.28430)
-- [A Process-Informed, Photorealistic Digital Twin for Vision-Based Inline Inspection of C-SMC Strip Deposition](https://arxiv.org/abs/2610.28050)
+- [LLM-Based Exogenous World Modeling for Dynamic Scheduling](https://arxiv.org/abs/2610.29308)
+- [Sign Here: Attributing a Source for a More Trustworthy Software Supply Chain](https://arxiv.org/abs/2610.28794)
+- [Enhancing Cross-Grade Generalization in Banana Variety Classification via Hybrid CNN-Transformers and Knowledge Self-Distillation](https://arxiv.org/abs/2610.29008)
+- _…1 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (14)
+**Engineering Knowledge and Physics-Informed AI/ML** (7)
 
-- [HypoNet Nankai PS: rapid hypocenter determination for the Nankai Trough using physics-informed neural networks with three-dimensional P- and S-wave velocity models](https://arxiv.org/abs/2610.27561)
-- [Low Residuals, Wrong Value: Learning the Viscosity Solution of Hamilton-Jacobi-Isaacs Equations with PINNs](https://arxiv.org/abs/2610.27193)
-- [Synthetic Dataset Generation, Physical Consistency and Active Learning for Shape-Informed Surrogate Modeling of Hemodynamics](https://arxiv.org/abs/2610.27130)
-- _…11 more_
+- [Machine Learning-Enabled Wireless Power Transfer: A Task-Oriented Review of Structural Optimization, State and Parameter Estimation, and Adaptive Control](https://arxiv.org/abs/2610.30101)
+- [Physics-Informed Mixed Integer Programming Methods for Optimal Patch Antennas](https://arxiv.org/abs/2610.28879)
+- [Machine-learned spectral PDE solvers for fluids and plasmas](https://arxiv.org/abs/2610.27317)
+- _…4 more_
 
-**Emerging Topics in SEIKM** (9)
+**Systems Design** (1)
 
-- [Physical AI for Intralogistics: Benchmarking the NVIDIA Sim-to-Real Ecosystem for Cosmos-Enhanced COMPASS Navigation on Industrial Mobile Robots](https://arxiv.org/abs/2610.28432)
-- [Physical AI: Concepts, Techniques, and Challenges](https://arxiv.org/abs/2610.27045)
-- [LocoPilot: Single-Operator Bilateral Teleoperation for Loco-Manipulation Policy Learning](https://arxiv.org/abs/2610.27998)
-- _…6 more_
+- [Sketch2Sim: an end-to-end modular framework for hand-drawn circuit analysis](https://arxiv.org/abs/2610.28836)
 
-**SEIKM General** (6)
+**Emerging Topics in SEIKM** (13)
 
-- [Optimizing Flexibility and Commitments: Partially-Adaptive Multi-Stage Matrix Assembly Layout Design Problem](https://arxiv.org/abs/2610.27401)
-- [Execution-Time Validation of Context-Carrying Action Intents in Industrial Cyber-Physical Systems](https://arxiv.org/abs/2610.27971)
-- [Multiscale Modeling of Zr Corrosion: Predicting Microstructures of Oxide Films](https://arxiv.org/abs/2610.28493)
-- _…3 more_
+- [AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation](https://arxiv.org/abs/2610.30097)
+- [Real2Sem2Real: 3D Semantic Augmentations for Robot Learning from a Single Human RGB Demonstration](https://arxiv.org/abs/2610.28880)
+- [GeoMem-VLA: Internalizing 3D Scene Understanding into Temporal Memory for Vision-Language-Action Models](https://arxiv.org/abs/2610.29866)
+- _…10 more_
+
+**SEIKM General** (2)
+
+- [Delay-Guided Attention for Quality Prediction in Multistage Manufacturing](https://arxiv.org/abs/2610.29220)
+- [Region-Aware Multi-View Inspection Using Deep Learning and Domain-Informed Decision Fusion](https://arxiv.org/abs/2610.29398)
 
 <!-- SEIKM:LATEST:END -->
 
