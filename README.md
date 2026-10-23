@@ -17,56 +17,53 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — October 22, 2026
+### Latest issue — October 23, 2026
 
-**45** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-22.md)
-
-**Systems Engineering and Complex Systems** (3)
-
-- [Brittle by Design? Multi-Scenario Reinforcement Learning for Robust Mission Coordination in Systems of Systems](https://arxiv.org/abs/2610.28818)
-- [AI-Based End-to-End Automotive Design and Software Development for SDVs](https://arxiv.org/abs/2610.29160)
-- [Engineering Requirements for Generative AI Agents: The BARD Process Theory](https://arxiv.org/abs/2610.29741)
+**47** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-23.md)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [Building Knowledge Graphs for Theses: A Survey](https://arxiv.org/abs/2610.28648)
-- [Automated Materials Data and Knowledge Extraction using Machine Learning and Large Language Models](https://arxiv.org/abs/2610.29895)
-- [Beyond source attribution: Address authorship and comparability decisions in an LLM-built scholarly knowledge graph](https://arxiv.org/abs/2610.28663)
+- [GraphCAD: Geometry-Aware Diffusion on Edge-Adjacency Graphs for CAD Generation](https://arxiv.org/abs/2610.30974)
+- [From Perpetrators' Digital Footprints to Behavioral Communities: An Ontology-Driven Framework for Bengali Cyberbullying Analysis--- FULL VERSION](https://arxiv.org/abs/2610.30885)
+- [An Empirical Study of Recent Large Language Models for Knowledge Graph to Text Generation on Standard Benchmarks](https://arxiv.org/abs/2610.31529)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (1)
+**Design, Simulation and Optimization for Advanced Manufacturing** (3)
 
-- [Scalable Stress-Constrained Topology Optimization: A Super-resolution and Simultaneous Approach Based on Machine Learning](https://arxiv.org/abs/2610.28703)
+- [Microstructural Generative Inverse Models for Additive Manufacturing Digital Twins](https://arxiv.org/abs/2610.30404)
+- [Robust topology optimization of isogeometric Kirchhoff--Love shells by the Speed Method](https://arxiv.org/abs/2610.30389)
+- [Geometry-Dependent Properties of Physically Crosslinked PPy-PVA Hydrogels Enable Tunable Iontophoretic Drug Delivery](https://arxiv.org/abs/2610.31567)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (4)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (3)
 
-- [LLM-Based Exogenous World Modeling for Dynamic Scheduling](https://arxiv.org/abs/2610.29308)
-- [Sign Here: Attributing a Source for a More Trustworthy Software Supply Chain](https://arxiv.org/abs/2610.28794)
-- [Enhancing Cross-Grade Generalization in Banana Variety Classification via Hybrid CNN-Transformers and Knowledge Self-Distillation](https://arxiv.org/abs/2610.29008)
-- _…1 more_
+- [Benchmarking Model Compression Techniques Across Heterogeneous Edge Platforms: A Predictive Maintenance Use Case for Rotating Machinery](https://arxiv.org/abs/2610.30228)
+- [Large Language Models Meet Bayesian Optimization: Towards Self-evolving Wireless Digital Twins](https://arxiv.org/abs/2610.31192)
+- [Half-Slot Link Scheduling for Open GNSS with x-Tx y-Rx Multibeam Phased Array Antennas](https://arxiv.org/abs/2610.30695)
 
-**Engineering Knowledge and Physics-Informed AI/ML** (7)
+**Engineering Knowledge and Physics-Informed AI/ML** (10)
 
-- [Machine Learning-Enabled Wireless Power Transfer: A Task-Oriented Review of Structural Optimization, State and Parameter Estimation, and Adaptive Control](https://arxiv.org/abs/2610.30101)
-- [Physics-Informed Mixed Integer Programming Methods for Optimal Patch Antennas](https://arxiv.org/abs/2610.28879)
-- [Machine-learned spectral PDE solvers for fluids and plasmas](https://arxiv.org/abs/2610.27317)
-- _…4 more_
+- [AcoustiPrint: Physics-Guided Neural Design of Manufacturable Acoustic Structures](https://arxiv.org/abs/2610.30411)
+- [GeoDiv KAN Solver for Time Fractional Navier Stokes Equations on Complex Domains to Realistic CFD Reconstruction](https://arxiv.org/abs/2610.30179)
+- [SciFusion: Physics-Guided Compositional Diffusion for Multimodal 3D Scientific Image Generation](https://arxiv.org/abs/2610.30313)
+- _…7 more_
 
-**Systems Design** (1)
+**Systems Design** (3)
 
-- [Sketch2Sim: an end-to-end modular framework for hand-drawn circuit analysis](https://arxiv.org/abs/2610.28836)
+- [Consensus-Aware Co-design of Wireless Multi-Agent Control and Communication Systems](https://arxiv.org/abs/2610.30141)
+- [SABLE: Scalable Affine Bayesian Latent-space Exploration](https://arxiv.org/abs/2610.31495)
+- [PLE: Physical-Engineering's Last Exam](https://arxiv.org/abs/2610.30537)
 
-**Emerging Topics in SEIKM** (13)
+**Emerging Topics in SEIKM** (12)
 
-- [AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation](https://arxiv.org/abs/2610.30097)
-- [Real2Sem2Real: 3D Semantic Augmentations for Robot Learning from a Single Human RGB Demonstration](https://arxiv.org/abs/2610.28880)
-- [GeoMem-VLA: Internalizing 3D Scene Understanding into Temporal Memory for Vision-Language-Action Models](https://arxiv.org/abs/2610.29866)
-- _…10 more_
+- [Navigating human-robot interaction challenges in private and residential aged care homes](https://arxiv.org/abs/2610.31149)
+- [SmolVLA-MoE: Sparse Mixture-of-Experts for Efficient Multi-Task Robotic Manipulation](https://arxiv.org/abs/2610.30732)
+- [Tactile-Based Robotic Manipulation: From Mechanics-Driven to Data-Driven Perspectives](https://arxiv.org/abs/2610.30438)
+- _…9 more_
 
 **SEIKM General** (2)
 
-- [Delay-Guided Attention for Quality Prediction in Multistage Manufacturing](https://arxiv.org/abs/2610.29220)
-- [Region-Aware Multi-View Inspection Using Deep Learning and Domain-Informed Decision Fusion](https://arxiv.org/abs/2610.29398)
+- [Screening strongly correlated materials in solid oxide cells with quantum simulation](https://arxiv.org/abs/2610.31591)
+- [Causal Analysis of Failures of Cyber-Physical Systems with Continuous Inputs](https://arxiv.org/abs/2610.30737)
 
 <!-- SEIKM:LATEST:END -->
 
