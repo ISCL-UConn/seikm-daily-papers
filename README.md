@@ -17,53 +17,48 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — October 23, 2026
+### Latest issue — October 26, 2026
 
-**47** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-23.md)
+**39** new papers across **6** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-26.md)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [GraphCAD: Geometry-Aware Diffusion on Edge-Adjacency Graphs for CAD Generation](https://arxiv.org/abs/2610.30974)
-- [From Perpetrators' Digital Footprints to Behavioral Communities: An Ontology-Driven Framework for Bengali Cyberbullying Analysis--- FULL VERSION](https://arxiv.org/abs/2610.30885)
-- [An Empirical Study of Recent Large Language Models for Knowledge Graph to Text Generation on Standard Benchmarks](https://arxiv.org/abs/2610.31529)
+- [Ontology-Guided Knowledge Graph Construction from Structured Metadata and Climate Science Publications](https://arxiv.org/abs/2610.32725)
+- [Reimagining Enterprise RAG for Multi-Agent Systems: A Knowledge Layer That Organizes Before It Retrieves](https://arxiv.org/abs/2610.32851)
+- [Knowledge Graphs Quality Assessment in the Era of LLMs: A Conceptual Framework](https://arxiv.org/abs/2610.31684)
 - _…11 more_
 
 **Design, Simulation and Optimization for Advanced Manufacturing** (3)
 
-- [Microstructural Generative Inverse Models for Additive Manufacturing Digital Twins](https://arxiv.org/abs/2610.30404)
-- [Robust topology optimization of isogeometric Kirchhoff--Love shells by the Speed Method](https://arxiv.org/abs/2610.30389)
-- [Geometry-Dependent Properties of Physically Crosslinked PPy-PVA Hydrogels Enable Tunable Iontophoretic Drug Delivery](https://arxiv.org/abs/2610.31567)
+- [Multi-Material Topology Optimization of Phononic Crystals for Targeted Elastic Wave Bandgap](https://arxiv.org/abs/2610.31999)
+- [Multi-Material Topology Optimization for Targeted Structural Dynamic Vibration Attenuation](https://arxiv.org/abs/2610.31996)
+- [Freeform Programmable Liquid Crystal Elastomers via Monolithic Integration of Co-Optimization and 4D-Printing](https://arxiv.org/abs/2610.32186)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (3)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (2)
 
-- [Benchmarking Model Compression Techniques Across Heterogeneous Edge Platforms: A Predictive Maintenance Use Case for Rotating Machinery](https://arxiv.org/abs/2610.30228)
-- [Large Language Models Meet Bayesian Optimization: Towards Self-evolving Wireless Digital Twins](https://arxiv.org/abs/2610.31192)
-- [Half-Slot Link Scheduling for Open GNSS with x-Tx y-Rx Multibeam Phased Array Antennas](https://arxiv.org/abs/2610.30695)
+- [The Path to NDE 4.0: A Review of Algorithms, Techniques, and Strategies for Autonomous Inspection](https://arxiv.org/abs/2610.31704)
+- [Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation](https://arxiv.org/abs/2610.31701)
 
 **Engineering Knowledge and Physics-Informed AI/ML** (10)
 
-- [AcoustiPrint: Physics-Guided Neural Design of Manufacturable Acoustic Structures](https://arxiv.org/abs/2610.30411)
-- [GeoDiv KAN Solver for Time Fractional Navier Stokes Equations on Complex Domains to Realistic CFD Reconstruction](https://arxiv.org/abs/2610.30179)
-- [SciFusion: Physics-Guided Compositional Diffusion for Multimodal 3D Scientific Image Generation](https://arxiv.org/abs/2610.30313)
+- [Autoregressive Physics-Informed Neural Operator Surrogates and Joint 4-D Seismic-Production Bayesian History Matching](https://arxiv.org/abs/2610.31677)
+- [ZENO: Nonlinear filtering with Zakai Equation Neural Operators](https://arxiv.org/abs/2610.32926)
+- [Cautious Conflict-Free Inverse Gradient Methods](https://arxiv.org/abs/2610.31855)
 - _…7 more_
 
-**Systems Design** (3)
+**Emerging Topics in SEIKM** (6)
 
-- [Consensus-Aware Co-design of Wireless Multi-Agent Control and Communication Systems](https://arxiv.org/abs/2610.30141)
-- [SABLE: Scalable Affine Bayesian Latent-space Exploration](https://arxiv.org/abs/2610.31495)
-- [PLE: Physical-Engineering's Last Exam](https://arxiv.org/abs/2610.30537)
+- [From Tabletop to Walking Bot: Deploying a VLA Model on a Legged Manipulator Robot](https://arxiv.org/abs/2610.32271)
+- [Do VLAs Know They Will Fail? Interpretable Success and Failure Patterns in Physical AI Systems](https://arxiv.org/abs/2610.32208)
+- [Coupling Execution Horizon and Sampling Depth in Flow-Matching VLA Policies](https://arxiv.org/abs/2610.32102)
+- _…3 more_
 
-**Emerging Topics in SEIKM** (12)
+**SEIKM General** (4)
 
-- [Navigating human-robot interaction challenges in private and residential aged care homes](https://arxiv.org/abs/2610.31149)
-- [SmolVLA-MoE: Sparse Mixture-of-Experts for Efficient Multi-Task Robotic Manipulation](https://arxiv.org/abs/2610.30732)
-- [Tactile-Based Robotic Manipulation: From Mechanics-Driven to Data-Driven Perspectives](https://arxiv.org/abs/2610.30438)
-- _…9 more_
-
-**SEIKM General** (2)
-
-- [Screening strongly correlated materials in solid oxide cells with quantum simulation](https://arxiv.org/abs/2610.31591)
-- [Causal Analysis of Failures of Cyber-Physical Systems with Continuous Inputs](https://arxiv.org/abs/2610.30737)
+- [Model-Free Generative Stealthy Attacks on Safety-Critical Vehicle Cyber-Physical Systems](https://arxiv.org/abs/2610.31864)
+- [Tensor Networks for Materials Simulation and Quantum Chemistry](https://arxiv.org/abs/2610.32754)
+- [Reproducible Evaluation as the Substrate for Safe Prompt Compression in Production Agents](https://arxiv.org/abs/2610.31972)
+- _…1 more_
 
 <!-- SEIKM:LATEST:END -->
 
