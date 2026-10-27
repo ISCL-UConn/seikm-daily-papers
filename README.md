@@ -17,48 +17,55 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — October 26, 2026
+### Latest issue — October 27, 2026
 
-**39** new papers across **6** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-26.md)
+**60** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-27.md)
 
-**Informatics for Design and Manufacturing** (14)
+**Systems Engineering and Complex Systems** (3)
 
-- [Ontology-Guided Knowledge Graph Construction from Structured Metadata and Climate Science Publications](https://arxiv.org/abs/2610.32725)
-- [Reimagining Enterprise RAG for Multi-Agent Systems: A Knowledge Layer That Organizes Before It Retrieves](https://arxiv.org/abs/2610.32851)
-- [Knowledge Graphs Quality Assessment in the Era of LLMs: A Conceptual Framework](https://arxiv.org/abs/2610.31684)
-- _…11 more_
+- [Contract-Based Agentic Systems Engineering: Delegation as Quotient for Assured System Design](https://arxiv.org/abs/2610.33349)
+- [Multimodal Requirements Traceability Link Recovery in Industrial Settings](https://arxiv.org/abs/2610.34503)
+- [A SysML v2 Domain Library for ROS2 Robot Architectures](https://arxiv.org/abs/2610.33362)
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (3)
+**Informatics for Design and Manufacturing** (13)
 
-- [Multi-Material Topology Optimization of Phononic Crystals for Targeted Elastic Wave Bandgap](https://arxiv.org/abs/2610.31999)
-- [Multi-Material Topology Optimization for Targeted Structural Dynamic Vibration Attenuation](https://arxiv.org/abs/2610.31996)
-- [Freeform Programmable Liquid Crystal Elastomers via Monolithic Integration of Co-Optimization and 4D-Printing](https://arxiv.org/abs/2610.32186)
+- [AskGLP1: A Knowledge Graph LLM Agent for Exploring GLP-1 Experience from Online Patient Narratives](https://arxiv.org/abs/2610.34987)
+- [FlexA-Mem: Budget-Adaptive Agentic Memory for LLM Agents](https://arxiv.org/abs/2610.33274)
+- [GEMS-RAG: Graph-grounded Engineering Multimodal Standards Retrieval-Augmented Generation](https://arxiv.org/abs/2610.33277)
+- _…10 more_
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (2)
+**Design, Simulation and Optimization for Advanced Manufacturing** (2)
 
-- [The Path to NDE 4.0: A Review of Algorithms, Techniques, and Strategies for Autonomous Inspection](https://arxiv.org/abs/2610.31704)
-- [Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation](https://arxiv.org/abs/2610.31701)
+- [Consequence-guided clarification: releasing minimum-compliance topology-optimized designs from incomplete specifications](https://arxiv.org/abs/2610.34957)
+- [AutoEnergyDesign: An LLM-Driven Agent for Automatic Energy System Design Optimization](https://arxiv.org/abs/2610.35160)
 
-**Engineering Knowledge and Physics-Informed AI/ML** (10)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (13)
 
-- [Autoregressive Physics-Informed Neural Operator Surrogates and Joint 4-D Seismic-Production Bayesian History Matching](https://arxiv.org/abs/2610.31677)
-- [ZENO: Nonlinear filtering with Zakai Equation Neural Operators](https://arxiv.org/abs/2610.32926)
-- [Cautious Conflict-Free Inverse Gradient Methods](https://arxiv.org/abs/2610.31855)
-- _…7 more_
+- [When Protection Hurts: A Cytokine Storm Theory of Supply Chain Overreaction](https://arxiv.org/abs/2610.33750)
+- [Benchmarking quantum-annealing-based approaches for factory layout planning](https://arxiv.org/abs/2610.35478)
+- [DuoPIC: Uncertainty-Aware Voxel-Level Digital Twins of Cerebral Perfusion with Transport PDEs in Acute Stroke](https://arxiv.org/abs/2610.33071)
+- _…10 more_
 
-**Emerging Topics in SEIKM** (6)
+**Engineering Knowledge and Physics-Informed AI/ML** (12)
 
-- [From Tabletop to Walking Bot: Deploying a VLA Model on a Legged Manipulator Robot](https://arxiv.org/abs/2610.32271)
-- [Do VLAs Know They Will Fail? Interpretable Success and Failure Patterns in Physical AI Systems](https://arxiv.org/abs/2610.32208)
-- [Coupling Execution Horizon and Sampling Depth in Flow-Matching VLA Policies](https://arxiv.org/abs/2610.32102)
-- _…3 more_
+- [Hybrid-time PINNs: Discontinuity-Aware Physics-Informed Neural Networks for Learning Hybrid Dynamical Systems](https://arxiv.org/abs/2610.33562)
+- [Physics Informed Neural Networks for Solving the Drift-Diffusion Equations](https://arxiv.org/abs/2610.33133)
+- [A Product-Grassmann Tucker Surrogate for Parametric Field Prediction](https://arxiv.org/abs/2610.34559)
+- _…9 more_
 
-**SEIKM General** (4)
+**Emerging Topics in SEIKM** (12)
 
-- [Model-Free Generative Stealthy Attacks on Safety-Critical Vehicle Cyber-Physical Systems](https://arxiv.org/abs/2610.31864)
-- [Tensor Networks for Materials Simulation and Quantum Chemistry](https://arxiv.org/abs/2610.32754)
-- [Reproducible Evaluation as the Substrate for Safe Prompt Compression in Production Agents](https://arxiv.org/abs/2610.31972)
-- _…1 more_
+- [EAST: Embodied AI Safety Testing via Systematic Fault Injection in Digital Twins](https://arxiv.org/abs/2610.34358)
+- [EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models](https://arxiv.org/abs/2610.33685)
+- [Power-of-Two Leaky Integrate-and-Fire Neurons for Event-Driven Vision-Language-Action Inference](https://arxiv.org/abs/2610.33658)
+- _…9 more_
+
+**SEIKM General** (5)
+
+- [Context-dependent Runtime Construction of Safe Regions of Attraction from Design-Time Identification for Multi-Candidate Simplex Architectures](https://arxiv.org/abs/2610.35040)
+- [Reliability Assessment of FRP-RC Columns Using AK-MCS with a Piecewise Two-Branch Approach](https://arxiv.org/abs/2610.34472)
+- [High-efficiency solid-state electrochemical thermal switching through phonon engineering of 2D materials](https://arxiv.org/abs/2610.35547)
+- _…2 more_
 
 <!-- SEIKM:LATEST:END -->
 
