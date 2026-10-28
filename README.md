@@ -17,55 +17,60 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — October 27, 2026
+### Latest issue — October 28, 2026
 
-**60** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-27.md)
+**52** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-28.md)
 
-**Systems Engineering and Complex Systems** (3)
+**Systems Engineering and Complex Systems** (1)
 
-- [Contract-Based Agentic Systems Engineering: Delegation as Quotient for Assured System Design](https://arxiv.org/abs/2610.33349)
-- [Multimodal Requirements Traceability Link Recovery in Industrial Settings](https://arxiv.org/abs/2610.34503)
-- [A SysML v2 Domain Library for ROS2 Robot Architectures](https://arxiv.org/abs/2610.33362)
+- [MARQ: A Modular, LLM-Agnostic Requirement Quality Assessor Infused with Systems Engineering Knowledge](https://arxiv.org/abs/2610.36234)
 
-**Informatics for Design and Manufacturing** (13)
+**Informatics for Design and Manufacturing** (14)
 
-- [AskGLP1: A Knowledge Graph LLM Agent for Exploring GLP-1 Experience from Online Patient Narratives](https://arxiv.org/abs/2610.34987)
-- [FlexA-Mem: Budget-Adaptive Agentic Memory for LLM Agents](https://arxiv.org/abs/2610.33274)
-- [GEMS-RAG: Graph-grounded Engineering Multimodal Standards Retrieval-Augmented Generation](https://arxiv.org/abs/2610.33277)
-- _…10 more_
+- [OA-RAG: Ontology-based Agentic RAG for Faithful LLM Reasoning](https://arxiv.org/abs/2610.36335)
+- [Grounding LLM Agents in Business Processes: Process-Aware Knowledge Graphs for Reliable Multi-Step Service Invocation](https://arxiv.org/abs/2610.37242)
+- [SFE-O: An Ontology for Knowledge-Grounded AI in Supercritical CO₂ Biomass Extraction and Fractionation](https://arxiv.org/abs/2610.37123)
+- _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (2)
+**Design, Simulation and Optimization for Advanced Manufacturing** (3)
 
-- [Consequence-guided clarification: releasing minimum-compliance topology-optimized designs from incomplete specifications](https://arxiv.org/abs/2610.34957)
-- [AutoEnergyDesign: An LLM-Driven Agent for Automatic Energy System Design Optimization](https://arxiv.org/abs/2610.35160)
+- [When Can a Learned Design Surrogate Be Trusted in a Self-Driving Microfluidics Laboratory? An Offline Closed-Loop Framework Built and Tested on Six Public Tables](https://arxiv.org/abs/2610.36395)
+- [Finite Element Modeling of Fracture in Brittle Foods with Physically Consistent Parameter Calibration: A Practical Case Study on Cooled Dark Chocolate](https://arxiv.org/abs/2610.37124)
+- [Co-Optimization of Network Topology and Variable Impedance Devices under Dynamic Line Ratings Using Iterative McCormick Relaxation](https://arxiv.org/abs/2610.36871)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (13)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (7)
 
-- [When Protection Hurts: A Cytokine Storm Theory of Supply Chain Overreaction](https://arxiv.org/abs/2610.33750)
-- [Benchmarking quantum-annealing-based approaches for factory layout planning](https://arxiv.org/abs/2610.35478)
-- [DuoPIC: Uncertainty-Aware Voxel-Level Digital Twins of Cerebral Perfusion with Transport PDEs in Acute Stroke](https://arxiv.org/abs/2610.33071)
-- _…10 more_
+- [Robust global supply chain reconfiguration under tariff and geopolitical uncertainty](https://arxiv.org/abs/2610.36977)
+- [Pneuma: A Large-Scale Real-World Time Series Benchmark for Commercial Aircraft Predictive Maintenance](https://arxiv.org/abs/2610.37563)
+- [ObjectTwin: Measuring the Asset Correspondence Gap for Capture-Anchored Digital Twins](https://arxiv.org/abs/2610.35904)
+- _…4 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (12)
+**Engineering Knowledge and Physics-Informed AI/ML** (14)
 
-- [Hybrid-time PINNs: Discontinuity-Aware Physics-Informed Neural Networks for Learning Hybrid Dynamical Systems](https://arxiv.org/abs/2610.33562)
-- [Physics Informed Neural Networks for Solving the Drift-Diffusion Equations](https://arxiv.org/abs/2610.33133)
-- [A Product-Grassmann Tucker Surrogate for Parametric Field Prediction](https://arxiv.org/abs/2610.34559)
-- _…9 more_
+- [QD-PINN:A Physics-Informed Neural Network Approach to Bayesian Quickest Detection in High-Dimensional Diffusions](https://arxiv.org/abs/2610.37473)
+- [AMOR: Adaptive Modal Operator Refinement for Operator Learning on Arbitrary Meshes and Irregular 3D Geometries](https://arxiv.org/abs/2610.37485)
+- [Physics-Guided Flow Matching: A Generative AI Framework for Global Total Electron Content Forecasting](https://arxiv.org/abs/2610.37159)
+- _…11 more_
 
-**Emerging Topics in SEIKM** (12)
+**Systems Design** (4)
 
-- [EAST: Embodied AI Safety Testing via Systematic Fault Injection in Digital Twins](https://arxiv.org/abs/2610.34358)
-- [EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models](https://arxiv.org/abs/2610.33685)
-- [Power-of-Two Leaky Integrate-and-Fire Neurons for Event-Driven Vision-Language-Action Inference](https://arxiv.org/abs/2610.33658)
-- _…9 more_
+- [A Bi-level Co-design Framework for Lunar Monoped with 2D Jump and Landing Control](https://arxiv.org/abs/2610.37199)
+- [Condition-Enhanced Generative Adversarial Network for Aerodynamic Configuration Design of Commercial Aircraft](https://arxiv.org/abs/2610.35963)
+- [Structure-Actuation Co-Design of All-Electric Heavy-Duty Robotic Manipulators](https://arxiv.org/abs/2610.36996)
+- _…1 more_
 
-**SEIKM General** (5)
+**Emerging Topics in SEIKM** (6)
 
-- [Context-dependent Runtime Construction of Safe Regions of Attraction from Design-Time Identification for Multi-Candidate Simplex Architectures](https://arxiv.org/abs/2610.35040)
-- [Reliability Assessment of FRP-RC Columns Using AK-MCS with a Piecewise Two-Branch Approach](https://arxiv.org/abs/2610.34472)
-- [High-efficiency solid-state electrochemical thermal switching through phonon engineering of 2D materials](https://arxiv.org/abs/2610.35547)
-- _…2 more_
+- [VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning](https://arxiv.org/abs/2610.37378)
+- [Understanding Human-Robot Collaboration through Joint Action](https://arxiv.org/abs/2610.37298)
+- [Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer](https://arxiv.org/abs/2610.37330)
+- _…3 more_
+
+**SEIKM General** (3)
+
+- [Generation and Verification: Human-Agent Collaboration for Safety-Critical Automotive Software Engineering](https://arxiv.org/abs/2610.35982)
+- [Beyond Geometry: Hole-Edge Atomic Configuration as a Design Variable in Graphyne Kirigami](https://arxiv.org/abs/2610.36468)
+- [When AI Can Build It, What Should We Assess? Rethinking Evidence of Engineering Competence](https://arxiv.org/abs/2610.36413)
 
 <!-- SEIKM:LATEST:END -->
 
