@@ -17,60 +17,53 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — October 28, 2026
+### Latest issue — October 30, 2026
 
-**52** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-28.md)
-
-**Systems Engineering and Complex Systems** (1)
-
-- [MARQ: A Modular, LLM-Agnostic Requirement Quality Assessor Infused with Systems Engineering Knowledge](https://arxiv.org/abs/2610.36234)
+**56** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-30.md)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [OA-RAG: Ontology-based Agentic RAG for Faithful LLM Reasoning](https://arxiv.org/abs/2610.36335)
-- [Grounding LLM Agents in Business Processes: Process-Aware Knowledge Graphs for Reliable Multi-Step Service Invocation](https://arxiv.org/abs/2610.37242)
-- [SFE-O: An Ontology for Knowledge-Grounded AI in Supercritical CO₂ Biomass Extraction and Fractionation](https://arxiv.org/abs/2610.37123)
+- [What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs](https://arxiv.org/abs/2610.37809)
+- [Beyond Similarity Search: Knowledge Graph Metadata Enrichment for Enterprise Retrieval-Augmented Generation](https://arxiv.org/abs/2610.37728)
+- [TCC-RAG: Temporal Causal Chain-Guided RAG for Temporal Knowledge Graph Question Answering](https://arxiv.org/abs/2610.38366)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (3)
+**Design, Simulation and Optimization for Advanced Manufacturing** (1)
 
-- [When Can a Learned Design Surrogate Be Trusted in a Self-Driving Microfluidics Laboratory? An Offline Closed-Loop Framework Built and Tested on Six Public Tables](https://arxiv.org/abs/2610.36395)
-- [Finite Element Modeling of Fracture in Brittle Foods with Physically Consistent Parameter Calibration: A Practical Case Study on Cooled Dark Chocolate](https://arxiv.org/abs/2610.37124)
-- [Co-Optimization of Network Topology and Variable Impedance Devices under Dynamic Line Ratings Using Iterative McCormick Relaxation](https://arxiv.org/abs/2610.36871)
+- [Multiscale evaluation of the elastic response of polycrystalline NiAl using molecular statics, EBSD-based finite element and analytical homogenization methods](https://arxiv.org/abs/2610.38783)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (7)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (6)
 
-- [Robust global supply chain reconfiguration under tariff and geopolitical uncertainty](https://arxiv.org/abs/2610.36977)
-- [Pneuma: A Large-Scale Real-World Time Series Benchmark for Commercial Aircraft Predictive Maintenance](https://arxiv.org/abs/2610.37563)
-- [ObjectTwin: Measuring the Asset Correspondence Gap for Capture-Anchored Digital Twins](https://arxiv.org/abs/2610.35904)
-- _…4 more_
+- [AI-Driven Digital Twin Framework for Warehouse Logistics Automation Optimization](https://arxiv.org/abs/2610.38101)
+- [Securing the Robotics Supply Chain](https://arxiv.org/abs/2610.40385)
+- [A Deep Learning Framework for Quantile Demand Forecasting in E-commerce with Doubly Censored Data](https://arxiv.org/abs/2610.40138)
+- _…3 more_
 
 **Engineering Knowledge and Physics-Informed AI/ML** (14)
 
-- [QD-PINN:A Physics-Informed Neural Network Approach to Bayesian Quickest Detection in High-Dimensional Diffusions](https://arxiv.org/abs/2610.37473)
-- [AMOR: Adaptive Modal Operator Refinement for Operator Learning on Arbitrary Meshes and Irregular 3D Geometries](https://arxiv.org/abs/2610.37485)
-- [Physics-Guided Flow Matching: A Generative AI Framework for Global Total Electron Content Forecasting](https://arxiv.org/abs/2610.37159)
+- [A Hybrid Physics-informed holomorphic neural networks Method](https://arxiv.org/abs/2610.38269)
+- [The Utility of Physics-Informed Machine Learning in Solar Power Production Forecasting](https://arxiv.org/abs/2610.38976)
+- [Application of PDE emulators for a multi-material, multi-physics simulation problem](https://arxiv.org/abs/2610.37972)
 - _…11 more_
 
-**Systems Design** (4)
+**Systems Design** (2)
 
-- [A Bi-level Co-design Framework for Lunar Monoped with 2D Jump and Landing Control](https://arxiv.org/abs/2610.37199)
-- [Condition-Enhanced Generative Adversarial Network for Aerodynamic Configuration Design of Commercial Aircraft](https://arxiv.org/abs/2610.35963)
-- [Structure-Actuation Co-Design of All-Electric Heavy-Duty Robotic Manipulators](https://arxiv.org/abs/2610.36996)
-- _…1 more_
+- [LLM-Assisted Optimization for Simulation-Based Redesign](https://arxiv.org/abs/2610.39275)
+- [Neuromorphic design of a rhythmic network](https://arxiv.org/abs/2610.39762)
 
-**Emerging Topics in SEIKM** (6)
+**Emerging Topics in SEIKM** (14)
 
-- [VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning](https://arxiv.org/abs/2610.37378)
-- [Understanding Human-Robot Collaboration through Joint Action](https://arxiv.org/abs/2610.37298)
-- [Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer](https://arxiv.org/abs/2610.37330)
-- _…3 more_
+- [SKiD-SLAM: Resource-Aware Distributed Multi-Robot LiDAR SLAM for Planetary Missions with Field Deployments at Analog Sites](https://arxiv.org/abs/2610.38141)
+- [Gaze-Assisted Supervisory Control for Lunar Robotic Arm Teleoperation Under Concurrent Monitoring](https://arxiv.org/abs/2610.39998)
+- [Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models](https://arxiv.org/abs/2610.38661)
+- _…11 more_
 
-**SEIKM General** (3)
+**SEIKM General** (5)
 
-- [Generation and Verification: Human-Agent Collaboration for Safety-Critical Automotive Software Engineering](https://arxiv.org/abs/2610.35982)
-- [Beyond Geometry: Hole-Edge Atomic Configuration as a Design Variable in Graphyne Kirigami](https://arxiv.org/abs/2610.36468)
-- [When AI Can Build It, What Should We Assess? Rethinking Evidence of Engineering Competence](https://arxiv.org/abs/2610.36413)
+- [Strain-Induced BCC-to-FCC Transformation in Tungsten Uncovered by Molecular Dynamics Simulations with Machine Learning Potentials](https://arxiv.org/abs/2610.38477)
+- [Class-aware Latent Attention Replay (CLAR): Class Incremental Hazard Diagnosis for Resilient AI in the Manufacturing Industrial Internet](https://arxiv.org/abs/2610.39323)
+- [Actuator-Aware Observer Inputs for Cascade ADRC of Quadrotors Under Rotor Lag, Measurement Delay and Sensor Noise](https://arxiv.org/abs/2610.39126)
+- _…2 more_
 
 <!-- SEIKM:LATEST:END -->
 
