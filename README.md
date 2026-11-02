@@ -17,53 +17,49 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — October 30, 2026
+### Latest issue — November 2, 2026
 
-**56** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-10-30.md)
+**49** new papers across **6** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-02.md)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs](https://arxiv.org/abs/2610.37809)
-- [Beyond Similarity Search: Knowledge Graph Metadata Enrichment for Enterprise Retrieval-Augmented Generation](https://arxiv.org/abs/2610.37728)
-- [TCC-RAG: Temporal Causal Chain-Guided RAG for Temporal Knowledge Graph Question Answering](https://arxiv.org/abs/2610.38366)
+- [Context as Infrastructure: Knowledge Compilation for Retrieval in Agentic Systems with Harnesses](https://arxiv.org/abs/2610.41172)
+- [In-Model Context Compression with Agentic Soft Tokens for Long-Horizon LLM Agents](https://arxiv.org/abs/2610.41291)
+- [Supervised and LLM-Augmented Cardinality Estimation for Similarity Queries on Knowledge Graphs](https://arxiv.org/abs/2610.41669)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (1)
+**Design, Simulation and Optimization for Advanced Manufacturing** (4)
 
-- [Multiscale evaluation of the elastic response of polycrystalline NiAl using molecular statics, EBSD-based finite element and analytical homogenization methods](https://arxiv.org/abs/2610.38783)
+- [Generative Design and Graph Neural Network Screening of Novel Bimetallic Alloy Catalysts for the Hydrogen Evolution Reaction](https://arxiv.org/abs/2610.41932)
+- [Finite-Element Electromagnetic Analysis and Evaluation of Antenna Performance Metrics Using a Quantum Linear System Solver](https://arxiv.org/abs/2610.40693)
+- [Magnetic Johnson noise from arbitrarily shaped conductors: experimental validation of the fluctuation-dissipation finite-element method](https://arxiv.org/abs/2610.42113)
+- _…1 more_
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (6)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (3)
 
-- [AI-Driven Digital Twin Framework for Warehouse Logistics Automation Optimization](https://arxiv.org/abs/2610.38101)
-- [Securing the Robotics Supply Chain](https://arxiv.org/abs/2610.40385)
-- [A Deep Learning Framework for Quantile Demand Forecasting in E-commerce with Doubly Censored Data](https://arxiv.org/abs/2610.40138)
-- _…3 more_
+- [Lifelong Learning of Scheduling Rules with Surrogate-assisted Genetic Programming for Dynamic Flexible Job Shop Scheduling](https://arxiv.org/abs/2610.41158)
+- [Predictive Maintenance at the Edge: An Embedded Anomaly Detection Pipeline Trained with Quantum Optimization](https://arxiv.org/abs/2610.40848)
+- [Vehicle clustering and resource scheduling scheme based on collaborative perception of wireless resources](https://arxiv.org/abs/2610.41423)
 
 **Engineering Knowledge and Physics-Informed AI/ML** (14)
 
-- [A Hybrid Physics-informed holomorphic neural networks Method](https://arxiv.org/abs/2610.38269)
-- [The Utility of Physics-Informed Machine Learning in Solar Power Production Forecasting](https://arxiv.org/abs/2610.38976)
-- [Application of PDE emulators for a multi-material, multi-physics simulation problem](https://arxiv.org/abs/2610.37972)
+- [Hard Constraint Projection in a Physics Informed Neural Network (Burgers)](https://arxiv.org/abs/2610.42106)
+- [Equation informed time reparametrization for physics informed neural networks](https://arxiv.org/abs/2610.41246)
+- [PDE-Residual-Informed Kriging](https://arxiv.org/abs/2610.41590)
 - _…11 more_
 
-**Systems Design** (2)
+**Emerging Topics in SEIKM** (11)
 
-- [LLM-Assisted Optimization for Simulation-Based Redesign](https://arxiv.org/abs/2610.39275)
-- [Neuromorphic design of a rhythmic network](https://arxiv.org/abs/2610.39762)
+- [From Teleoperation to Long-Horizon Dexterity: Evaluating Visuomotor Skills and Offline Proxies for Dexterous Manipulation](https://arxiv.org/abs/2610.40828)
+- [Flexibility-Aware Robotic Manipulation: Deformation Estimation, Kinematics, and Control via Distributed Inertial Measurement](https://arxiv.org/abs/2610.41702)
+- [Learning from Physical Experience:Context-Space Adaptation for Robotic Manipulation](https://arxiv.org/abs/2610.41320)
+- _…8 more_
 
-**Emerging Topics in SEIKM** (14)
+**SEIKM General** (3)
 
-- [SKiD-SLAM: Resource-Aware Distributed Multi-Robot LiDAR SLAM for Planetary Missions with Field Deployments at Analog Sites](https://arxiv.org/abs/2610.38141)
-- [Gaze-Assisted Supervisory Control for Lunar Robotic Arm Teleoperation Under Concurrent Monitoring](https://arxiv.org/abs/2610.39998)
-- [Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models](https://arxiv.org/abs/2610.38661)
-- _…11 more_
-
-**SEIKM General** (5)
-
-- [Strain-Induced BCC-to-FCC Transformation in Tungsten Uncovered by Molecular Dynamics Simulations with Machine Learning Potentials](https://arxiv.org/abs/2610.38477)
-- [Class-aware Latent Attention Replay (CLAR): Class Incremental Hazard Diagnosis for Resilient AI in the Manufacturing Industrial Internet](https://arxiv.org/abs/2610.39323)
-- [Actuator-Aware Observer Inputs for Cascade ADRC of Quadrotors Under Rotor Lag, Measurement Delay and Sensor Noise](https://arxiv.org/abs/2610.39126)
-- _…2 more_
+- [Integrating of Attack Patterns and Threat Modeling to Support Security Analysis in the Automotive Domain](https://arxiv.org/abs/2610.40944)
+- [Design and Validation of a Robotic Knee Exoskeleton with Musculoskeletal Simulation-Derived Biological Torque Control](https://arxiv.org/abs/2610.41981)
+- [An Empirical Study of Gas Optimization Practices in Solidity Smart Contracts](https://arxiv.org/abs/2610.40885)
 
 <!-- SEIKM:LATEST:END -->
 
