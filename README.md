@@ -17,49 +17,63 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — November 2, 2026
+### Latest issue — November 3, 2026
 
-**49** new papers across **6** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-02.md)
+**60** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-03.md)
 
-**Informatics for Design and Manufacturing** (14)
+**Systems Engineering and Complex Systems** (2)
 
-- [Context as Infrastructure: Knowledge Compilation for Retrieval in Agentic Systems with Harnesses](https://arxiv.org/abs/2610.41172)
-- [In-Model Context Compression with Agentic Soft Tokens for Long-Horizon LLM Agents](https://arxiv.org/abs/2610.41291)
-- [Supervised and LLM-Augmented Cardinality Estimation for Similarity Queries on Knowledge Graphs](https://arxiv.org/abs/2610.41669)
-- _…11 more_
+- [A Domain Driven Design Based Reference Architecture for IoT Systems Engineering](https://arxiv.org/abs/2611.01196)
+- [Supporting Viewpoint Coordination for Compliance by Design with an Artifact Model for Regulatory Requirements Engineering](https://arxiv.org/abs/2611.03631)
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (4)
+**Informatics for Design and Manufacturing** (10)
 
-- [Generative Design and Graph Neural Network Screening of Novel Bimetallic Alloy Catalysts for the Hydrogen Evolution Reaction](https://arxiv.org/abs/2610.41932)
-- [Finite-Element Electromagnetic Analysis and Evaluation of Antenna Performance Metrics Using a Quantum Linear System Solver](https://arxiv.org/abs/2610.40693)
-- [Magnetic Johnson noise from arbitrarily shaped conductors: experimental validation of the fluctuation-dissipation finite-element method](https://arxiv.org/abs/2610.42113)
-- _…1 more_
+- [Toward Agentic AI-Ready Workflows in Built Environment Organizations: Knowledge Structures and Interoperability Challenges](https://arxiv.org/abs/2611.02286)
+- [OntoDoc: Automatically Generating Ontology Resource Descriptions](https://arxiv.org/abs/2611.01276)
+- [Parametric CAD Bench v3: Evaluating Agentic Parametric CAD Authoring from Text and Engineering Drawings](https://arxiv.org/abs/2611.02659)
+- _…7 more_
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (3)
+**Design, Simulation and Optimization for Advanced Manufacturing** (7)
 
-- [Lifelong Learning of Scheduling Rules with Surrogate-assisted Genetic Programming for Dynamic Flexible Job Shop Scheduling](https://arxiv.org/abs/2610.41158)
-- [Predictive Maintenance at the Edge: An Embedded Anomaly Detection Pipeline Trained with Quantum Optimization](https://arxiv.org/abs/2610.40848)
-- [Vehicle clustering and resource scheduling scheme based on collaborative perception of wireless resources](https://arxiv.org/abs/2610.41423)
+- [Allen--Cahn Residual-Constrained Topology Optimization via an Augmented Lagrangian Method](https://arxiv.org/abs/2611.02375)
+- [Agent4FreeFem: A Verification-Guided Framework for Autonomous Topology Optimization](https://arxiv.org/abs/2611.00803)
+- [LM6-CastBench: A Geometry-Aware Simulation Dataset for Transient Thermal Prediction in LM6 Sand Casting](https://arxiv.org/abs/2611.00619)
+- _…4 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (14)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (8)
 
-- [Hard Constraint Projection in a Physics Informed Neural Network (Burgers)](https://arxiv.org/abs/2610.42106)
-- [Equation informed time reparametrization for physics informed neural networks](https://arxiv.org/abs/2610.41246)
-- [PDE-Residual-Informed Kriging](https://arxiv.org/abs/2610.41590)
-- _…11 more_
+- [Cross-Domain Joint-Embedding Pretraining For Heterogeneous Industrial Time Series](https://arxiv.org/abs/2611.02489)
+- [A Reproducible Reconstruction and Evaluation Framework for Photorealistic Lunar Analog Scene Reconstruction Toward Digital Twins](https://arxiv.org/abs/2611.00870)
+- [Digital Twin-Assisted Fast Beam Alignment for mmWave MIMO Networks](https://arxiv.org/abs/2611.01107)
+- _…5 more_
 
-**Emerging Topics in SEIKM** (11)
+**Engineering Knowledge and Physics-Informed AI/ML** (10)
 
-- [From Teleoperation to Long-Horizon Dexterity: Evaluating Visuomotor Skills and Offline Proxies for Dexterous Manipulation](https://arxiv.org/abs/2610.40828)
-- [Flexibility-Aware Robotic Manipulation: Deformation Estimation, Kinematics, and Control via Distributed Inertial Measurement](https://arxiv.org/abs/2610.41702)
-- [Learning from Physical Experience:Context-Space Adaptation for Robotic Manipulation](https://arxiv.org/abs/2610.41320)
-- _…8 more_
+- [Black Hole Love Numbers with Physics-Informed Neural Networks](https://arxiv.org/abs/2611.02084)
+- [Boosted Physics-Informed Neural Networks for Solving Homogeneous and Non-Homogeneous Lane-Emden Type Equations](https://arxiv.org/abs/2611.00701)
+- [A sensor-driven physics-informed neural network for real-time occupant-centric space heating control](https://arxiv.org/abs/2611.01723)
+- _…7 more_
 
-**SEIKM General** (3)
+**Systems Design** (5)
 
-- [Integrating of Attack Patterns and Threat Modeling to Support Security Analysis in the Automotive Domain](https://arxiv.org/abs/2610.40944)
-- [Design and Validation of a Robotic Knee Exoskeleton with Musculoskeletal Simulation-Derived Biological Torque Control](https://arxiv.org/abs/2610.41981)
-- [An Empirical Study of Gas Optimization Practices in Solidity Smart Contracts](https://arxiv.org/abs/2610.40885)
+- [A Surrogate Model for Variation-Aware Clock-Mesh Analysis and Design-Space Exploration using Graph Neural Networks](https://arxiv.org/abs/2611.01473)
+- [Towards end-to-end co-design for one-shot printable task-specific soft robots](https://arxiv.org/abs/2611.03216)
+- [Learning Purposeful Co-designs of Bio-inspired Quadrupedal Robots](https://arxiv.org/abs/2611.02462)
+- _…2 more_
+
+**Emerging Topics in SEIKM** (9)
+
+- [Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation](https://arxiv.org/abs/2611.03648)
+- [ODE Policy: Robot Learning via Action Dynamics, Not Actions](https://arxiv.org/abs/2611.01729)
+- [KlaskTron: An Open-Source Platform for Physical Adversarial Multi-Agent RL](https://arxiv.org/abs/2611.03138)
+- _…6 more_
+
+**SEIKM General** (9)
+
+- [PaddleMaterials: An End-to-End Deep Learning Toolkit for Materials Science](https://arxiv.org/abs/2611.03154)
+- [Agent Stack for ML Training Lifecycle: Generation, Validation, and Optimization](https://arxiv.org/abs/2611.00384)
+- [CARE: Grounded Recursive Self-Improvement for Production Customer-Service Agents](https://arxiv.org/abs/2611.02839)
+- _…6 more_
 
 <!-- SEIKM:LATEST:END -->
 
