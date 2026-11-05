@@ -17,55 +17,51 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — November 4, 2026
+### Latest issue — November 5, 2026
 
-**50** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-04.md)
+**43** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-05.md)
 
-**Informatics for Design and Manufacturing** (12)
+**Informatics for Design and Manufacturing** (14)
 
-- [OperAItor: An Agentic Framework for Fault-Tolerant Operation of Chemical Processes](https://arxiv.org/abs/2611.05179)
-- [Knowledge Graph Lakehouse: A Cloud-Native Architecture for Managing Enterprise Knowledge Graphs at Scale](https://arxiv.org/abs/2611.04899)
-- [CloakFEM: Agentic FEM Code Generation for Red-Teaming Computational Resource Exhaustion](https://arxiv.org/abs/2611.04356)
-- _…9 more_
+- [ArcRAG: Agentic Compositional Retrieval over Knowledge Graphs](https://arxiv.org/abs/2611.06481)
+- [SecureGARD: Dynamic Ontology-Guided Governance for Secure Tool-Using LLM Agents](https://arxiv.org/abs/2611.06682)
+- [Agentic Behavior Engineering: A Design-by-Contract Methodology for Specifying, Verifying, and Governing Enterprise AI Agents](https://arxiv.org/abs/2611.05454)
+- _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (7)
+**Design, Simulation and Optimization for Advanced Manufacturing** (1)
 
-- [AgentAM: An AI Agent for Spatter- and Defect-Aware Process Optimization in Laser Powder Bed Fusion](https://arxiv.org/abs/2611.05171)
-- [From topology-optimization brief to solver-checked release: separating intent, admissibility and acceptance knowledge for language agents](https://arxiv.org/abs/2611.04077)
-- [Differentiable topology optimization for high-fidelity acoustic holography beyond the thin-element approximation](https://arxiv.org/abs/2611.04251)
-- _…4 more_
+- [Improving Hydrofoil Efficiency Through Simulation-Driven Design Optimization](https://arxiv.org/abs/2611.06183)
 
 **Digital Twins, Manufacturing Systems, and Supply Chains** (4)
 
-- [Post-Inference Model Chaining: A Problem Statement and a Model-based Bootstrap for Training End-to-End Digital Twins](https://arxiv.org/abs/2611.05225)
-- [Distributed Linear Bandits for Freshness-Aware Preprocessing in MEC-Enabled Digital Twin Networks](https://arxiv.org/abs/2611.05115)
-- [Automated consolidation of dispersed DSO data resources into a consistent digital twin of the distribution grid](https://arxiv.org/abs/2611.04463)
+- [TwinBridge: Digital Twin-Driven Policy and Reward Transfer for Real-World Reinforcement Learning in Laboratory Robotics](https://arxiv.org/abs/2611.06442)
+- [Scheduling Data to Compute: Hierarchical Data Pipelining for LLM Training on AMD GPUs](https://arxiv.org/abs/2611.05751)
+- [Autonomy and Coordination in Intelligent Manufacturing: A Recursive Autonomous Agent Framework](https://arxiv.org/abs/2611.05828)
 - _…1 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (14)
+**Engineering Knowledge and Physics-Informed AI/ML** (12)
 
-- [Solving the Nonlinear Westervelt Equation in Ultrasound Propagation Using Physics-Informed Neural Networks](https://arxiv.org/abs/2611.05130)
-- [De Rham cohomological architectures for PINNs and PDEs with topological holes](https://arxiv.org/abs/2611.05276)
-- [Ermakov--Based embeddings as a parameter-free layer for physics-informed neural networks](https://arxiv.org/abs/2611.03964)
-- _…11 more_
+- [Adaptive Domain Decomposition for Finite Basis Physics-Informed Neural Networks](https://arxiv.org/abs/2611.05659)
+- [Self-Supervised Learning of Universal Latent Spaces for Operator Learning](https://arxiv.org/abs/2611.05735)
+- [Energy-Guided Transport for Projection-Free Physics-Informed Flow Matching](https://arxiv.org/abs/2611.06711)
+- _…9 more_
 
 **Systems Design** (1)
 
-- [PACT: Pose-Robust Actuation Co-Design for Tendon-Driven Robotic Hands](https://arxiv.org/abs/2611.05302)
+- [Continuous-Discrete Dual-Domain Co-Design for Optimized Digital Control of Power Converters](https://arxiv.org/abs/2611.05910)
 
-**Emerging Topics in SEIKM** (7)
+**Emerging Topics in SEIKM** (8)
 
-- [CRONOS: Benchmarking Non-Episodic Reinforcement Learning for Robotic Manipulation](https://arxiv.org/abs/2611.05080)
-- [MABEL: An Open Anthropomorphic Mobile Bimanual Platform for Teleoperation and Learning](https://arxiv.org/abs/2611.04083)
-- [RoboScope Kit: Unified Interfaces for Fast and Scalable Embodied-AI Evaluation](https://arxiv.org/abs/2611.03850)
-- _…4 more_
+- [Replicability, Reproducibility, and Robustness in Political and Social Science Research with Large Language Models](https://arxiv.org/abs/2611.06639)
+- [LumiTac: Compact, High-Rate Six-Axis Optical Tactile Sensing for Human-Robot Interaction](https://arxiv.org/abs/2611.05936)
+- [InterSim: Innovative Intersection Digital Twins for Human-in-the-Loop Driving Simulation](https://arxiv.org/abs/2611.05968)
+- _…5 more_
 
-**SEIKM General** (5)
+**SEIKM General** (3)
 
-- [Gather or Act? Belief-Level Counterfactual Labels for Deadline-Aware Incident Response in Cyber-Physical Systems](https://arxiv.org/abs/2611.03974)
-- [A general sharp-interface simulation framework for microstructure evolution](https://arxiv.org/abs/2611.04582)
-- [Lightweight graph transformers for clutter and target classification in automotive radar](https://arxiv.org/abs/2611.04959)
-- _…2 more_
+- [Thermally Conditioned Time-Series Forecasting of Grain Growth in Polycrystalline Materials](https://arxiv.org/abs/2611.06843)
+- [Neural Network-based Control Systems with Application to Flight Control, From Classical Neural Control to Reinforcement Learning](https://arxiv.org/abs/2611.06429)
+- [Atomic-Scale Phonon Engineering for Enhanced Thermal Transport in Wafer-Scale-Bonded β-Ga₂O₃/SiC Heterostructures](https://arxiv.org/abs/2611.05810)
 
 <!-- SEIKM:LATEST:END -->
 
