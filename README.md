@@ -17,51 +17,51 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — November 5, 2026
+### Latest issue — November 6, 2026
 
-**43** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-05.md)
+**41** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-06.md)
 
-**Informatics for Design and Manufacturing** (14)
+**Informatics for Design and Manufacturing** (11)
 
-- [ArcRAG: Agentic Compositional Retrieval over Knowledge Graphs](https://arxiv.org/abs/2611.06481)
-- [SecureGARD: Dynamic Ontology-Guided Governance for Secure Tool-Using LLM Agents](https://arxiv.org/abs/2611.06682)
-- [Agentic Behavior Engineering: A Design-by-Contract Methodology for Specifying, Verifying, and Governing Enterprise AI Agents](https://arxiv.org/abs/2611.05454)
-- _…11 more_
+- [Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation](https://arxiv.org/abs/2611.08315)
+- [Selective Retrieval Routing for Multi-Violation Knowledge Graph Repair](https://arxiv.org/abs/2611.07342)
+- [Bridging Structure and Semantics: Knowledge Graph Verification via Triple-to-Text Alignment](https://arxiv.org/abs/2611.07780)
+- _…8 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (1)
+**Design, Simulation and Optimization for Advanced Manufacturing** (3)
 
-- [Improving Hydrofoil Efficiency Through Simulation-Driven Design Optimization](https://arxiv.org/abs/2611.06183)
+- [Towards Track Height Control in Additive Manufacturing on Porous Substrates: An Approach for System Identification and Controller Selection](https://arxiv.org/abs/2611.07704)
+- [Finite-element reconstruction of molten-zone dynamics and chemical segregation in optical floating-zone grown Ni--Mn--Ga](https://arxiv.org/abs/2611.08250)
+- [Symmetry-Aware Surrogate-Assisted Testing of UAVs](https://arxiv.org/abs/2611.08012)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (4)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (3)
 
-- [TwinBridge: Digital Twin-Driven Policy and Reward Transfer for Real-World Reinforcement Learning in Laboratory Robotics](https://arxiv.org/abs/2611.06442)
-- [Scheduling Data to Compute: Hierarchical Data Pipelining for LLM Training on AMD GPUs](https://arxiv.org/abs/2611.05751)
-- [Autonomy and Coordination in Intelligent Manufacturing: A Recursive Autonomous Agent Framework](https://arxiv.org/abs/2611.05828)
-- _…1 more_
+- [Optical Network Digital Twin: From Digital Coherent Transmission to Intelligent Network Operations](https://arxiv.org/abs/2611.08217)
+- [Acoustic Anomaly Detection for Early Identification of Drill Jamming](https://arxiv.org/abs/2611.07356)
+- [Energy-Aware Open-Vocabulary Detection Scheduling for Low-Power Robotic Autonomy](https://arxiv.org/abs/2611.07663)
 
-**Engineering Knowledge and Physics-Informed AI/ML** (12)
+**Engineering Knowledge and Physics-Informed AI/ML** (13)
 
-- [Adaptive Domain Decomposition for Finite Basis Physics-Informed Neural Networks](https://arxiv.org/abs/2611.05659)
-- [Self-Supervised Learning of Universal Latent Spaces for Operator Learning](https://arxiv.org/abs/2611.05735)
-- [Energy-Guided Transport for Projection-Free Physics-Informed Flow Matching](https://arxiv.org/abs/2611.06711)
-- _…9 more_
+- [Fractional physics-informed neural networks to model social media virality](https://arxiv.org/abs/2611.07215)
+- [WaSP: Wasserstein Data Synthesis Pipeline for Solver-Free Operator Learning](https://arxiv.org/abs/2611.07646)
+- [A hierarchy of physics-embedded neural operators for structural dynamic surrogate modelingA hierarchy of physics-embedded neural operators for structural dynamic surrogate modeling](https://arxiv.org/abs/2611.07059)
+- _…10 more_
 
 **Systems Design** (1)
 
-- [Continuous-Discrete Dual-Domain Co-Design for Optimized Digital Control of Power Converters](https://arxiv.org/abs/2611.05910)
+- [TimeArch: A Multi-Agent Approach for Software Architecture Design](https://arxiv.org/abs/2611.06921)
 
 **Emerging Topics in SEIKM** (8)
 
-- [Replicability, Reproducibility, and Robustness in Political and Social Science Research with Large Language Models](https://arxiv.org/abs/2611.06639)
-- [LumiTac: Compact, High-Rate Six-Axis Optical Tactile Sensing for Human-Robot Interaction](https://arxiv.org/abs/2611.05936)
-- [InterSim: Innovative Intersection Digital Twins for Human-in-the-Loop Driving Simulation](https://arxiv.org/abs/2611.05968)
+- [TactileLab: Sim-to-Real Dexterous Robot Manipulation with Efficient Shear-Sensitive Tactile Simulation](https://arxiv.org/abs/2611.07881)
+- [T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models](https://arxiv.org/abs/2611.08413)
+- [Generate-then-Rank: Learning Symbolic Goal Interpretation for Embodied Agents](https://arxiv.org/abs/2611.07825)
 - _…5 more_
 
-**SEIKM General** (3)
+**SEIKM General** (2)
 
-- [Thermally Conditioned Time-Series Forecasting of Grain Growth in Polycrystalline Materials](https://arxiv.org/abs/2611.06843)
-- [Neural Network-based Control Systems with Application to Flight Control, From Classical Neural Control to Reinforcement Learning](https://arxiv.org/abs/2611.06429)
-- [Atomic-Scale Phonon Engineering for Enhanced Thermal Transport in Wafer-Scale-Bonded β-Ga₂O₃/SiC Heterostructures](https://arxiv.org/abs/2611.05810)
+- [Operationalizing Responsible AI in MLOps and ML Production: A Systematic Literature Review](https://arxiv.org/abs/2611.06961)
+- [Adapt the Object to the Subject: Representative Study Material for Empirical Software Engineering](https://arxiv.org/abs/2611.07772)
 
 <!-- SEIKM:LATEST:END -->
 
