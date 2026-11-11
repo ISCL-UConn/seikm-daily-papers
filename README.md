@@ -17,58 +17,59 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — November 10, 2026
+### Latest issue — November 11, 2026
 
-**60** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-10.md)
+**47** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-11.md)
 
-**Informatics for Design and Manufacturing** (12)
+**Systems Engineering and Complex Systems** (2)
 
-- [Done Is Not Correct: Measuring Silent Failures and Self-Verification Calibration When LLM Agents Take CAD Actions](https://arxiv.org/abs/2611.10063)
-- [From Fluent Text to Ontology-Compatible Definitions: A Quality-Control Agentic Workflow](https://arxiv.org/abs/2611.12095)
-- [PatternBloom: Empowering Agentic RAG with Externalized RL-Distilled Graph Patterns](https://arxiv.org/abs/2611.10477)
-- _…9 more_
+- [We Used It Anyway: Low Trust and High Adoption of Large Language Models in Requirements Engineering Education](https://arxiv.org/abs/2611.12889)
+- [OpenRE-Bench: A Benchmark Harness for Multi-Agent Requirements Engineering with Mined GitHub Issues](https://arxiv.org/abs/2611.13925)
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (4)
+**Informatics for Design and Manufacturing** (14)
 
-- [An open source Python code for three-dimensional topology optimization in single precision on a consumer GPU](https://arxiv.org/abs/2611.12027)
-- [A level-set method for shape and topology optimization of Stokes--Darcy flows with Beavers--Joseph--Saffman coupling](https://arxiv.org/abs/2611.11769)
-- [Match the Geometry Before the Surrogate: Extreme Low-Budget Optimization in High Dimensions](https://arxiv.org/abs/2611.10267)
+- [Ontology-Guided Knowledge Graph Construction and Robust Evidence Retrieval for Indian Knowledge Systems](https://arxiv.org/abs/2611.14050)
+- [Controlled Knowledge Engineering for Taxonomy Induction with Tool-Grounded LLM Agents and Runtime-Adaptive Policies](https://arxiv.org/abs/2611.13966)
+- [BioMem: Agentic Memory for Biomedical LLM Agents](https://arxiv.org/abs/2611.13426)
+- _…11 more_
+
+**Design, Simulation and Optimization for Advanced Manufacturing** (5)
+
+- [Optimization-Based Path Planning for Industrial Manipulators: Experimental Validation in Additive Manufacturing](https://arxiv.org/abs/2611.13983)
+- [Metamorphic testing of learned AC optimal power flow surrogates reveals representation dependence](https://arxiv.org/abs/2611.13566)
+- [Structured Kernel Surrogate Models for Multimodal Attribution](https://arxiv.org/abs/2611.13198)
+- _…2 more_
+
+**Digital Twins, Manufacturing Systems, and Supply Chains** (4)
+
+- [Fragment-Free Constraint Programming for the Preemptive Flexible Job Shop Scheduling Problem](https://arxiv.org/abs/2611.13473)
+- [Two Communities, One Problem: Branch-and-Bound vs. A* for Resource-Constrained Project Scheduling](https://arxiv.org/abs/2611.14426)
+- [ForeSpark: Joint Draft and Verification Budget Scheduling for Parallel Speculative Decoding](https://arxiv.org/abs/2611.13442)
 - _…1 more_
-
-**Digital Twins, Manufacturing Systems, and Supply Chains** (12)
-
-- [Differentiable Agent-Based Modeling for Multi-Echelon Supply Chains: Gradient-Based Optimization of Heterogeneous Policies at Scale](https://arxiv.org/abs/2611.10999)
-- [Agentic discrete-event simulation for manufacturing system design: an open 3D simulator, a benchmark and an industrial case](https://arxiv.org/abs/2611.10602)
-- [TimeHF 2.0: Multimodal, Multivariate, and Multi-Region Collaborative Forecasting for Large-Scale Retail Supply Chains](https://arxiv.org/abs/2611.10521)
-- _…9 more_
 
 **Engineering Knowledge and Physics-Informed AI/ML** (12)
 
-- [Physics-informed neural networks in the small-data regime: A controlled comparison with classical PDE surrogates](https://arxiv.org/abs/2611.12424)
-- [ALETHEIA: A Multi-Frequency Eddy Current Pulsed Thermography Dataset for Neural Operator Learning in Nondestructive Testing](https://arxiv.org/abs/2611.11252)
-- [Parameterized Physics-Informed Neural Networks for Efficient Simulation of Embedded Microfluidic Chip Cooling](https://arxiv.org/abs/2611.10666)
+- [Residual-Corrected Physics-Informed Neural Network KKL Observers with Input-to-State Stability Guarantees](https://arxiv.org/abs/2611.13411)
+- [Block-Sparse Gauss-Newton Optimization of Finite Basis Physics-Informed Neural Networks: Sparse Automatic Differentiation Approach](https://arxiv.org/abs/2611.13231)
+- [Physics2Weight: Direct Neural Network Architecture and Weight Generation from Physical Laws Using Large Language Models](https://arxiv.org/abs/2611.12954)
 - _…9 more_
 
-**Systems Design** (4)
+**Systems Design** (1)
 
-- [Co-Creating Neurorehabilitation Technology Alongside Lived Experience Experts: A Participatory Design Workshop](https://arxiv.org/abs/2611.12202)
-- [The World Model Planning Accelerator (WMPA): Hardware-Algorithm Co-Design for Embedded AI in Robotics](https://arxiv.org/abs/2611.10316)
-- [Exploring public-private data sharing practices through the lens of Open Data Ecosystems: A multiple case study on municipal and regional freight logistics](https://arxiv.org/abs/2611.12440)
-- _…1 more_
+- [Neural network scaling and generalization for 3D strain fields in heterogeneous materials](https://arxiv.org/abs/2611.14158)
 
-**Emerging Topics in SEIKM** (12)
+**Emerging Topics in SEIKM** (6)
 
-- [Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation](https://arxiv.org/abs/2611.11981)
-- [Benchmarking Real-World Robotic Manipulation through Stochastic Challenges](https://arxiv.org/abs/2611.12804)
-- [DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies](https://arxiv.org/abs/2611.10872)
-- _…9 more_
+- [A human-in-the-loop Control Paradigm for Construction Robotics: From VR-Guided Teleoperation to Semi-Autonomous Dual-Arm Operation](https://arxiv.org/abs/2611.14062)
+- [What Factors Matter for Collection-Level Counting with Human-AI Collaboration?](https://arxiv.org/abs/2611.14380)
+- [APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2611.13030)
+- _…3 more_
 
-**SEIKM General** (4)
+**SEIKM General** (3)
 
-- [Manufacturing Complex Structures Through Interfacial Self-Organization](https://arxiv.org/abs/2611.09950)
-- [Data Manipulation Attacks Against Machine Learning Integrated Cyber-Physical Systems](https://arxiv.org/abs/2611.11529)
-- [The microstructure of information through mean field learning interaction](https://arxiv.org/abs/2611.10244)
-- _…1 more_
+- [Simultaneous Near-Optimal Region Identification in Continuous Simulation Optimization: Minimax Complexity and Adaptive Sampling](https://arxiv.org/abs/2611.13489)
+- [Understanding-First AI Engineering: Purposes, Reference Architecture, and Architectural Patterns for Human Understanding](https://arxiv.org/abs/2611.13022)
+- [TAPCO-G: LLM-Guided Design-Adaptive Timing and Power Co-Optimization with Graph-Based Physical Priors](https://arxiv.org/abs/2611.13931)
 
 <!-- SEIKM:LATEST:END -->
 
