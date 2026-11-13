@@ -17,59 +17,57 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — November 11, 2026
+### Latest issue — November 13, 2026
 
-**47** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-11.md)
+**60** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-13.md)
 
-**Systems Engineering and Complex Systems** (2)
+**Informatics for Design and Manufacturing** (13)
 
-- [We Used It Anyway: Low Trust and High Adoption of Large Language Models in Requirements Engineering Education](https://arxiv.org/abs/2611.12889)
-- [OpenRE-Bench: A Benchmark Harness for Multi-Agent Requirements Engineering with Mined GitHub Issues](https://arxiv.org/abs/2611.13925)
-
-**Informatics for Design and Manufacturing** (14)
-
-- [Ontology-Guided Knowledge Graph Construction and Robust Evidence Retrieval for Indian Knowledge Systems](https://arxiv.org/abs/2611.14050)
-- [Controlled Knowledge Engineering for Taxonomy Induction with Tool-Grounded LLM Agents and Runtime-Adaptive Policies](https://arxiv.org/abs/2611.13966)
-- [BioMem: Agentic Memory for Biomedical LLM Agents](https://arxiv.org/abs/2611.13426)
-- _…11 more_
+- [AutoOntic: Automatic Ontology Induction from Text for Knowledge Graph Construction](https://arxiv.org/abs/2611.15467)
+- [HeriKGQA: Grounded Knowledge-Graph Question Answering over Cultural Heritage Sensor Data](https://arxiv.org/abs/2611.15904)
+- [DISCERN: Preserve at Write, Resolve at Read for Persistent LLM-Agent Memory](https://arxiv.org/abs/2611.15729)
+- _…10 more_
 
 **Design, Simulation and Optimization for Advanced Manufacturing** (5)
 
-- [Optimization-Based Path Planning for Industrial Manipulators: Experimental Validation in Additive Manufacturing](https://arxiv.org/abs/2611.13983)
-- [Metamorphic testing of learned AC optimal power flow surrogates reveals representation dependence](https://arxiv.org/abs/2611.13566)
-- [Structured Kernel Surrogate Models for Multimodal Attribution](https://arxiv.org/abs/2611.13198)
+- [Bulk CMSX-4 Single-Crystal Builds via Laser-Directed Energy Deposition: Epitaxial Stability and Microstructure Evolution](https://arxiv.org/abs/2611.16535)
+- [The norm, not the labels: training and evaluating finite-element surrogates for stress analysis in the energy norm](https://arxiv.org/abs/2611.14574)
+- [Self-Supervised Attention-Based Virtual Metrology for CMP MRR Prediction](https://arxiv.org/abs/2611.16172)
 - _…2 more_
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (4)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (8)
 
-- [Fragment-Free Constraint Programming for the Preemptive Flexible Job Shop Scheduling Problem](https://arxiv.org/abs/2611.13473)
-- [Two Communities, One Problem: Branch-and-Bound vs. A* for Resource-Constrained Project Scheduling](https://arxiv.org/abs/2611.14426)
-- [ForeSpark: Joint Draft and Verification Budget Scheduling for Parallel Speculative Decoding](https://arxiv.org/abs/2611.13442)
-- _…1 more_
+- [Dual Representation Enhanced Diffusion Policy for Flexible Job Shop Scheduling](https://arxiv.org/abs/2611.15246)
+- [SkinAdvisor: An AI-Driven Decision Framework for Skin Production Planning via Multi-Modal Transformer Sales Forecasting](https://arxiv.org/abs/2611.15023)
+- [Survivability Guarantees for Delayed Serial Supply Chains under Demand Shocks](https://arxiv.org/abs/2611.16951)
+- _…5 more_
 
 **Engineering Knowledge and Physics-Informed AI/ML** (12)
 
-- [Residual-Corrected Physics-Informed Neural Network KKL Observers with Input-to-State Stability Guarantees](https://arxiv.org/abs/2611.13411)
-- [Block-Sparse Gauss-Newton Optimization of Finite Basis Physics-Informed Neural Networks: Sparse Automatic Differentiation Approach](https://arxiv.org/abs/2611.13231)
-- [Physics2Weight: Direct Neural Network Architecture and Weight Generation from Physical Laws Using Large Language Models](https://arxiv.org/abs/2611.12954)
+- [A Three-Stage Unsupervised Online Physics-Informed Neural Network for Microgrid Optimal Power Flow](https://arxiv.org/abs/2611.14716)
+- [Learning Nonlinear Transient Dynamics in Fluid Flow Networks with the Neural Basis Method](https://arxiv.org/abs/2611.14534)
+- [SUMNO: Spatially Unrolled Multigrid Neural Operator for Fluid Flow Surrogates](https://arxiv.org/abs/2611.16341)
 - _…9 more_
 
-**Systems Design** (1)
+**Systems Design** (3)
 
-- [Neural network scaling and generalization for 3D strain fields in heterogeneous materials](https://arxiv.org/abs/2611.14158)
+- [PISim: A Unified Photonic Inference Simulator for Hardware-Aware Cross-Layer Design-Space Exploration](https://arxiv.org/abs/2611.16522)
+- [GenPFN: An In-Context Tabular Foundation Model Approach for Augmenting Small Datasets in Engineering](https://arxiv.org/abs/2611.14804)
+- [MOON-RL: Multi-Objective Optimization via Objective Space Navigation with Reinforcement Learning](https://arxiv.org/abs/2611.15227)
 
-**Emerging Topics in SEIKM** (6)
+**Emerging Topics in SEIKM** (12)
 
-- [A human-in-the-loop Control Paradigm for Construction Robotics: From VR-Guided Teleoperation to Semi-Autonomous Dual-Arm Operation](https://arxiv.org/abs/2611.14062)
-- [What Factors Matter for Collection-Level Counting with Human-AI Collaboration?](https://arxiv.org/abs/2611.14380)
-- [APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2611.13030)
-- _…3 more_
+- [RUMI: A Robotiq-Matched Universal Manipulation Interface for Robot Learning with Augmented Reality and Haptic Feedback](https://arxiv.org/abs/2611.15802)
+- [Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors](https://arxiv.org/abs/2611.17060)
+- [Scaling VLA Serving Under Robotic Execution Constraints](https://arxiv.org/abs/2611.14969)
+- _…9 more_
 
-**SEIKM General** (3)
+**SEIKM General** (7)
 
-- [Simultaneous Near-Optimal Region Identification in Continuous Simulation Optimization: Minimax Complexity and Adaptive Sampling](https://arxiv.org/abs/2611.13489)
-- [Understanding-First AI Engineering: Purposes, Reference Architecture, and Architectural Patterns for Human Understanding](https://arxiv.org/abs/2611.13022)
-- [TAPCO-G: LLM-Guided Design-Adaptive Timing and Power Co-Optimization with Graph-Based Physical Priors](https://arxiv.org/abs/2611.13931)
+- [FIRE: Failure Isolation and Reliability for Production-Connected Experiments at Scale](https://arxiv.org/abs/2611.14962)
+- [Video-Action Models for Data-Efficient Industrial Manipulation](https://arxiv.org/abs/2611.15974)
+- [GRID-MRI: Resilience Assessment of Power Systems under Coordinated Cyber-Physical Attacks](https://arxiv.org/abs/2611.17094)
+- _…4 more_
 
 <!-- SEIKM:LATEST:END -->
 
