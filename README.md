@@ -17,57 +17,52 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — November 13, 2026
+### Latest issue — November 16, 2026
 
-**60** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-13.md)
+**39** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-16.md)
 
-**Informatics for Design and Manufacturing** (13)
+**Informatics for Design and Manufacturing** (14)
 
-- [AutoOntic: Automatic Ontology Induction from Text for Knowledge Graph Construction](https://arxiv.org/abs/2611.15467)
-- [HeriKGQA: Grounded Knowledge-Graph Question Answering over Cultural Heritage Sensor Data](https://arxiv.org/abs/2611.15904)
-- [DISCERN: Preserve at Write, Resolve at Read for Persistent LLM-Agent Memory](https://arxiv.org/abs/2611.15729)
-- _…10 more_
+- [Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination](https://arxiv.org/abs/2611.18514)
+- [Use-case-driven ontology modeling with the NeOn methodology for ambient assisted living](https://arxiv.org/abs/2611.17466)
+- [Agentic induction of common data elements and information extraction from sarcoma case report abstracts](https://arxiv.org/abs/2611.18506)
+- _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (5)
+**Design, Simulation and Optimization for Advanced Manufacturing** (3)
 
-- [Bulk CMSX-4 Single-Crystal Builds via Laser-Directed Energy Deposition: Epitaxial Stability and Microstructure Evolution](https://arxiv.org/abs/2611.16535)
-- [The norm, not the labels: training and evaluating finite-element surrogates for stress analysis in the energy norm](https://arxiv.org/abs/2611.14574)
-- [Self-Supervised Attention-Based Virtual Metrology for CMP MRR Prediction](https://arxiv.org/abs/2611.16172)
-- _…2 more_
+- [STAMP: Manufacturing-Informed Generative Design and Shape Optimization of Sheet Panels](https://arxiv.org/abs/2611.18144)
+- [Nesting in additive manufacturing using quantum annealing](https://arxiv.org/abs/2611.18447)
+- [Generative Design with Real-time Physics Explainability: Towards Product Definition in the Age of AI](https://arxiv.org/abs/2611.17560)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (8)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (3)
 
-- [Dual Representation Enhanced Diffusion Policy for Flexible Job Shop Scheduling](https://arxiv.org/abs/2611.15246)
-- [SkinAdvisor: An AI-Driven Decision Framework for Skin Production Planning via Multi-Modal Transformer Sales Forecasting](https://arxiv.org/abs/2611.15023)
-- [Survivability Guarantees for Delayed Serial Supply Chains under Demand Shocks](https://arxiv.org/abs/2611.16951)
+- [Agent-written heuristics versus commercial solvers on unsolved job-shop benchmark instances](https://arxiv.org/abs/2611.17682)
+- [The Train Unit Shunting Problem with Service Scheduling and Workforce Assignment: classical and quantum optimization approaches](https://arxiv.org/abs/2611.17987)
+- [Inferring Sensitive Events in Multi-Mode Cyber-Physical Systems via Scheduling Side Channels](https://arxiv.org/abs/2611.17761)
+
+**Engineering Knowledge and Physics-Informed AI/ML** (8)
+
+- [Fuse-PINN: Combining Finite Element Methods and Physics-Informed Neural Networks to enable massively parallel simulations of non-linear PDEs](https://arxiv.org/abs/2611.18409)
+- [A systematic comparison of physics-informed neural networks and mechanistic models for epidemic modeling and forecasting](https://arxiv.org/abs/2611.18389)
+- [Federated Physics-Informed Thermal Field Prediction Across Unseen Geometries in Distributed Additive Manufacturing](https://arxiv.org/abs/2611.17794)
 - _…5 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (12)
+**Systems Design** (1)
 
-- [A Three-Stage Unsupervised Online Physics-Informed Neural Network for Microgrid Optimal Power Flow](https://arxiv.org/abs/2611.14716)
-- [Learning Nonlinear Transient Dynamics in Fluid Flow Networks with the Neural Basis Method](https://arxiv.org/abs/2611.14534)
-- [SUMNO: Spatially Unrolled Multigrid Neural Operator for Fluid Flow Surrogates](https://arxiv.org/abs/2611.16341)
-- _…9 more_
+- [DiffusionSSD: Achieving Extreme Visual Compression with Dual-stage Diffusion and Cross-level Near-Data Processing](https://arxiv.org/abs/2611.17908)
 
-**Systems Design** (3)
+**Emerging Topics in SEIKM** (7)
 
-- [PISim: A Unified Photonic Inference Simulator for Hardware-Aware Cross-Layer Design-Space Exploration](https://arxiv.org/abs/2611.16522)
-- [GenPFN: An In-Context Tabular Foundation Model Approach for Augmenting Small Datasets in Engineering](https://arxiv.org/abs/2611.14804)
-- [MOON-RL: Multi-Objective Optimization via Objective Space Navigation with Reinforcement Learning](https://arxiv.org/abs/2611.15227)
-
-**Emerging Topics in SEIKM** (12)
-
-- [RUMI: A Robotiq-Matched Universal Manipulation Interface for Robot Learning with Augmented Reality and Haptic Feedback](https://arxiv.org/abs/2611.15802)
-- [Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors](https://arxiv.org/abs/2611.17060)
-- [Scaling VLA Serving Under Robotic Execution Constraints](https://arxiv.org/abs/2611.14969)
-- _…9 more_
-
-**SEIKM General** (7)
-
-- [FIRE: Failure Isolation and Reliability for Production-Connected Experiments at Scale](https://arxiv.org/abs/2611.14962)
-- [Video-Action Models for Data-Efficient Industrial Manipulation](https://arxiv.org/abs/2611.15974)
-- [GRID-MRI: Resilience Assessment of Power Systems under Coordinated Cyber-Physical Attacks](https://arxiv.org/abs/2611.17094)
+- [Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment](https://arxiv.org/abs/2611.18372)
+- [AI-guided robotic in situ fabrication of curvature- and tissue-adaptive wireless bioelectronics](https://arxiv.org/abs/2611.17638)
+- [Toward Resilient Self-Driving Laboratories through Telerobotic Interventions](https://arxiv.org/abs/2611.18496)
 - _…4 more_
+
+**SEIKM General** (3)
+
+- [A mesh-free deep energy method for phase-field modeling of thermally driven brittle fracture](https://arxiv.org/abs/2611.17630)
+- [Machine learning of strength surfaces enables high regularization length phase-field fracture](https://arxiv.org/abs/2611.18473)
+- [DIRT: Depth-completed Image-based Rendering using Two-band Blending for Live Novel-view Synthesis](https://arxiv.org/abs/2611.18340)
 
 <!-- SEIKM:LATEST:END -->
 
