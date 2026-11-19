@@ -17,58 +17,60 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — November 18, 2026
+### Latest issue — November 19, 2026
 
-**57** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-18.md)
+**60** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-19.md)
 
-**Systems Engineering and Complex Systems** (1)
+**Systems Engineering and Complex Systems** (3)
 
-- [SkiNet-Sim: Simulating Petri Nets with Data for the Verification and Validation of Controllers for Autonomous Systems](https://arxiv.org/abs/2611.22397)
+- [Structure-Behavior Coalescence for Model-Based Systems Engineering](https://arxiv.org/abs/2611.23255)
+- [Systematic Mapping Protocol. Generative AI-Augmented Requirements Engineering: A Systematic Mapping Study of Practices, Specifications, and Reuse in Software Development](https://arxiv.org/abs/2611.23349)
+- [Software Engineering for LLM-Based Agents: A Lifecycle-Oriented Survey](https://arxiv.org/abs/2611.23260)
 
-**Informatics for Design and Manufacturing** (14)
+**Informatics for Design and Manufacturing** (13)
 
-- [BRepA: Graph-Based B-Rep Pretraining for Unified CAD Understanding and Generation](https://arxiv.org/abs/2611.22903)
-- [RAG in a Trenchcoat: When Minimal Memory Is Enough for Agentic Systems, and When It Isn't](https://arxiv.org/abs/2611.22179)
-- [RagHarnessDebugger: Jev-Guided Agentic RAG in Contract Inference Repair Auditing](https://arxiv.org/abs/2611.22991)
-- _…11 more_
+- [KnowledgeClaw: Towards Agentic Knowledge Engineering via Omnimodal Hypergraphs](https://arxiv.org/abs/2611.24294)
+- [A Capability Framework for Evaluating Agentic AI Platforms in Regulated Enterprises](https://arxiv.org/abs/2611.24039)
+- [NaviGATE: Noise-Aware Dual-View Generation for Multimodal Knowledge Graph Reasoning](https://arxiv.org/abs/2611.24552)
+- _…10 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (2)
+**Design, Simulation and Optimization for Advanced Manufacturing** (3)
 
-- [MillBill: A Machining Agent with Geometric Feedback](https://arxiv.org/abs/2611.22565)
-- [A Divergence-Free Finite Element Discretization of a Convection-Cooling Optimal Control Problem](https://arxiv.org/abs/2611.22616)
+- [Element-Wise Femoral Stress Prediction: A Hybrid Graph Neural Network Surrogate for Finite Element Analysis](https://arxiv.org/abs/2611.24274)
+- [Measuring and Improving Transfer of Neural Surrogates for Vehicle Aerodynamics](https://arxiv.org/abs/2611.24843)
+- [Axion: A differentiable, GPU-native finite element framework,demonstrated on phase-field fracture](https://arxiv.org/abs/2611.23682)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (10)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (7)
 
-- [ConfGuard: a physics-grounded reference monitor for predictive-maintenance large-language-model agents](https://arxiv.org/abs/2611.22288)
-- [Action-outcome coupling: a pre-investment feasibility audit for offline reinforcement learning in supply chain operations](https://arxiv.org/abs/2611.22921)
-- [A Survey of Modeling Languages for Automotive Digital Twins](https://arxiv.org/abs/2611.21636)
-- _…7 more_
+- [Optimal Production Scheduling for Multi-Product Mineral Manufacturing](https://arxiv.org/abs/2611.23699)
+- [MANGO Arena: Same Seeds, Different Chains Evaluating LLM Agents in a Disrupted Supply Chain](https://arxiv.org/abs/2611.23613)
+- [Conceptual full-vehicle modeling of a modular all-wheel-drive robotic ADS test platform as a foundation for a digital twin architecture](https://arxiv.org/abs/2611.24646)
+- _…4 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (14)
+**Engineering Knowledge and Physics-Informed AI/ML** (12)
 
-- [Physics-informed neural networks for spacecraft trajectory optimization with exact boundary conditions](https://arxiv.org/abs/2611.21933)
-- [Higher-Order Interaction Reconstruction via Integral Physics-Informed Neural Networks](https://arxiv.org/abs/2611.21935)
-- [PANO: Parallel Latent Space Neural Operator for Solving PDEs](https://arxiv.org/abs/2611.22782)
-- _…11 more_
+- [A Systematic Analysis of a Small Optimal Subspace for Physics-Informed Neural Networks: n-DAS subset R^p](https://arxiv.org/abs/2611.23773)
+- [GridForge: An Open Physics-Informed Digital Twin and Benchmark Suite for UK 11 kV Underground Distribution Cables](https://arxiv.org/abs/2611.23241)
+- [LLM-Assisted Multi-Fidelity Bayesian Optimization: Fusing Expert Knowledge with Numerical Data](https://arxiv.org/abs/2611.24377)
+- _…9 more_
 
-**Systems Design** (4)
+**Systems Design** (1)
 
-- [Manufacturing Differential Sparsity: Planner-Hardware Co-Design for Efficient World Model Planning](https://arxiv.org/abs/2611.22483)
-- [Coordinating integration of multidisciplinary design analysis and optimisation codes with design structure matrices](https://arxiv.org/abs/2611.22522)
-- [ThermLeT: Transformer-based Temperature Prediction for 2.5D Chiplet Architecture](https://arxiv.org/abs/2611.21954)
-- _…1 more_
+- [Architectural Design Decisions for Data Ingestion in Big Data Architectures](https://arxiv.org/abs/2611.23297)
 
-**Emerging Topics in SEIKM** (10)
+**Emerging Topics in SEIKM** (13)
 
-- [Trustworthy AI Teammates for Software Engineering: A Research Agenda for Lifecycle Context, Explainability, and Agentic Collaboration](https://arxiv.org/abs/2611.21624)
-- [Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment](https://arxiv.org/abs/2611.22445)
-- [VoxelSBFL: Voxel-Level Spectrum-Based Failure Prediction for Vision-Language-Action Models](https://arxiv.org/abs/2611.22453)
-- _…7 more_
+- [RePlan-VLA: Progress-Aware Replanning for Long-Horizon Vision-Language-Action Models](https://arxiv.org/abs/2611.23843)
+- [ExecGap: Exploiting Command-Execution Gap for Patch Attacks on Vision-Language-Action Models](https://arxiv.org/abs/2611.23714)
+- [Towards Pose-Robust Few-Shot Vision-Language-Action Models](https://arxiv.org/abs/2611.24360)
+- _…10 more_
 
-**SEIKM General** (2)
+**SEIKM General** (8)
 
-- [ReBoT-MiCS: Reliability-Aware Bounding Time for Enhancing Timing Behavior of Embedded Mixed-Criticality Systems](https://arxiv.org/abs/2611.22588)
-- [From syllable representation via gesture generation to articulation: A spiking neural model](https://arxiv.org/abs/2611.22499)
+- [Gradient-Based Defensive Poisoning Against System Identification Attacks on Cyber-Physical Systems](https://arxiv.org/abs/2611.24662)
+- [Plug-and-Play Sensor Evolution in Software-Defined Vehicles through Asset Administration Shells](https://arxiv.org/abs/2611.23298)
+- [Panini- Feasible Grammar For Robot Designs](https://arxiv.org/abs/2611.23567)
+- _…5 more_
 
 <!-- SEIKM:LATEST:END -->
 
