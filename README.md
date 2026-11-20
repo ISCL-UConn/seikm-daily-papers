@@ -17,60 +17,49 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — November 19, 2026
+### Latest issue — November 20, 2026
 
-**60** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-19.md)
+**51** new papers across **6** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-20.md)
 
-**Systems Engineering and Complex Systems** (3)
+**Informatics for Design and Manufacturing** (14)
 
-- [Structure-Behavior Coalescence for Model-Based Systems Engineering](https://arxiv.org/abs/2611.23255)
-- [Systematic Mapping Protocol. Generative AI-Augmented Requirements Engineering: A Systematic Mapping Study of Practices, Specifications, and Reuse in Software Development](https://arxiv.org/abs/2611.23349)
-- [Software Engineering for LLM-Based Agents: A Lifecycle-Oriented Survey](https://arxiv.org/abs/2611.23260)
-
-**Informatics for Design and Manufacturing** (13)
-
-- [KnowledgeClaw: Towards Agentic Knowledge Engineering via Omnimodal Hypergraphs](https://arxiv.org/abs/2611.24294)
-- [A Capability Framework for Evaluating Agentic AI Platforms in Regulated Enterprises](https://arxiv.org/abs/2611.24039)
-- [NaviGATE: Noise-Aware Dual-View Generation for Multimodal Knowledge Graph Reasoning](https://arxiv.org/abs/2611.24552)
-- _…10 more_
+- [LSP-RAG: Latent Scoring Perspectives for Knowledge Graph Retrieval-Augmented Generation](https://arxiv.org/abs/2611.25229)
+- [Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding](https://arxiv.org/abs/2611.25898)
+- [AutoRAGBench: A Benchmark for LLM Agents Automating RAG System Development](https://arxiv.org/abs/2611.25582)
+- _…11 more_
 
 **Design, Simulation and Optimization for Advanced Manufacturing** (3)
 
-- [Element-Wise Femoral Stress Prediction: A Hybrid Graph Neural Network Surrogate for Finite Element Analysis](https://arxiv.org/abs/2611.24274)
-- [Measuring and Improving Transfer of Neural Surrogates for Vehicle Aerodynamics](https://arxiv.org/abs/2611.24843)
-- [Axion: A differentiable, GPU-native finite element framework,demonstrated on phase-field fracture](https://arxiv.org/abs/2611.23682)
+- [Physics-Informed Feature Representations and Pretrained Tabular Foundation Models for Generalizable Melt Pool Geometry Prediction](https://arxiv.org/abs/2611.26235)
+- [Predicting Surface Displacement Fields of Laser Powder Bed Fusion Parts Using STL-Derived Graphs and Part-Level Descriptors](https://arxiv.org/abs/2611.26323)
+- [Process-Knowledge-Guided Latent Diffusion for Generative Design of Porous Architectures: A Case Study in Aerosol Jet Printing](https://arxiv.org/abs/2611.25264)
 
 **Digital Twins, Manufacturing Systems, and Supply Chains** (7)
 
-- [Optimal Production Scheduling for Multi-Product Mineral Manufacturing](https://arxiv.org/abs/2611.23699)
-- [MANGO Arena: Same Seeds, Different Chains Evaluating LLM Agents in a Disrupted Supply Chain](https://arxiv.org/abs/2611.23613)
-- [Conceptual full-vehicle modeling of a modular all-wheel-drive robotic ADS test platform as a foundation for a digital twin architecture](https://arxiv.org/abs/2611.24646)
+- [Technology-Enabled Fuel Supply Chain Resilience: An Integrated Information System for Real-Time Monitoring and Decision Support](https://arxiv.org/abs/2611.25542)
+- [A four-level executable validation protocol for evaluating LLM-generated topology specifications of physics-based HVAC digital twins](https://arxiv.org/abs/2611.25471)
+- [A Human-Centric Adaptive Multi-Fidelity Digital Twin Framework for Cyber-Physical Systems](https://arxiv.org/abs/2611.25082)
 - _…4 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (12)
+**Engineering Knowledge and Physics-Informed AI/ML** (10)
 
-- [A Systematic Analysis of a Small Optimal Subspace for Physics-Informed Neural Networks: n-DAS subset R^p](https://arxiv.org/abs/2611.23773)
-- [GridForge: An Open Physics-Informed Digital Twin and Benchmark Suite for UK 11 kV Underground Distribution Cables](https://arxiv.org/abs/2611.23241)
-- [LLM-Assisted Multi-Fidelity Bayesian Optimization: Fusing Expert Knowledge with Numerical Data](https://arxiv.org/abs/2611.24377)
-- _…9 more_
+- [When and why can integral constraints improve the accuracy of physics-informed neural networks?](https://arxiv.org/abs/2611.25515)
+- [PDE-State Conditioning for Learned Optimization Using Physics-Informed Neural Networks](https://arxiv.org/abs/2611.25185)
+- [Physics-Guided Multi-Output Surrogate Modeling of a Centralized-UPS Data Center](https://arxiv.org/abs/2611.25512)
+- _…7 more_
 
-**Systems Design** (1)
+**Emerging Topics in SEIKM** (14)
 
-- [Architectural Design Decisions for Data Ingestion in Big Data Architectures](https://arxiv.org/abs/2611.23297)
+- [TuringPAI: A Foundation for On-Device Physical AI](https://arxiv.org/abs/2611.25474)
+- [Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation](https://arxiv.org/abs/2611.26444)
+- [Risk-Controlled Test-Time Adaptation for Vision-Language-Action Models](https://arxiv.org/abs/2611.26438)
+- _…11 more_
 
-**Emerging Topics in SEIKM** (13)
+**SEIKM General** (3)
 
-- [RePlan-VLA: Progress-Aware Replanning for Long-Horizon Vision-Language-Action Models](https://arxiv.org/abs/2611.23843)
-- [ExecGap: Exploiting Command-Execution Gap for Patch Attacks on Vision-Language-Action Models](https://arxiv.org/abs/2611.23714)
-- [Towards Pose-Robust Few-Shot Vision-Language-Action Models](https://arxiv.org/abs/2611.24360)
-- _…10 more_
-
-**SEIKM General** (8)
-
-- [Gradient-Based Defensive Poisoning Against System Identification Attacks on Cyber-Physical Systems](https://arxiv.org/abs/2611.24662)
-- [Plug-and-Play Sensor Evolution in Software-Defined Vehicles through Asset Administration Shells](https://arxiv.org/abs/2611.23298)
-- [Panini- Feasible Grammar For Robot Designs](https://arxiv.org/abs/2611.23567)
-- _…5 more_
+- [GridAnchor: Specialized Multi-Agent AI for Safeguarding Autonomous Energy Systems Against Cyber-Physical Hallucinations](https://arxiv.org/abs/2611.25158)
+- [Cyber-Physical RSI for AI-RAN: A Case Study](https://arxiv.org/abs/2611.25619)
+- [FEA solver integration of a composite World Model with a Spiking Neural Network memory Block for computationally efficient modelling of defects and variabilities](https://arxiv.org/abs/2611.26419)
 
 <!-- SEIKM:LATEST:END -->
 
