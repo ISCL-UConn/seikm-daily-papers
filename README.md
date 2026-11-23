@@ -17,49 +17,41 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — November 20, 2026
+### Latest issue — November 23, 2026
 
-**51** new papers across **6** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-20.md)
+**38** new papers across **5** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-23.md)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [LSP-RAG: Latent Scoring Perspectives for Knowledge Graph Retrieval-Augmented Generation](https://arxiv.org/abs/2611.25229)
-- [Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding](https://arxiv.org/abs/2611.25898)
-- [AutoRAGBench: A Benchmark for LLM Agents Automating RAG System Development](https://arxiv.org/abs/2611.25582)
+- [AutoOntologyBench: A Task-Grounded Benchmark for Agentic Knowledge Engineering](https://arxiv.org/abs/2611.27734)
+- [Auditable Financial Knowledge Graphs: Schema-Driven Construction and Intrinsic Quality Evaluation](https://arxiv.org/abs/2611.27835)
+- [From Manufacturing Event Logs to Simulation: Enabling SMEs with Agentic AI for SimPy Simulation Generation](https://arxiv.org/abs/2611.27483)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (3)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (6)
 
-- [Physics-Informed Feature Representations and Pretrained Tabular Foundation Models for Generalizable Melt Pool Geometry Prediction](https://arxiv.org/abs/2611.26235)
-- [Predicting Surface Displacement Fields of Laser Powder Bed Fusion Parts Using STL-Derived Graphs and Part-Level Descriptors](https://arxiv.org/abs/2611.26323)
-- [Process-Knowledge-Guided Latent Diffusion for Generative Design of Porous Architectures: A Case Study in Aerosol Jet Printing](https://arxiv.org/abs/2611.25264)
+- [Adesktop learning factory for smart and resilient manufacturing based on digital twin and AI](https://arxiv.org/abs/2611.27579)
+- [Online Learning for Minimizing Maximum Tardiness in Single-Machine Scheduling](https://arxiv.org/abs/2611.27067)
+- [HermiteTwin: Bicubic Hermite Shell Digital Twins for Contact-Rich Deformable Manipulation](https://arxiv.org/abs/2611.27282)
+- _…3 more_
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (7)
+**Engineering Knowledge and Physics-Informed AI/ML** (5)
 
-- [Technology-Enabled Fuel Supply Chain Resilience: An Integrated Information System for Real-Time Monitoring and Decision Support](https://arxiv.org/abs/2611.25542)
-- [A four-level executable validation protocol for evaluating LLM-generated topology specifications of physics-based HVAC digital twins](https://arxiv.org/abs/2611.25471)
-- [A Human-Centric Adaptive Multi-Fidelity Digital Twin Framework for Cyber-Physical Systems](https://arxiv.org/abs/2611.25082)
-- _…4 more_
+- [Error-Corrected Physics-Informed Neural Operator for Optimal Control of Unmanned Aerial Vehicles under Uncertainty](https://arxiv.org/abs/2611.27272)
+- [A Validation-Driven Bilevel Optimization Method for Mesh-Free PDE Solvers and Its Error Analysis](https://arxiv.org/abs/2611.27347)
+- [PIU-CR: Physics-Informed Deep Unfolding with SAR-Optical Image Fusion for Cloud Removal](https://arxiv.org/abs/2611.27093)
+- _…2 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (10)
+**Emerging Topics in SEIKM** (12)
 
-- [When and why can integral constraints improve the accuracy of physics-informed neural networks?](https://arxiv.org/abs/2611.25515)
-- [PDE-State Conditioning for Learned Optimization Using Physics-Informed Neural Networks](https://arxiv.org/abs/2611.25185)
-- [Physics-Guided Multi-Output Surrogate Modeling of a Centralized-UPS Data Center](https://arxiv.org/abs/2611.25512)
-- _…7 more_
+- [Embodied Interaction Policy: A Unified Model for Full-Duplex Human-Robot Interaction](https://arxiv.org/abs/2611.27327)
+- [RoboDyna: A Benchmark for Evaluating Robotic Manipulation under Physically Grounded Dynamics](https://arxiv.org/abs/2611.26969)
+- [LiDAR Signals for Robot Locomotion: Spherical Range Images Enable Robust Sim-to-Real Transfer](https://arxiv.org/abs/2611.27223)
+- _…9 more_
 
-**Emerging Topics in SEIKM** (14)
+**SEIKM General** (1)
 
-- [TuringPAI: A Foundation for On-Device Physical AI](https://arxiv.org/abs/2611.25474)
-- [Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation](https://arxiv.org/abs/2611.26444)
-- [Risk-Controlled Test-Time Adaptation for Vision-Language-Action Models](https://arxiv.org/abs/2611.26438)
-- _…11 more_
-
-**SEIKM General** (3)
-
-- [GridAnchor: Specialized Multi-Agent AI for Safeguarding Autonomous Energy Systems Against Cyber-Physical Hallucinations](https://arxiv.org/abs/2611.25158)
-- [Cyber-Physical RSI for AI-RAN: A Case Study](https://arxiv.org/abs/2611.25619)
-- [FEA solver integration of a composite World Model with a Spiking Neural Network memory Block for computationally efficient modelling of defects and variabilities](https://arxiv.org/abs/2611.26419)
+- [Designing Perovskites for Chemical Looping Hydrogen Production](https://arxiv.org/abs/2611.27580)
 
 <!-- SEIKM:LATEST:END -->
 
