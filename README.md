@@ -17,41 +17,56 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — November 23, 2026
+### Latest issue — November 24, 2026
 
-**38** new papers across **5** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-23.md)
+**60** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-24.md)
 
-**Informatics for Design and Manufacturing** (14)
+**Informatics for Design and Manufacturing** (11)
 
-- [AutoOntologyBench: A Task-Grounded Benchmark for Agentic Knowledge Engineering](https://arxiv.org/abs/2611.27734)
-- [Auditable Financial Knowledge Graphs: Schema-Driven Construction and Intrinsic Quality Evaluation](https://arxiv.org/abs/2611.27835)
-- [From Manufacturing Event Logs to Simulation: Enabling SMEs with Agentic AI for SimPy Simulation Generation](https://arxiv.org/abs/2611.27483)
-- _…11 more_
+- [Retrieval-Augmented Generation in the Agentic Era: Tradition, Present, and Prospect](https://arxiv.org/abs/2611.30181)
+- [Leveraging Fast Healthcare Interoperability Resources (FHIR) for the Exchange of Wearable Inertial Sensor Data: Design and Development Study](https://arxiv.org/abs/2611.30956)
+- [From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment](https://arxiv.org/abs/2611.28197)
+- _…8 more_
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (6)
+**Design, Simulation and Optimization for Advanced Manufacturing** (7)
 
-- [Adesktop learning factory for smart and resilient manufacturing based on digital twin and AI](https://arxiv.org/abs/2611.27579)
-- [Online Learning for Minimizing Maximum Tardiness in Single-Machine Scheduling](https://arxiv.org/abs/2611.27067)
-- [HermiteTwin: Bicubic Hermite Shell Digital Twins for Contact-Rich Deformable Manipulation](https://arxiv.org/abs/2611.27282)
-- _…3 more_
+- [Sliced Tensor Operators for Large-Scale Topology Optimization](https://arxiv.org/abs/2611.29021)
+- [OAT3D: A Generative Model for 3D Shape- and Resolution-Free Structural Topology Optimization](https://arxiv.org/abs/2611.29253)
+- [Which Model Belongs in the Loop? Evaluating Fitness Functions for Network Topology Optimization with a Quality-Diversity Algorithm](https://arxiv.org/abs/2611.28915)
+- _…4 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (5)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (7)
 
-- [Error-Corrected Physics-Informed Neural Operator for Optimal Control of Unmanned Aerial Vehicles under Uncertainty](https://arxiv.org/abs/2611.27272)
-- [A Validation-Driven Bilevel Optimization Method for Mesh-Free PDE Solvers and Its Error Analysis](https://arxiv.org/abs/2611.27347)
-- [PIU-CR: Physics-Informed Deep Unfolding with SAR-Optical Image Fusion for Cloud Removal](https://arxiv.org/abs/2611.27093)
-- _…2 more_
+- [A hybrid Graph-based Machine Learning Model for predicting Delivery Times in Supply Chain Logistics](https://arxiv.org/abs/2611.28467)
+- [Parallel batch scheduling for optimizing hospital sterilization operations: arc-flow formulations, column generation and Lagrangian heuristics for flowtime minimization](https://arxiv.org/abs/2611.29031)
+- [World Models for Ocean Engineering: A Critical Review of Maritime Autonomy, Adaptive Latent Prediction, Digital Twins, and Biodiversity Monitoring](https://arxiv.org/abs/2611.28978)
+- _…4 more_
 
-**Emerging Topics in SEIKM** (12)
+**Engineering Knowledge and Physics-Informed AI/ML** (11)
 
-- [Embodied Interaction Policy: A Unified Model for Full-Duplex Human-Robot Interaction](https://arxiv.org/abs/2611.27327)
-- [RoboDyna: A Benchmark for Evaluating Robotic Manipulation under Physically Grounded Dynamics](https://arxiv.org/abs/2611.26969)
-- [LiDAR Signals for Robot Locomotion: Spherical Range Images Enable Robust Sim-to-Real Transfer](https://arxiv.org/abs/2611.27223)
-- _…9 more_
+- [Beyond PINNs: Boundary-Enriched Holomorphic Networks for Laplace Problems](https://arxiv.org/abs/2611.29922)
+- [Expressive Shallow Networks for Physics-Informed Learning: Why Curvature-Aware Optimization and FP64 Are Not Enough](https://arxiv.org/abs/2611.28393)
+- [IP-GNO: An Inductive Physics-Informed Graph Neural Operator for Automated Distribution System State Estimation](https://arxiv.org/abs/2611.30387)
+- _…8 more_
 
-**SEIKM General** (1)
+**Systems Design** (2)
 
-- [Designing Perovskites for Chemical Looping Hydrogen Production](https://arxiv.org/abs/2611.27580)
+- [Conceptual Design of a 5 MV High-Voltage System for a Compact Orbitron Fusion Device](https://arxiv.org/abs/2611.28658)
+- [Innata-0: A Native Embodied World System with Model-Agent Co-Design](https://arxiv.org/abs/2611.30254)
+
+**Emerging Topics in SEIKM** (11)
+
+- [LIBERO-MOR: A Multimodal Robustness Benchmark Across the Vision-Language-Action Pipeline](https://arxiv.org/abs/2611.28867)
+- [Defending Vision-Language-Action Models against Transferable Attacks via Visual-Proprioceptive Consistency](https://arxiv.org/abs/2611.28346)
+- [JEPA-Tuner: From Predictive Fine-Tuning to Asynchronous Execution of Vision-Language-Action Models](https://arxiv.org/abs/2611.29096)
+- _…8 more_
+
+**SEIKM General** (11)
+
+- [MatHarness: Towards Long-Horizon Open-ended AutoResearch for Computational Materials Science](https://arxiv.org/abs/2611.28324)
+- [Femtosecond laser-controlled production of functional titanium niobate layers from TiO₂/Nb₂O₅ powders](https://arxiv.org/abs/2611.30549)
+- [From Patterns to Threats: A Deep Learning Model for Anomaly Detection in Cyber-Physical Systems](https://arxiv.org/abs/2611.29903)
+- _…8 more_
 
 <!-- SEIKM:LATEST:END -->
 
