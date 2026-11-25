@@ -17,56 +17,58 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — November 24, 2026
+### Latest issue — November 25, 2026
 
-**60** new papers across **7** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-24.md)
+**57** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-25.md)
 
-**Informatics for Design and Manufacturing** (11)
+**Systems Engineering and Complex Systems** (3)
 
-- [Retrieval-Augmented Generation in the Agentic Era: Tradition, Present, and Prospect](https://arxiv.org/abs/2611.30181)
-- [Leveraging Fast Healthcare Interoperability Resources (FHIR) for the Exchange of Wearable Inertial Sensor Data: Design and Development Study](https://arxiv.org/abs/2611.30956)
-- [From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment](https://arxiv.org/abs/2611.28197)
-- _…8 more_
+- [Validating Multi-Model AI-Generated Acceptance Criteria in Requirements Engineering](https://arxiv.org/abs/2611.32374)
+- [Compositional Reachset-Conformant Modeling for Managing Uncertainty in the Development of Cyber-Physical Systems](https://arxiv.org/abs/2611.32913)
+- [From Safety-Driven Redundancy to Value-Driven Architecture: An ODD-Based Rationalization Framework for Level 4 Autonomous Vehicles](https://arxiv.org/abs/2611.32960)
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (7)
+**Informatics for Design and Manufacturing** (14)
 
-- [Sliced Tensor Operators for Large-Scale Topology Optimization](https://arxiv.org/abs/2611.29021)
-- [OAT3D: A Generative Model for 3D Shape- and Resolution-Free Structural Topology Optimization](https://arxiv.org/abs/2611.29253)
-- [Which Model Belongs in the Loop? Evaluating Fitness Functions for Network Topology Optimization with a Quality-Diversity Algorithm](https://arxiv.org/abs/2611.28915)
-- _…4 more_
+- [From Rule-based to Agentic: LLM Agent based Real-time Control of Urban Drainage Systems for Flooding and Sewer Overflow Mitigation](https://arxiv.org/abs/2611.32046)
+- [Agentic Optimization: LLM Agents Select and Configure Algorithms for Engineering Design](https://arxiv.org/abs/2611.31275)
+- [Aqua2CAD : Observation-Guided Point Cloud Correction and Completion for CAD Reconstruction from Underwater Stereo Images](https://arxiv.org/abs/2611.32835)
+- _…11 more_
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (7)
+**Design, Simulation and Optimization for Advanced Manufacturing** (6)
 
-- [A hybrid Graph-based Machine Learning Model for predicting Delivery Times in Supply Chain Logistics](https://arxiv.org/abs/2611.28467)
-- [Parallel batch scheduling for optimizing hospital sterilization operations: arc-flow formulations, column generation and Lagrangian heuristics for flowtime minimization](https://arxiv.org/abs/2611.29031)
-- [World Models for Ocean Engineering: A Critical Review of Maritime Autonomy, Adaptive Latent Prediction, Digital Twins, and Biodiversity Monitoring](https://arxiv.org/abs/2611.28978)
-- _…4 more_
+- [DED-Agent: An agentic AI method for autonomous thermal simulation model development and calibration in laser directed energy deposition](https://arxiv.org/abs/2611.32822)
+- [topAC99: A compact MATLAB implementation of filter-free Allen--Cahn topology optimization with matrix-free field transfer](https://arxiv.org/abs/2611.31885)
+- [Constrained Allen-Cahn phase-field topology optimization of flexoelectric devices](https://arxiv.org/abs/2611.32620)
+- _…3 more_
 
-**Engineering Knowledge and Physics-Informed AI/ML** (11)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (3)
 
-- [Beyond PINNs: Boundary-Enriched Holomorphic Networks for Laplace Problems](https://arxiv.org/abs/2611.29922)
-- [Expressive Shallow Networks for Physics-Informed Learning: Why Curvature-Aware Optimization and FP64 Are Not Enough](https://arxiv.org/abs/2611.28393)
-- [IP-GNO: An Inductive Physics-Informed Graph Neural Operator for Automated Distribution System State Estimation](https://arxiv.org/abs/2611.30387)
-- _…8 more_
+- [Adaptive Electromagnetic Transient-level Digital Twins for Data Centers via In-Context Learning with LLMs](https://arxiv.org/abs/2611.32882)
+- [Bayesian Data Integration and Model Updating in Probabilistic Digital Twins](https://arxiv.org/abs/2611.31620)
+- [Multi Agent Reinforcement Learning enhanced Federated Learning for Predicting Remaining Useful Lifetime](https://arxiv.org/abs/2611.31880)
 
-**Systems Design** (2)
+**Engineering Knowledge and Physics-Informed AI/ML** (14)
 
-- [Conceptual Design of a 5 MV High-Voltage System for a Compact Orbitron Fusion Device](https://arxiv.org/abs/2611.28658)
-- [Innata-0: A Native Embodied World System with Model-Agent Co-Design](https://arxiv.org/abs/2611.30254)
+- [Three-Dimensional Wake Reconstruction and Cross-Scale Transfer for Floating Offshore Wind Turbines via Physics-Informed Fourier Neural Operators](https://arxiv.org/abs/2611.31789)
+- [CoMNO: Commutator Memory Neural Operators for Long-Horizon PDE Prediction](https://arxiv.org/abs/2611.32274)
+- [Diagnosing Epistemic Uncertainty in Neural Operators: Effects of Initialization, Discretization, and Function Sampling](https://arxiv.org/abs/2611.31526)
+- _…11 more_
 
-**Emerging Topics in SEIKM** (11)
+**Systems Design** (1)
 
-- [LIBERO-MOR: A Multimodal Robustness Benchmark Across the Vision-Language-Action Pipeline](https://arxiv.org/abs/2611.28867)
-- [Defending Vision-Language-Action Models against Transferable Attacks via Visual-Proprioceptive Consistency](https://arxiv.org/abs/2611.28346)
-- [JEPA-Tuner: From Predictive Fine-Tuning to Asynchronous Execution of Vision-Language-Action Models](https://arxiv.org/abs/2611.29096)
-- _…8 more_
+- [Found in Translation: Five Entry Points to Translate AI Literacy Frameworks in the Design of Educational Materials](https://arxiv.org/abs/2611.32377)
 
-**SEIKM General** (11)
+**Emerging Topics in SEIKM** (14)
 
-- [MatHarness: Towards Long-Horizon Open-ended AutoResearch for Computational Materials Science](https://arxiv.org/abs/2611.28324)
-- [Femtosecond laser-controlled production of functional titanium niobate layers from TiO₂/Nb₂O₅ powders](https://arxiv.org/abs/2611.30549)
-- [From Patterns to Threats: A Deep Learning Model for Anomaly Detection in Cyber-Physical Systems](https://arxiv.org/abs/2611.29903)
-- _…8 more_
+- [Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies](https://arxiv.org/abs/2611.33010)
+- [Design, Control, and Teleoperation of a Dexterous Robotic Hand with Soft-Rigid Hybrid Fingers](https://arxiv.org/abs/2611.32582)
+- [Self-Sensing Compliant Anthropomorphic Hand for Speed-Dictated Shared Force Control in Teleoperation](https://arxiv.org/abs/2611.32937)
+- _…11 more_
+
+**SEIKM General** (2)
+
+- [Assessing Robustness to Catastrophic Forgetting in Continual Deep Reinforcement Learning for Cyber-Physical Systems](https://arxiv.org/abs/2611.32496)
+- [RFW-W: Scaling Physical Asset Universes for Generative Embodied Simulation](https://arxiv.org/abs/2611.33013)
 
 <!-- SEIKM:LATEST:END -->
 
