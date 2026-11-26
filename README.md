@@ -17,58 +17,45 @@ It exists to do three things for the committee:
 
 <!-- SEIKM:LATEST:START -->
 
-### Latest issue — November 25, 2026
+### Latest issue — November 26, 2026
 
-**57** new papers across **8** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-25.md)
-
-**Systems Engineering and Complex Systems** (3)
-
-- [Validating Multi-Model AI-Generated Acceptance Criteria in Requirements Engineering](https://arxiv.org/abs/2611.32374)
-- [Compositional Reachset-Conformant Modeling for Managing Uncertainty in the Development of Cyber-Physical Systems](https://arxiv.org/abs/2611.32913)
-- [From Safety-Driven Redundancy to Value-Driven Architecture: An ODD-Based Rationalization Framework for Level 4 Autonomous Vehicles](https://arxiv.org/abs/2611.32960)
+**48** new papers across **6** topic areas · [read on the web](https://iscl-uconn.github.io/seikm-daily-papers/) · [markdown](digests/2026-11-26.md)
 
 **Informatics for Design and Manufacturing** (14)
 
-- [From Rule-based to Agentic: LLM Agent based Real-time Control of Urban Drainage Systems for Flooding and Sewer Overflow Mitigation](https://arxiv.org/abs/2611.32046)
-- [Agentic Optimization: LLM Agents Select and Configure Algorithms for Engineering Design](https://arxiv.org/abs/2611.31275)
-- [Aqua2CAD : Observation-Guided Point Cloud Correction and Completion for CAD Reconstruction from Underwater Stereo Images](https://arxiv.org/abs/2611.32835)
+- [Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation](https://arxiv.org/abs/2611.34870)
+- [Controllable CAD Generation and Interactive Editing of Fluid Rotors](https://arxiv.org/abs/2611.33617)
+- [CA-RAG: Constraint-Aligned Retrieval for Structurally Faithful Long-Form Generation](https://arxiv.org/abs/2611.33497)
 - _…11 more_
 
-**Design, Simulation and Optimization for Advanced Manufacturing** (6)
+**Design, Simulation and Optimization for Advanced Manufacturing** (2)
 
-- [DED-Agent: An agentic AI method for autonomous thermal simulation model development and calibration in laser directed energy deposition](https://arxiv.org/abs/2611.32822)
-- [topAC99: A compact MATLAB implementation of filter-free Allen--Cahn topology optimization with matrix-free field transfer](https://arxiv.org/abs/2611.31885)
-- [Constrained Allen-Cahn phase-field topology optimization of flexoelectric devices](https://arxiv.org/abs/2611.32620)
-- _…3 more_
+- [LLM-coupled interpretable tool wear monitoring with multi-evidence reasoning in CNC machining](https://arxiv.org/abs/2611.34270)
+- [When High Capacity Becomes Undeployable: Pore-Filling Constraints for Multi-Objective Optimization of Direct Air Capture Sorbents](https://arxiv.org/abs/2611.34154)
 
-**Digital Twins, Manufacturing Systems, and Supply Chains** (3)
+**Digital Twins, Manufacturing Systems, and Supply Chains** (2)
 
-- [Adaptive Electromagnetic Transient-level Digital Twins for Data Centers via In-Context Learning with LLMs](https://arxiv.org/abs/2611.32882)
-- [Bayesian Data Integration and Model Updating in Probabilistic Digital Twins](https://arxiv.org/abs/2611.31620)
-- [Multi Agent Reinforcement Learning enhanced Federated Learning for Predicting Remaining Useful Lifetime](https://arxiv.org/abs/2611.31880)
+- [On Utilization of Edge-AI for condition monitoring towards predictive maintenance: A use case in dairy processing using explainable AI](https://arxiv.org/abs/2611.34563)
+- [Decision-Focused Learning for Multistage Stochastic Programs, with Application to Power Network Repair Scheduling](https://arxiv.org/abs/2611.34419)
 
 **Engineering Knowledge and Physics-Informed AI/ML** (14)
 
-- [Three-Dimensional Wake Reconstruction and Cross-Scale Transfer for Floating Offshore Wind Turbines via Physics-Informed Fourier Neural Operators](https://arxiv.org/abs/2611.31789)
-- [CoMNO: Commutator Memory Neural Operators for Long-Horizon PDE Prediction](https://arxiv.org/abs/2611.32274)
-- [Diagnosing Epistemic Uncertainty in Neural Operators: Effects of Initialization, Discretization, and Function Sampling](https://arxiv.org/abs/2611.31526)
+- [FokasNets: Completing missing boundary data in Physics-Informed Neural Networks and Operators via the Global Relation](https://arxiv.org/abs/2611.33549)
+- [Global Convergence of Second-Order Methods for Physics-Informed Neural Networks in the Overparameterized Limit](https://arxiv.org/abs/2611.34452)
+- [Data-free continuous-time physics-informed neural networks for vortex shedding: a consistent pressure across time windows](https://arxiv.org/abs/2611.33489)
 - _…11 more_
-
-**Systems Design** (1)
-
-- [Found in Translation: Five Entry Points to Translate AI Literacy Frameworks in the Design of Educational Materials](https://arxiv.org/abs/2611.32377)
 
 **Emerging Topics in SEIKM** (14)
 
-- [Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies](https://arxiv.org/abs/2611.33010)
-- [Design, Control, and Teleoperation of a Dexterous Robotic Hand with Soft-Rigid Hybrid Fingers](https://arxiv.org/abs/2611.32582)
-- [Self-Sensing Compliant Anthropomorphic Hand for Speed-Dictated Shared Force Control in Teleoperation](https://arxiv.org/abs/2611.32937)
+- [Best-of-N Test-Time Steering Can Lead to Reward Hacking in Vision-Language-Action Models](https://arxiv.org/abs/2611.33398)
+- [LUDIUS: A Benchmark for Embodied Social Intelligence in Everyday Human-Robot Interactions](https://arxiv.org/abs/2611.34328)
+- [Dynamic Task Update Benchmark (DTU-Bench): Evaluating Runtime Task Adaptation in Robotic Manipulation](https://arxiv.org/abs/2611.34538)
 - _…11 more_
 
 **SEIKM General** (2)
 
-- [Assessing Robustness to Catastrophic Forgetting in Continual Deep Reinforcement Learning for Cyber-Physical Systems](https://arxiv.org/abs/2611.32496)
-- [RFW-W: Scaling Physical Asset Universes for Generative Embodied Simulation](https://arxiv.org/abs/2611.33013)
+- [FlashProve-Next: Verifiable Inference for Production LLM APIs](https://arxiv.org/abs/2611.33741)
+- [MVDC Power Cables for Future Wide-Body All-Electric Aircraft: A Research Journey from System-Level Requirements to Modeling, Design, Fabrication, and Testing](https://arxiv.org/abs/2611.33410)
 
 <!-- SEIKM:LATEST:END -->
 
